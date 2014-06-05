@@ -1,0 +1,25 @@
+.mainCon {
+	margin-top: 70;
+	display: block;
+}
+#input {
+	display: block;
+	width: 300;
+	margin: 0 auto;
+}
+#chunkHolder {
+	margin: 0 auto;
+	margin-top: 40;
+}
+.con {
+	width: 400;
+	height:	60;
+	background-color: #6ef4e5;
+	padding-top: 3;
+	margin: 0 auto;
+	margin-top: 1;
+	margin-bottom: 1;
+	border: solid;
+	border-width: 2;
+	border-color:black;
+}
