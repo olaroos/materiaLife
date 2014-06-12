@@ -1,6 +1,5 @@
 <!-- load angular dependencies -->
-<script src="./angular.min.js"> </script>
-<script src="./homeBase.js"></script>
+<script src="./angular.min.js"></script>
 <head> 
 	<link rel="stylesheet" href="style.css">
 </head>
@@ -10,66 +9,66 @@
 
 
 <div class="mainCon" ng-controller="mainCon">
-	<input id="input" type="text" ng-model="search"></input>
-	<div id="chunkHolder">
-		<div class="con" ng-repeat="chunk in chunks | filter:search">	<center><b> {{chunk.Title}} </b></center><b>Info:</b> {{chunk.Description}}</div>
+
+	<div id="top">
+		<div ng-repeat="(id, item) in out" >
+			<li class="listCategory"> {{id}} </li>
+		</div>
 	</div>
+
+	<div id="middle">
+		<select ng-model="query" ng-options="chunk.Title as chunk.Title for chunk in chunks">
+			<option value="0">Default</option>
+		</select>		
+		<input id="input" type="text" ng-model="query"/>
+		<div ng-repeat="chunk in chunks|filter:query">
+        	<div class="con">{{chunk.Title}}</div>
+ 		</div>
+	 </div>
 </div>
+		
 <script>
 	var homeBase = angular.module('homeBase',[]);
 
-	homeBase.filter('and', function($log) {
-  		return function(items, query) {
-	    	if (!query) return items; // return all items if nothing in query box
-
-		    var terms = query.split(' '); //split query terms by space character
-		    var arrayToReturn = [];
-
-		    items.forEach(function(item){ // iterate through array of items
-		      	var passTest = true;
-		      	terms.forEach(function(term){ // iterate through terms found in query box
-		        	// if any terms aren't found, passTest is set to and remains false
-		        	passTest = passTest && (item.toLowerCase().indexOf(term.toLowerCase()) > -1); 
-		    	});
-		      // Add item to return array only if passTest is true -- all search terms were found in item
-		   	if (passTest) { arrayToReturn.push(item); }
-		    });
-
-    return arrayToReturn;
-  	}
-});
-
-
-	// homeBase.filter("myFilter", function () {
-	//     return function (input, searchText, AND_OR) {
-	//         var returnArray = [],
-	//             // Split on single or multi space
-	//             splitext = searchText.toLowerCase().split(/\s+/),
-	//             // Build Regexp with Logical AND using "look ahead assertions"
-	//             regexp_and = "(?=.*" + splitext.join(")(?=.*") + ")",
-	//             // Build Regexp with logicial OR
-	//             regexp_or = searchText.toLowerCase().replace(/\s+/g, "|"),
-	//             // Compile the regular expression
-	//             re = new RegExp((AND_OR == "AND") ? regexp_and : regexp_or, "i");
-
-	//         for (var x = 0; x < input.length; x++) {
-	//             if (re.test(input[x])) returnArray.push(input[x]);
-	//         }
-	//         return returnArray;
-	//     }
-	// });
-
-	homeBase.factory('Data', function(){
-	
+	homeBase.filter('reverse', function () {
+		return function (text) {
+			return text.split("").reverse().join("");
+		}
 	})
 
-	function searchCon($scope, Data){
-		$scope.data = Data;
+	function oneCon($scope) {
+		$http.get('./data/dataNoCat').success(function(data){
+			$scope.chunks = data;
+		});
+
+		$scope.contacts = [
+			{
+				firstname: "thomas",
+			},
+			{
+				firstname: "jonas",
+			}
+		]
 	}
+
+	homeBase.factory('Data', function(){
+	});
+
 	homeBase.controller('mainCon',function($scope, $http){
 		$http.get('./data/dataNoCat').success(function(data){
 			$scope.chunks = data;
 		});	
+		$http.get('./data/out').success(function(data){
+			$scope.out = data;
+		});	
+		$scope.contacts = [
+			{
+				firstname: "thomas",
+			},
+			{
+				firstname: "jonas",
+			}
+		];
 	});	
 </script>
 

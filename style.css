@@ -1,6 +1,4 @@
 .mainCon {
-	margin-top: 70;
-	display: block;
 }
 #input {
 	display: block;
@@ -22,4 +20,35 @@
 	border: solid;
 	border-width: 2;
 	border-color:black;
+}
+#top {
+	top: 0;
+	left: 0;
+	height: 200;
+	width: 100%;
+	position: relative;
+	display: block;
+	background-color: #ebff0f;
+}
+#middle {
+	height: 500;
+	width: 100%;
+	background-color: #ffc096;
+	position:relative;
+	display:block;
+	float: top;
+}
+.category {
+	top:40;
+	left:40;
+	width: 200;
+	height: 40;
+	background-color: #6ef4e5;
+	display:inline;
+	float: left;
+	border: solid;
+	text-align: center;
+	position: relative;
+
+
 }
