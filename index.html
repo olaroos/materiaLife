@@ -35,36 +35,34 @@
 	</div>
 
 	<div id="middleLeft">
-		<input id="input" type="text" ng-model="query"/>
+		<ul>
+			<li ng-repeat="chunk in chunks| filter:byTitle | filter:queue">
+				<button ng:click="select(chunk)">{{chunk.Title}}</button>
+			</li>
+		</ul>
+		<!-- <input id="input" type="text" ng-model="query"/>
+		<button ng:click="select(artist)" >{{artist.name}}</button>
 		<div ng-repeat="chunk in chunks| filter:byTitle | filter:queue">
-        	<div class="con"><center><b>{{chunk.Title}}</b></center></br> {{chunk.Description}}</br>{{chunk.PlaceInHome}}{{chunk.Category}}
+        	<div class="con"><center><b>{{chunk.Title}}</b></center></br></br><b> Description:</b>{{chunk.Description}}</br>{{chunk.PlaceInHome}}{{chunk.Category}}
         	</div>
- 		</div>
+ 		</div> -->
 	 </div>
 
-	 <div id="middleRight">
-	 	
+	 <div id="middleRight" ng-controller="mainCon">
+	 	<center><b><span style="font-size:22"> {{selected.Title}} </span></b></center> <br> <br>
+	 	<b> Description: </b> {{selected.Description}} <br> <br>
+	 	<b> Where is it?: </b> {{selected.PlaceInHome}}
 	 </div>
 </div>
 		
 <script>
 	var homeBase = angular.module('homeBase',['ui.unique']);
 
-	homeBase.filter('reverse', function () {
-		return function (text) {
-			return text.split("").reverse().join("");
-		}
-	})
-
-
-
 	homeBase.factory('Data', function(){
 	});
 
 	homeBase.controller('mainCon',function($scope, $http){
 		$http.get('./data/dataNoCat').success(function(data){
-			
-
 			$scope.chunks = data;
 		});	
 		$http.get('./data/out').success(function(data){
@@ -77,10 +75,12 @@
 	            $scope.selectedTitle = value;
 	        }
     	};
-
     	$scope.byTitle = function(entry){
         	return entry.Category === $scope.selectedTitle || $scope.selectedTitle === undefined;
     	};    
+    	$scope.select = function(chunk){
+    		$scope.selected = chunk;
+    	}
 
 
 	});	
