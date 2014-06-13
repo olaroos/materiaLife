@@ -11,10 +11,10 @@
 }
 .con {
 	width: 400;
-	height:	60;
+	height:	120;
 	background-color: #6ef4e5;
 	padding-top: 3;
-	margin: 0 auto;
+	margin: 0 50;
 	margin-top: 1;
 	margin-bottom: 1;
 	border: solid;
@@ -30,13 +30,30 @@
 	display: block;
 	background-color: #ebff0f;
 }
-#middle {
+#middleLeft {
+	width: 50%;
 	height: 500;
-	width: 100%;
 	background-color: #ffc096;
 	position:relative;
-	display:block;
+	display:inline;
+	float: left;
+}
+#middleRight {
+	height: 500;
+	width: 50%;
+	background-color: #7cff8e;
+	float: left;
+	position: relative;
+	display: inline;
+}
+#leftSelect {
 	float: top;
+}
+#rightSelect {
+	float: right;
+}
+.selector {
+	float: left;
 }
 .category {
 	top:40;
@@ -49,6 +66,4 @@
 	border: solid;
 	text-align: center;
 	position: relative;
-
-
 }

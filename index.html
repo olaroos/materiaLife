@@ -1,5 +1,6 @@
 <!-- load angular dependencies -->
 <script src="./angular.min.js"></script>
+<script src="./ui-utils.js"></script>
 <head> 
 	<link rel="stylesheet" href="style.css">
 </head>
@@ -10,25 +11,44 @@
 
 <div class="mainCon" ng-controller="mainCon">
 
-	<div id="top">
-		<div ng-repeat="(id, item) in out" >
-			<li class="listCategory"> {{id}} </li>
-		</div>
+	<div id="top" ng-model="radioFilter">
+		<button
+			type="button" 
+		    ng-repeat="chunk in chunks| unique:'Category'" 
+		    class="btn btn-default" 
+		    ng-model="selected[chunk.Category]" 
+		    btn-checkbox 
+		    ng-class="{active: == selectedTitle}" 
+		    ng-click="setSelectedTitle(chunk.Category)">{{chunk.Category}}
+		</button>
+
 	</div>
 
-	<div id="middle">
-		<select ng-model="query" ng-options="chunk.Title as chunk.Title for chunk in chunks">
-			<option value="0">Default</option>
+	<div id="selectDiv">
+		<select id="leftSelect" ng-model="query" ng-options="chunk.Title as chunk.Title for chunk in chunks| unique:'Title'">
+			<option value="">Default</option>
 		</select>		
+
+		<select id="rightSelect" ng-model="query2" ng-options="chunk.Description as chunk.Description for chunk in chunks| filter:query">
+			<option value="">Default</option>
+		</select>
+	</div>
+
+	<div id="middleLeft">
 		<input id="input" type="text" ng-model="query"/>
-		<div ng-repeat="chunk in chunks|filter:query">
-        	<div class="con">{{chunk.Title}}</div>
+		<div ng-repeat="chunk in chunks| filter:byTitle | filter:queue">
+        	<div class="con"><center><b>{{chunk.Title}}</b></center></br> {{chunk.Description}}</br>{{chunk.PlaceInHome}}{{chunk.Category}}
+        	</div>
  		</div>
+	 </div>
+
+	 <div id="middleRight">
+	 	
 	 </div>
 </div>
 		
 <script>
-	var homeBase = angular.module('homeBase',[]);
+	var homeBase = angular.module('homeBase',['ui.unique']);
 
 	homeBase.filter('reverse', function () {
 		return function (text) {
@@ -36,39 +56,33 @@
 		}
 	})
 
-	function oneCon($scope) {
-		$http.get('./data/dataNoCat').success(function(data){
-			$scope.chunks = data;
-		});
 
-		$scope.contacts = [
-			{
-				firstname: "thomas",
-			},
-			{
-				firstname: "jonas",
-			}
-		]
-	}
 
 	homeBase.factory('Data', function(){
 	});
 
 	homeBase.controller('mainCon',function($scope, $http){
 		$http.get('./data/dataNoCat').success(function(data){
+			
+
 			$scope.chunks = data;
 		});	
 		$http.get('./data/out').success(function(data){
 			$scope.out = data;
 		});	
-		$scope.contacts = [
-			{
-				firstname: "thomas",
-			},
-			{
-				firstname: "jonas",
-			}
-		];
+		$scope.setSelectedTitle = function (value) {
+	        if ($scope.selectedTitle === value) {
+	            $scope.selectedTitle = undefined;
+	        } else {
+	            $scope.selectedTitle = value;
+	        }
+    	};
+
+    	$scope.byTitle = function(entry){
+        	return entry.Category === $scope.selectedTitle || $scope.selectedTitle === undefined;
+    	};    
+
+
 	});	
 </script>
 
