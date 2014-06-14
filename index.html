@@ -36,22 +36,19 @@
 
 	<div id="middleLeft">
 		<ul>
-			<li ng-repeat="chunk in chunks| filter:byTitle | filter:queue">
+			<li ng-repeat="chunk in chunks| filter:byTitle | orderBy:'Title'">
 				<button ng:click="select(chunk)">{{chunk.Title}}</button>
 			</li>
 		</ul>
-		<!-- <input id="input" type="text" ng-model="query"/>
-		<button ng:click="select(artist)" >{{artist.name}}</button>
-		<div ng-repeat="chunk in chunks| filter:byTitle | filter:queue">
-        	<div class="con"><center><b>{{chunk.Title}}</b></center></br></br><b> Description:</b>{{chunk.Description}}</br>{{chunk.PlaceInHome}}{{chunk.Category}}
-        	</div>
- 		</div> -->
 	 </div>
 
 	 <div id="middleRight" ng-controller="mainCon">
-	 	<center><b><span style="font-size:22"> {{selected.Title}} </span></b></center> <br> <br>
-	 	<b> Description: </b> {{selected.Description}} <br> <br>
-	 	<b> Where is it?: </b> {{selected.PlaceInHome}}
+	 	<div ng-repeat="(k, v) in selected"> <b>{{k}}: </b> <center> {{v}} </center> <br><br>
+	 	</div>
+	 </div>
+
+	 <div id="bottom" ng-controller="mainCon">
+	 	
 	 </div>
 </div>
 		
@@ -81,9 +78,21 @@
     	$scope.select = function(chunk){
     		$scope.selected = chunk;
     	}
+    });		
+
+	homeBase.filter('limitObjectTo', function() {
+			return function(obj, limit) {
+ 		var newObj = {},
+  		i = 0;
+			for (var p in obj) {
+			newObj[p] = obj[p];
+			// if (++i === limit) break;
+			}
+		return newObj;
+	};
+	});
 
 
-	});	
 </script>
 
 <!-- <div ng-controller="searchCon">
