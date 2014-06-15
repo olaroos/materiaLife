@@ -41,6 +41,7 @@
 	 </div>
 
 	 <div id="middleRight" ng-controller="mainCon">
+
 	 	<div id="middleRightLeft">
 	 		<input class="inputFieldRight" type="text" ng-repeat="(k, v) in selected" value={{k}}> </input>
 	 	</div>
@@ -48,7 +49,16 @@
 	 	<div id="middleRightRight">
 	 		<input class="inputFieldRight" type="text" ng-repeat="(k, v) in selected" value={{v}}> </input>
 	 	</div>
+	 	
+	 	<button 
+	 		ng:click="update()"
+	 		id="updateButton"
+	 		> Update
+	 	</button> 
+
 	 </div>
+
+
 
 	 <div id="bottom" ng-controller="mainCon">
 	 	
@@ -80,28 +90,34 @@
     	};    
     	$scope.select = function(chunk){
     		$scope.selected = chunk;
+    	};
+    	$scope.update = function(){
+    		console.log("");
+    		console.log($scope.selected);
+    		console.log("");
+    		var container = document.getElementById('middleRightRight');
+    		console.log(container);
+    		console.log(container.getChildren());
     	}
     });		
 
-	homeBase.filter('limitObjectTo', function() {
-			return function(obj, limit) {
- 		var newObj = {},
-  		i = 0;
-			for (var p in obj) {
-			newObj[p] = obj[p];
-			// if (++i === limit) break;
-			}
-		return newObj;
-	};
-	});
+
+
+	// homeBase.filter('limitObjectTo', function() {
+	// 		return function(obj, limit) {
+ // 		var newObj = {},
+ //  		i = 0;
+	// 		for (var p in obj) {
+	// 		newObj[p] = obj[p];
+	// 		// if (++i === limit) break;
+	// 		}
+	// 	return newObj;
+	// };
+	// });
 
 
 </script>
 
-<!-- <div ng-controller="searchCon">
-	<input type="text" ng-model="data.textSearch">
-	<h1> {{data.textSearch}} </h1>
-</div> -->
 
 </body>
 </html>
