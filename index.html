@@ -24,7 +24,7 @@
 
 	</div>
 
-	<div id="selectDiv">
+	<!-- <div id="selectDiv">
 		<select id="leftSelect" ng-model="query" ng-options="chunk.Title as chunk.Title for chunk in chunks| unique:'Title'">
 			<option value="">Default</option>
 		</select>		
@@ -32,18 +32,21 @@
 		<select id="rightSelect" ng-model="query2" ng-options="chunk.Description as chunk.Description for chunk in chunks| filter:query">
 			<option value="">Default</option>
 		</select>
-	</div>
+	</div> -->
 
 	<div id="middleLeft">
-		<ul>
-			<li ng-repeat="chunk in chunks| filter:byTitle | orderBy:'Title'">
-				<button ng:click="select(chunk)">{{chunk.Title}}</button>
-			</li>
-		</ul>
+			<div ng-repeat="chunk in chunks| filter:byTitle | orderBy:'Title'">
+				<button class="titleButton" ng:click="select(chunk)">{{chunk.Title}}</button>
+			</div>
 	 </div>
 
 	 <div id="middleRight" ng-controller="mainCon">
-	 	<div ng-repeat="(k, v) in selected"> <b>{{k}}: </b> <center> {{v}} </center> <br><br>
+	 	<div id="middleRightLeft">
+	 		<input class="inputFieldRight" type="text" ng-repeat="(k, v) in selected" value={{k}}> </input>
+	 	</div>
+
+	 	<div id="middleRightRight">
+	 		<input class="inputFieldRight" type="text" ng-repeat="(k, v) in selected" value={{v}}> </input>
 	 	</div>
 	 </div>
 

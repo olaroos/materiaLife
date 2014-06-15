@@ -32,25 +32,47 @@
 }
 #middleLeft {
 	width: 50%;
-	height: 500;
+	height: 1000;
 	background-color: #ffc096;
 	position:relative;
-	display:inline;
+	display:inline-block;
 	float: left;
 }
 #middleRight {
-	height: 500;
+	height: 1000;
 	width: 50%;
 	background-color: #7cff8e;
 	float: left;
 	position: relative;
 	display: inline;
 }
+#middleRightLeft {
+	float:left;
+	height: 500;
+	width:50%;
+}
+#middleRightRight {
+	float:left;
+	height: 500;
+	width:50%;
+}
+.inputFieldRight {
+	float: top;
+	width: 100%;
+	display: block;
+}
 #leftSelect {
 	float: top;
 }
 #rightSelect {
 	float: right;
+}
+.titleButton {
+	width: 200;
+	height: 10;
+	display: inline-block;
+	float: left;
+	overflow: none;
 }
 .selector {
 	float: left;
