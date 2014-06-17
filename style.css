@@ -9,6 +9,11 @@
 	margin: 0 auto;
 	margin-top: 40;
 }
+#active {
+	font-size: 20;
+	background-color: blue;
+	width: 200px;
+}
 .con {
 	width: 400;
 	height:	120;

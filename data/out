@@ -1,1 +1,2132 @@
-{"Borrowed": {"1": {"Category": "Borrowed", "from": "John Roos", "info": {"Edition": "2", "Title": "Don't make me think", "Author": "Steve Krug"}, "Type": "Book", "Title": "Don't make me think[Bok]"}, "0": {"Category": "Borrowed", "from": "Fredrik Haverklint", "info": {"Title": "Svenska skrivregler", "Author": "spr\u00e5kr\u00e5det"}, "Type": "Book", "Title": "Svenska skrivregler[Bok]"}, "3": {"Category": "Borrowed", "from": "Rasmus H\u00f6rstedt", "info": {"Edition": "", "Title": "Tricks of the mind", "Author": "Derren Brown"}, "Type": "Book", "Title": "Tricks of the mind[Bok]"}, "2": {"Category": "Borrowed", "from": "Anton Andersson", "info": {"Edition": "", "Title": "Javascript for Web Developers", "Author": "Nicholas C. zakas"}, "Type": "Book", "Title": "Javascript for Web Developers[Bok]"}, "5": {"Category": "Borrowed", "from": "Lennart Roos(?)", "info": {"Edition": "", "Title": "Flash Mobile Development", "Author": "Richard Wagner"}, "Type": "Book", "Title": "Flash Mobile Development[Bok]"}, "4": {"Category": "Borrowed", "from": "John Roos", "info": {"Edition": "", "Title": "XHTML & CSS", "Author": "Partick Griffiths"}, "Type": "Book", "Title": "XHTML & CSS[Bok]"}, "7": {"Category": "Borrowed", "from": "John Roos", "info": {"Edition": "2", "Title": "Discrete Mathematics", "Author": "Normal L. Biggs"}, "Type": "Book", "Title": "Discrete Mathematics[Bok]"}, "6": {"Category": "Borrowed", "from": "Lennart Roos(?)", "info": {"Edition": "", "Title": "Flash CS3 Proffessional - ADVANCED", "Author": "Russel Chun"}, "Type": "Book", "Title": "Flash CS3 Proffessional - ADVANCED[Bok]"}, "9": {"Category": "Borrowed", "from": "John Roos", "info": {"Edition": "2", "Title": "Grafisk Kokbok 2.0", "Author": "Kaj Johansson, Peter Lundberg, Robert Ryberg"}, "Type": "Book", "Title": "Grafisk Kokbok[Bok]"}, "8": {"Category": "Borrowed", "from": "Marianne Fristedt-Roos", "info": {"Edition": "4", "Title": "\u00e5ngest", "Author": "Christer L. Nordlund"}, "Type": "Book", "Title": "\u00e5ngest[Bok]"}}, "Micro Electronics": {"11": {"Category": "Micro Electronics", "Relation": "Electronics", "Description": "Vitt rfid kort i genomskinlig plastficka", "PlaceInHome": "Middle Locker - Box[EL] - Brown box", "Title": "Kort rfid"}, "10": {"Category": "Micro Electronics", "Relation": "Electronics", "Description": "5x bl\u00e5a RFID brickor f\u00f6r nyckelknippa, i genomskinlig plastficka", "PlaceInHome": "Middle Locker - Box[EL] - Brown box", "Title": "Brickor rfid"}, "13": {"Category": "Micro Electronics", "Relation": "Electronics", "Description": "0.6 mm, l\u00f6dtenn p\u00e5 gr\u00f6n rulle", "PlaceInHome": "Middle Locker - Box[EL]", "Title": "L\u00f6d-tenn"}, "12": {"Category": "Micro Electronics", "Relation": "Electronics", "Description": "H\u00e5llare med tv\u00e5 'h\u00e4nder' och f\u00f6rstoringsglas f\u00f6r l\u00f6dning", "PlaceInHome": "Middle Locker - Box[EL]", "Title": "L\u00f6d hj\u00e4lpare"}, "15": {"Category": "Micro Electronics", "Relation": "Electronics", "Description": "Box med plats f\u00f6r 2 AA batterier", "PlaceInHome": "Middle Locker - Box[EL]", "Title": "Batteri h\u00e5llare"}, "14": {"Category": "Micro Electronics", "Relation": "Electronics", "Description": "1,7 mm, 2 m, ej anv\u00e4nd i f\u00f6rpackning", "PlaceInHome": "Middle Locker - Box[EL]", "Title": "L\u00f6d absorberare"}, "17": {"Category": "Micro Electronics", "Relation": "Micro Electronics", "Description": "Green USB, SanDisk USB, WiFi-USB dongle, SanDisk SD-Card 8GB ", "PlaceInHome": "Middle Locker - Box[EL] - Box[04159A 12Vd.c. 500mA]", "Title": "USB/SD-card collection"}, "16": {"Category": "Micro Electronics", "Relation": "Computer hardware", "Description": "ALFA Network, Wireless USB-adapter, 802.11n/g/n Long-Range, AWUS036NH", "PlaceInHome": "Middle Locker - Box[EL] - Box[85W MagSafe Power Adapter]", "Title": "Wifi USB-adapter"}, "1": {"Category": "Micro Electronics", "Relation": "Electronics", "Description": "Raspberry Pi model B in box element14", "PlaceInHome": "Middle Locker - Box[EL] - Brown box", "Title": "Raspberry Pi model B"}, "0": {"Category": "Micro Electronics", "Relation": "Electronics", "Description": "COTECH, L\u00f6dstation st\u00e4llbar v\u00e4rme och digital display", "PlaceInHome": "Middle Locker - Box[EL] - Brown box", "Title": "L\u00f6dstation"}, "3": {"Category": "Micro Electronics", "Relation": "Electronics", "Description": "DC motor med 'v\u00e4xelbox', skruvad p\u00e5 legobricka", "PlaceInHome": "Middle Locker - Box[EL] - Brown box", "Title": "DC motor"}, "2": {"Category": "Micro Electronics", "Relation": "Electronics", "Description": "HC-SR04, Ultraljuds avst\u00e5ndsm\u00e4tare", "PlaceInHome": "Middle Locker - Box[EL] - Brown box", "Title": "Sensor Ultraljud"}, "5": {"Category": "Micro Electronics", "Relation": "Electronics", "Description": "RFID-RC522, l\u00e4sare", "PlaceInHome": "Middle Locker - Box[EL] - Brown box", "Title": "RFID l\u00e4sare"}, "4": {"Category": "Micro Electronics", "Relation": "Electronics", "Description": "DC-motor och 4 v\u00e4xlar i p\u00e5se[1:60]", "PlaceInHome": "Middle Locker - Box[EL] - Brown box", "Title": "DC motor och v\u00e4xlar"}, "7": {"Category": "Micro Electronics", "Antal": "2", "Description": "Manuell switch, l\u00e5g sp\u00e4nning, i r\u00f6d plastficka", "Title": "Manuell switch", "Relation": "Electronics", "PlaceInHome": "Middle Locker - Box[EL] - Brown box"}, "6": {"Category": "Micro Electronics", "Relation": "Electronics", "Description": "Sharp, 2Y0A21 F 35, infrar\u00f6d avst\u00e5ndsm\u00e4tare", "PlaceInHome": "Middle Locker - Box[EL] - Brown box", "Title": "Sensor Infrar\u00f6d"}, "9": {"Category": "Micro Electronics", "Relation": "Electronics", "Description": "Tv\u00e5 l\u00e4ngre kablar i r\u00f6d och svart, ett knipe med korta kablar som pasasr i breadbox, i COOP-plastp\u00e5se", "PlaceInHome": "Middle Locker - Box[EL] - Brown box", "Title": "Kabel"}, "8": {"Category": "Micro Electronics", "Antal": "7", "Description": "7x R\u00f6d diod, i genomskinlig plastficka", "Title": "R\u00f6d diod", "Relation": "Electronics", "PlaceInHome": "Middle Locker - Box[EL] - Brown box"}}, "Office": {"11": {"Category": "Office", "Relation": "Kontorsmaterial", "Description": "Procordia, kulspetspenna i gr\u00f6n plast", "PlaceInHome": "Middle Locker - Skol\u00e5da", "Title": "Kulspets penna"}, "10": {"Category": "Office", "Relation": "Kontorsmaterial", "Description": "Texas Instruments, Johns minir\u00e4knare", "PlaceInHome": "Middle Locker - Skol\u00e5da", "Title": "Minir\u00e4knare"}, "13": {"Category": "Office", "Relation": "Kontorsmaterial", "Description": "15cm linjal i plast, motiv blommor", "PlaceInHome": "Middle Locker - Skol\u00e5da", "Title": "Linjal"}, "12": {"Category": "Office", "Relation": "Kontorsmaterial", "Description": "Rapid, vitt Tipp-Ex", "PlaceInHome": "Middle Locker - Skol\u00e5da", "Title": "Tipp-Ex"}, "14": {"Category": "Office", "Relation": "Kontorsmaterial", "Description": "Rexel, h\u00e5lslagare f\u00f6r A4 papper", "PlaceInHome": "Middle Locker - Skol\u00e5da", "Title": "H\u00e5lslagare A4"}, "1": {"Category": "Office", "Relation": "Kontorsmaterial", "Description": "Liten h\u00e4ft-apparat f\u00f6r 6 mm stift", "PlaceInHome": "Middle Locker - Skol\u00e5da", "Title": "H\u00e4ft-apparat"}, "0": {"Category": "Office", "Antal": "2", "Description": "6 mm, Rapid, 1000x i ask", "Title": "H\u00e4ftstift", "Relation": "Kontorsmaterial", "PlaceInHome": "Middle Locker - Skol\u00e5da"}, "3": {"Category": "Office", "Relation": "Kontorsmaterial", "Description": "TIMING, gul highlight penna", "PlaceInHome": "Middle Locker - Skol\u00e5da", "Title": "Highligt penna Gul"}, "2": {"Category": "Office", "Relation": "Kontorsmaterial", "Description": "Faber-Castell, rosa highlight penna", "PlaceInHome": "Middle Locker - Skol\u00e5da", "Title": "Highligt penna Rosa"}, "5": {"Category": "Office", "Relation": "Kontorsmaterial", "Description": "Faber-Castell, suddgummi", "PlaceInHome": "Middle Locker - Skol\u00e5da", "Title": "Radergummi"}, "4": {"Category": "Office", "Relation": "Kontorsmaterial", "Description": "TIMING, gr\u00f6n highlight penna", "PlaceInHome": "Middle Locker - Skol\u00e5da", "Title": "Highligt penna Gr\u00f6n"}, "7": {"Category": "Office", "Relation": "Kontorsmaterial", "Description": "Brun bredare tejp i r\u00f6d plast h\u00e5llare", "PlaceInHome": "Middle Locker - Skol\u00e5da", "Title": "Tejp brun"}, "6": {"Category": "Office", "Antal": "2", "Description": "Standard genomskinlig tejp", "Title": "Tejp genomskinlig", "Relation": "Kontorsmaterial", "PlaceInHome": "Middle Locker - Skol\u00e5da"}, "9": {"Category": "Office", "Relation": "Kontorsmaterial", "Description": "PILOT, 3x svart refiller f\u00f6r FRIXION ball pennor", "PlaceInHome": "Middle Locker - Skol\u00e5da", "Title": "Refiller FRIXION ball"}, "8": {"Category": "Office", "Relation": "Kontorsmaterial", "Description": "pebeo, bl\u00e4ck i svart burk med vit top/pippet", "PlaceInHome": "Middle Locker - Skol\u00e5da", "Title": "Svart Bl\u00e4ck"}}, "FoodDry": {"24": {"Category": "FoodDry", "Description": "ZETA, Rapsolja, Glasflaska 0,5L", "Place in Home": "Vent Locker Above Stove", "Title": "Rapsolja", "Relation": "Food", "B\u00e4stF\u00f6re": "26-07-2015"}, "25": {"Category": "FoodDry", "Description": "ZETA, Olivolja, Glasflaska 0,5L", "Place in Home": "Vent Locker Above Stove", "Title": "Olivolja", "Relation": "Food", "B\u00e4stF\u00f6re": "18-06-2015"}, "20": {"Category": "FoodDry", "Relation": "Food", "Description": "bunt med Kaffe-filter i plastp\u00e5se", "Place in Home": "Vent Locker Left", "Title": "Kaffe-filter"}, "21": {"Category": "FoodDry", "Relation": "Food", "Description": "2x, Barilla, Pasta Penne Rigata, F\u00f6rpackning Papp", "Place in Home": "Vent Locker Left", "Title": "Pasta Penne"}, "22": {"Category": "FoodDry", "Relation": "Food", "Description": "COOP, Popcornk\u00e4rnor, f\u00f6rpackning \u00f6ppnad p\u00e5se", "Place in Home": "Vent Locker Above Stove - Box[Selected By Sagaform]", "Title": "Popcornk\u00e4rnor"}, "23": {"Category": "FoodDry", "Relation": "Food", "Description": "Gevalia, Pl\u00e5tburk, inneh\u00e5ller periodvis kaffepulver", "Place in Home": "Vent Locker Left", "Title": "Kaffe Burk"}, "1": {"Category": "FoodDry", "Relation": "Food", "Description": "Santa Maria, Curry, Cylinder-Burk", "Place in Home": "Vent Locker Above Stove - Box[Selected By Sagaform]", "Title": "Curry"}, "0": {"Category": "FoodDry", "Relation": "Food", "Description": "Santa Maria, Vitl\u00f6kssalt, Cylinder-Burk", "Place in Home": "Vent Locker Above Stove - Box[Selected By Sagaform]", "Title": "Vitl\u00f6kssalt"}, "3": {"Category": "FoodDry", "Relation": "Food", "Description": "Santa Maria, Tandoori India Spice, Cylinder-Burk", "Place in Home": "Vent Locker Above Stove - Box[Selected By Sagaform]", "Title": "Tandoori India Spice"}, "2": {"Category": "FoodDry", "Relation": "Food", "Description": "Santa Maria, Svartpeppar, Cylinder-Burk", "Place in Home": "Vent Locker Above Stove - Box[Selected By Sagaform]", "Title": "Svartpeppar"}, "5": {"Category": "FoodDry", "Relation": "Food", "Description": "Santa Maria, Oregano, Cylinder-Burk", "Place in Home": "Vent Locker Above Stove - Box[Selected By Sagaform]", "Title": "Oregano"}, "4": {"Category": "FoodDry", "Relation": "Food", "Description": "Santa Maria, Grillkrydda, Cylinder-Burk Large", "Place in Home": "Vent Locker Above Stove - Box[Selected By Sagaform]", "Title": "Grillkrydda"}, "7": {"Category": "FoodDry", "Relation": "Food", "Description": "Santa Maria, Vitpeppar, Cylinder-Burk", "Place in Home": "Vent Locker Above Stove - Box[Selected By Sagaform]", "Title": "Vitpeppar"}, "6": {"Category": "FoodDry", "Relation": "Food", "Description": "Santa Maria, Pepparmix, Cylinder-Burk", "Place in Home": "Vent Locker Above Stove - Box[Selected By Sagaform]", "Title": "Pepparmix"}, "9": {"Category": "FoodDry", "Relation": "Food", "Description": "COOP, Vanillinsocker, Cylinder Burk Papp", "Place in Home": "Vent Locker Above Stove - Box[Selected By Sagaform]", "Title": "Vanillinsocker"}, "8": {"Category": "FoodDry", "Relation": "Food", "Description": "Fazer, Cacao, Brun Burk Papp", "Place in Home": "Vent Locker Above Stove - Box[Selected By Sagaform]", "Title": "Cacao"}, "11": {"Category": "FoodDry", "Relation": "Food", "Description": "Jozo, Salt, R\u00f6d-Vitt Saltkar Plast", "Place in Home": "Vent Locker Above Stove - Box[Selected By Sagaform]", "Title": "Salt"}, "10": {"Category": "FoodDry", "Relation": "Food", "Description": "MittVal, Kostillskott Man, Cylinder Burk Plast", "Place in Home": "Vent Locker Above Stove - Box[Selected By Sagaform]", "Title": "Kosttillskott Man"}, "13": {"Category": "FoodDry", "Relation": "Food", "Description": "Santa Maria, Paneng Red Curry Spice Mix, Zipbag", "Place in Home": "Vent Locker Above Stove - Box[Selected By Sagaform]", "Title": "Paneng Red Curry Spice Mix"}, "12": {"Category": "FoodDry", "Relation": "Food", "Description": "Santa Maria, Taco Spice Mix, P\u00e5se", "Place in Home": "Vent Locker Above Stove - Box[Selected By Sagaform]", "Title": "Taco Spice Mix"}, "15": {"Category": "FoodDry", "Description": "Santa Maria, Organic Coconut Milk", "Place in Home": "Vent Locker Left", "Title": "Coconut Milk", "Relation": "Food", "B\u00e4stF\u00f6re": "06-12-2015"}, "14": {"Category": "FoodDry", "Description": "2x, Santa Maria, Organic Coconut Milk", "Place in Home": "Vent Locker Left", "Title": "Coconut Milk", "Relation": "Food", "B\u00e4stF\u00f6re": "18-01-2016"}, "17": {"Category": "FoodDry", "Description": "2x, gogreen, R\u00f6da Linser, kokta", "Place in Home": "Vent Locker Left", "Title": "R\u00f6da Linser", "Relation": "Food", "B\u00e4stF\u00f6re": "07-06-2015"}, "16": {"Category": "FoodDry", "Relation": "Food", "Description": "ZETA, Pesto med f\u00e4rsk basilika", "Place in Home": "Vent Locker Left", "Title": "Pesto"}, "19": {"Category": "FoodDry", "Description": "Santa Maria, Egg Noodles, 3-pack", "Place in Home": "Vent Locker Left", "Title": "Egg Noodles", "Relation": "Food", "B\u00e4stF\u00f6re": "15-07-2015"}, "18": {"Category": "FoodDry", "Description": "2x, gogreen, R\u00f6da Linser, kokta", "Place in Home": "Vent Locker Left", "Title": "R\u00f6da Linser", "Relation": "Food", "B\u00e4stF\u00f6re": "31-07-2015"}}, "Tools": {"11": {"Category": "Tools", "Description": "Vit lackfarg", "Format": "", "Title": "Paint bucket", "Relation": "Paint", "PlaceInHome": "Middle Locker - Box", "Type": "", "Condition": "Opened", "Manufacturer": "BILTEMA"}, "10": {"Category": "Tools", "Description": "Roller holder for painting", "Format": "Green plastic", "Title": "Holder for roller", "Relation": "Paint", "PlaceInHome": "Middle Locker - Box", "Type": "Holder", "Condition": "Never used", "Manufacturer": "BILTEMA"}, "13": {"Category": "Tools", "Relation": "Excess", "Description": "Epoxy tv\u00e5-komponents lim i tuber, A och B", "PlaceInHome": "Middle Locker - Box", "Title": "Epoxy"}, "12": {"Category": "Tools", "Description": "Lackpensel 25 mm", "Format": "", "Title": "Pensel", "Relation": "Paint", "PlaceInHome": "Middle Locker - Box", "Type": "", "Condition": "Not opened", "Manufacturer": "BILTEMA"}, "15": {"Category": "Tools", "Relation": "Tools", "Description": "~10x, BILTEMA, Skruv samt plugg, i transparent ask", "PlaceInHome": "Middle Locker - Box", "Title": "Plugg med skruv"}, "14": {"Category": "Tools", "Relation": "", "Description": "BILTEMA, tr\u00e4skruv 3x15mm flat f\u00f6rs\u00e4nkt huvud, kr\u00e4ver hexa-nyckel", "PlaceInHome": "Middle Locker - Box[]", "Title": "Tr\u00e4skruv"}, "17": {"Category": "Tools", "Relation": "Excess", "Description": "M\u00e5ttband, 1,5 meter", "PlaceInHome": "Middle Locker - Box", "Title": "M\u00e5ttband"}, "16": {"Category": "Tools", "Relation": "Excess", "Description": "LOCTITE, Super lim", "PlaceInHome": "Middle Locker - Box", "Title": "Super Glue"}, "1": {"Category": "Tools", "Description": "Orange screwdriver", "Title": "Screwdriver", "Format": "No container", "Relation": "", "PlaceInHome": "Middle Locker - Box", "Type": "Flat"}, "0": {"Category": "Tools", "Description": "Yellow screwdriver, painted handle yellow", "Title": "Screwdriver", "Format": "No container", "Relation": "", "PlaceInHome": "Middle Locker - Box", "Type": "Star"}, "3": {"Category": "Tools", "Description": "set of 6 screwdrivers", "Format": "Blue holder, transparent front", "Title": "Screwdriver set", "Relation": "", "PlaceInHome": "Middle Locker - Box", "Type": "Flat screwdrivers, size micro", "Condition": "One screwdriver missing", "Manufacturer": ""}, "2": {"Category": "Tools", "Description": "12 smaller screwdrivers, 2 pincers", "Format": "Black holder", "Title": "Screwdriver set", "Relation": "", "PlaceInHome": "Middle Locker - Box", "Type": "Flat and Star, PH00 to 4.0", "Condition": "As new", "Manufacturer": "dibotech"}, "5": {"Category": "Tools", "Description": "Tool to remove old paint by scraping", "Format": "In manufacture container", "Title": "Paint scraper", "Relation": "Paint", "PlaceInHome": "Middle Locker - Box", "Type": "", "Condition": "Never used", "Manufacturer": "BILTEMA"}, "4": {"Category": "Tools", "Description": "Screwdriver with multiple heads - star, flat-star, default, hexa. Adjustable Wrench and Dual Drive", "Format": "Black holder, transparent front", "Title": "Screwdriver set", "Relation": "", "PlaceInHome": "Middle Locker - Box", "Type": "Screwdriver, Wrench, Drive", "Condition": "Complete", "Manufacturer": "Tactix"}, "7": {"Category": "Tools", "Description": "Wall spackel", "Format": "White Tube", "Title": "Tub med spackel", "Relation": "Paint", "PlaceInHome": "Middle Locker - Box", "Type": "", "Condition": "Alot left", "Manufacturer": "BILTEMA"}, "6": {"Category": "Tools", "Description": "", "Format": "No container", "Title": "Bred spackel", "Relation": "Paint", "PlaceInHome": "Middle Locker - Box", "Type": "Bred", "Condition": "As new", "Manufacturer": "BILTEMA"}, "9": {"Category": "Tools", "Description": "93 x 230 mm, 8 remaining", "Format": "Stack in blue sealment for 8 pieces", "Title": "Sand paper", "Relation": "Paint", "PlaceInHome": "Middle Locker - Box", "Type": "K40", "Condition": "Fresh", "Manufacturer": "BILTEMA"}, "8": {"Category": "Tools", "Description": "230 x 280 mm, > 10 remaining", "Format": "Stack in blue sealment for 20 pieces", "Title": "Sand paper", "Relation": "Paint", "PlaceInHome": "Middle Locker - Box", "Type": "K400", "Condition": "Fresh", "Manufacturer": "BILTEMA"}}, "Notes": {"1": {"Category": "Notes", "Title": "EL2450", "Format": "Whitelines - squared - A5", "Course": "EL2450 - Hybrid Systems", "Relation": "School", "PlaceInHome": "Left Locker - Shelf 2", "Type": "Block"}, "0": {"Category": "Notes", "Title": "Stanford Fourier Transform", "Format": "Whitelines - squared - A4", "Course": "Stanford Fourier Transform", "Relation": "School", "PlaceInHome": "Left Locker - Shelf 2", "Type": "Block"}, "3": {"Category": "Notes", "Description": "Notes on exam reoccuring questions", "Format": "squared - A4", "Title": "", "Course": "Differentialekvationer och transformer - Del 1", "Relation": "School", "PlaceInHome": "Left Locker - Shelf 2 - Book - Elementary differential equations and boundary value problems", "Type": "Paper"}, "2": {"Category": "Notes", "Title": "#1 Notes", "Format": "Whitelines - squared - A5", "Course": "", "Relation": "Separate Knowledge", "PlaceInHome": "Left Locker - Shelf 2", "Type": "Block"}, "4": {"Category": "Notes", "Description": "Notes on Hybrid Systems", "Format": "Map - Green - A4", "Title": "Anteckningar Hybrida System", "Course": "EL2450 - Hybrid Systems", "Relation": "School", "PlaceInHome": "Left Locker - Shelf 2 ", "Type": "Papers"}}, "Books": {"56": {"Category": "Books", "Description": "Kursbok, Matematiska modeller, Link\u00f6pings Tekniska H\u00f6gskola", "Author": "Douglas Mooney, Randall Swift", "Title": "A course in mathematical modeling", "Subtype": "", "Edition": "", "Relation": "School", "PlaceInHome": "Left Locker - Shelf 2", "Type": "Book"}, "54": {"Category": "Books", "Description": "Handlar om googles datainsamling", "Author": "Stephen Baker", "Title": "the NUMERATI", "Subtype": "", "Edition": "", "Relation": "Not School", "PlaceInHome": "Left Locker - Shelf 2", "Type": "Book"}, "42": {"Category": "Books", "Subtype": "", "Author": "Institutionen f\u00f6r h\u00e5llfasthetsl\u00e4ra KTH", "Edition": "", "Relation": "School", "PlaceInHome": "Left Locker - Shelf 2", "Year": "", "Title": "Exempelsamling i H\u00e5llfasthetsl\u00e4ra", "Type": "Hafte"}, "48": {"Category": "Books", "Description": "Kursbok, kemi Link\u00f6pings Tekniska H\u00f6gskola", "Author": "Zumdahl", "Title": "Chemistry", "Subtype": "", "Edition": "7", "Relation": "School", "PlaceInHome": "Left Locker - Shelf 2", "Type": "Book"}, "43": {"Category": "Books", "Subtype": "", "Author": "Institutionen f\u00f6r h\u00e5llfasthetsl\u00e4ra KTH", "Edition": "", "Relation": "School", "PlaceInHome": "Left Locker - Shelf 2", "Year": "", "Title": "H\u00e5llfasthetsl\u00e4ra - Handbok och formelsamling", "Type": "Hafte"}, "49": {"Category": "Books", "Description": "Kursbok, Motorcykel K\u00f6rtkort", "Author": "Sveriges Trafikskolors Riksf\u00f6rbund", "Title": "MC-boken", "Subtype": "", "Edition": "", "Relation": "School", "PlaceInHome": "Left Locker - Shelf 2", "Type": "Book"}, "52": {"Category": "Books", "Description": "\u00d6vningsbok till Analytiska metoder I", "Author": "Anders Falkne, Bronislaw Krakus", "Title": "Analytiska metoder II", "Subtype": "", "Edition": "", "Relation": "School", "PlaceInHome": "Left Locker - Shelf 2", "Type": "Book"}, "53": {"Category": "Books", "Description": "Kursbok, Termodynamik 2009-2010 KTH, unders\u00f6k detta f\u00f6r du har inga po\u00e4ng i den kursen", "Author": "Olof Beckman, G\u00f6ran Grimvall, Bengt Kj\u00f6llerstr\u00f6m, Tage Sundstr\u00f6m", "Title": "Energil\u00e4ra", "Subtype": "", "Edition": "", "Relation": "School", "PlaceInHome": "Left Locker - Shelf 2", "Type": "Book"}, "24": {"Category": "Books", "Title": "PGs Little Blue Book", "Author": "Phil Gordon", "Edition": "", "Relation": "Not School", "PlaceInHome": "Left Locker - Shelf 3", "Year": "", "Type": "Book"}, "25": {"Category": "Books", "Title": "PGs Little Green Book", "Author": "Phil Gordon", "Edition": "", "Relation": "Not School", "PlaceInHome": "Left Locker - Shelf 3", "Year": "", "Type": "Book"}, "26": {"Category": "Books", "Title": "V\u00e5r Ekonomi", "Author": "Klas Eklund", "Edition": "", "Relation": "Not School", "PlaceInHome": "Left Locker - Shelf 3", "Year": "", "Type": "Book"}, "27": {"Category": "Books", "Title": "Merchants of Doubt", "Author": "Naomi Oreskes, Erik M. Conway", "Edition": "", "Relation": "Not School", "PlaceInHome": "Left Locker - Shelf 3", "Year": "", "Type": "Book"}, "20": {"Category": "Books", "Title": "Quiet", "Author": "Susan Cain", "Edition": "", "Relation": "Not School", "PlaceInHome": "Left Locker - Shelf 3", "Year": "", "Type": "Book"}, "21": {"Category": "Books", "Title": "Hur funkar det?", "Author": "fr\u00e5ga Kjell", "Edition": "", "Relation": "Not School", "PlaceInHome": "Left Locker - Shelf 3", "Year": "", "Type": "Book"}, "22": {"Category": "Books", "Title": "Hold'em Poker: For Advanced Players", "Author": "David Sklansky, Mason Malmuth", "Edition": "2000", "Relation": "Not School", "PlaceInHome": "Left Locker - Shelf 3", "Year": "", "Type": "Book"}, "23": {"Category": "Books", "Title": "The Poker Mindset", "Author": "Ian Taylor, Matthew Hilger", "Edition": "", "Relation": "Not School", "PlaceInHome": "Left Locker - Shelf 3", "Year": "", "Type": "Book"}, "46": {"Category": "Books", "Subtype": "", "Author": "Nicholas Apazidis", "Edition": "", "Relation": "School", "PlaceInHome": "Left Locker - Shelf 2", "Year": "", "Title": "Mekanik - Statik och partikeldynamik", "Type": "Book"}, "47": {"Category": "Books", "Subtype": "", "Author": "Nicholas Apazidis", "Edition": "", "Relation": "School", "PlaceInHome": "Left Locker - Shelf 2", "Year": "", "Title": "Rigid body and analytical mechanics", "Type": "Book"}, "44": {"Category": "Books", "Subtype": "", "Author": "Hans Lundh", "Edition": "", "Relation": "School", "PlaceInHome": "Left Locker - Shelf 2", "Year": "", "Title": "H\u00e5llfasthetsl\u00e4ra - Grundl\u00e4ggande h\u00e5llfasthetsl\u00e4ra", "Type": "Book"}, "45": {"Category": "Books", "Subtype": "", "Author": "Gunnar Sparr, Annika Sparr", "Edition": "", "Relation": "School", "PlaceInHome": "Left Locker - Shelf 2", "Year": "", "Title": "Kontinuerliga system - \u00f6vningsbok", "Type": "Book"}, "28": {"Category": "Books", "Title": "The Psychology book - Bid Ideas simply explained", "Author": "", "Edition": "", "Relation": "Not School", "PlaceInHome": "Left Locker - Shelf 3", "Year": "", "Type": "Book"}, "29": {"Category": "Books", "Description": "2x, Kursbok i sannoliketsl\u00e4ra p\u00e5 KTH och Link\u00f6pings Tekniska H\u00f6gskola, d\u00e4rav antalet", "Author": "Gunnar Blom, Jan Enger, Gunnar Englund, Jan Grandell, Lars Holst", "Title": "Sannolikhetsteori och statistikteori med till\u00e4mpningar", "Edition": "", "Relation": "School", "PlaceInHome": "Left Locker - Shelf 2", "Year": "", "Type": "Book"}, "40": {"Category": "Books", "Subtype": "", "Author": "Anders Ramgard", "Edition": "3", "Relation": "School", "PlaceInHome": "Left Locker - Shelf 2", "Year": "", "Title": "Vektor-Analys", "Type": "Hafte"}, "41": {"Category": "Books", "Subtype": "", "Author": "P.C. Matthews", "Edition": "", "Relation": "School", "PlaceInHome": "Left Locker - Shelf 2", "Year": "", "Title": "Vector Calculus", "Type": "Book"}, "1": {"Category": "Books", "Title": "Kontinuerliga System", "Author": "Gunnar Sparr, Annika Sparr", "Edition": "", "Relation": "School", "PlaceInHome": "Left Locker - Shelf 2", "Type": "Book"}, "0": {"Category": "Books", "Title": "Artificial Intelligence - A Modern Approach", "Author": "Stuart Russel, Peter Norvig", "Edition": "3", "Relation": "School", "PlaceInHome": "Left Locker - Shelf 2", "Type": "Book"}, "3": {"Category": "Books", "Title": "Machine learning - An Algorithmic Perspective", "Author": "Stephen Marsland", "Edition": "", "Relation": "School", "PlaceInHome": "Left Locker - Shelf 2", "Type": "Book"}, "2": {"Category": "Books", "Title": "Concepts in Thermal Physics", "Author": "Stephen J. Blundell, Katherine M. Blundell", "Edition": "2", "Relation": "School", "PlaceInHome": "Left Locker - Shelf 2", "Type": "Book"}, "5": {"Category": "Books", "Title": "Analys i flera variabler", "Author": "Arne Persson, Lars-Christer B\u00f6iers", "Edition": "", "Relation": "School", "PlaceInHome": "Left Locker - Shelf 2", "Type": "Book"}, "4": {"Category": "Books", "Title": "Analys i en variabel", "Author": "Arne Persson, Lars-Christer B\u00f6iers", "Edition": "", "Relation": "School", "PlaceInHome": "Left Locker - Shelf 2", "Type": "Book"}, "7": {"Category": "Books", "Author": "Vasilios Agapios", "Notes": "Phone to Author: 076-2953253", "Title": "L\u00f6sningar till uppgifterna i 'Fourier Analysis and its Applications' (Vretblad)", "Edition": "", "Relation": "School", "PlaceInHome": "Left Locker - Shelf 2", "Year": "", "Type": "Hafte"}, "6": {"Category": "Books", "Title": "M\u00e4nniskan som recipient", "Author": "Arild J\u00e4gerskogh", "Edition": "", "Relation": "School", "PlaceInHome": "Left Locker - Shelf 2", "Year": "2012", "Type": "Hafte"}, "9": {"Category": "Books", "Title": "BETA", "Author": "", "Edition": "", "Relation": "School", "PlaceInHome": "Left Locker - Shelf 2", "Year": "", "Type": "Book"}, "8": {"Category": "Books", "Title": "ReglerTeknik - grundl\u00e4ggande teori", "Author": "Torkel Glad, Lennart Ljung", "Edition": "", "Relation": "School", "PlaceInHome": "Left Locker - Shelf 2", "Year": "", "Type": "Book"}, "51": {"Category": "Books", "Description": "Avhandlar m\u00f6jligen ber\u00e4kningsteknik, information otillr\u00e4cklig", "Author": "Eike Petermann", "Title": "Analytiska metoder I", "Subtype": "", "Edition": "", "Relation": "School", "PlaceInHome": "Left Locker - Shelf 2", "Type": "Book"}, "39": {"Category": "Books", "Subtype": "", "Author": "\u00d6sten Rapp", "Edition": "2", "Relation": "School", "PlaceInHome": "Left Locker - Shelf 2", "Year": "2011", "Title": "100 l\u00f6sta problem i fasta tillst\u00e5ndets fysik", "Type": "Hafte"}, "38": {"Category": "Books", "Subtype": "", "Author": "Lars-Eric Bj\u00f6rk, Hans Brolin", "Edition": "", "Relation": "School", "PlaceInHome": "Left Locker - Shelf 2", "Year": "", "Title": "Matematik 3000 - Kurs C och D", "Type": "Book"}, "59": {"Category": "Books", "Description": "L\u00e5nad av Mattias Kruger borttappad, ink\u00f6pt som ers\u00e4ttning och kvar i min \u00e4go efter original \u00e5terfunnits", "Author": "James Stewart", "Title": "Calculus - Early Transcendentals", "Subtype": "", "Edition": "", "Relation": "School", "PlaceInHome": "Left Locker - Shelf 2", "Type": "Book"}, "58": {"Category": "Books", "Description": "Kursbok, Spanska, don Quijote school of languages, grundniv\u00e5", "Author": "'don Quijote'", "Title": "Vive el espanol B1", "Subtype": "", "Edition": "3", "Relation": "School", "PlaceInHome": "Left Locker - Shelf 2", "Type": "Book"}, "11": {"Category": "Books", "Title": "EL2450 - Lecture Slides and Reading Material", "Author": "", "Edition": "", "Relation": "School", "PlaceInHome": "Left Locker - Shelf 2", "Year": "", "Type": "Hafte"}, "10": {"Category": "Books", "Title": "EL2450 - Excercises", "Author": "", "Edition": "", "Relation": "School", "PlaceInHome": "Left Locker - Shelf 2", "Year": "", "Type": "Hafte"}, "13": {"Category": "Books", "Title": "Modern Physics", "Author": "Randy Harris", "Edition": "2", "Relation": "School", "PlaceInHome": "Left Locker - Shelf 2", "Year": "", "Type": "Book"}, "12": {"Category": "Books", "Title": "Introduction to Electrodynamics", "Author": "David J. Griffiths", "Edition": "Third", "Relation": "School", "PlaceInHome": "Left Locker - Shelf 2", "Year": "", "Type": "Book"}, "15": {"Category": "Books", "Title": "Introduction to Solid State Physics", "Author": "Charles Kittel", "Edition": "", "Relation": "School", "PlaceInHome": "Left Locker - Shelf 2", "Year": "", "Type": "Book"}, "14": {"Category": "Books", "Title": "Introduction to Solid State Physics", "Author": "Randy Harris", "Edition": "8", "Relation": "School", "PlaceInHome": "Left Locker - Shelf 2", "Year": "", "Type": "Book"}, "17": {"Category": "Books", "Title": "Fourier Analysis and its Applications", "Author": "Anders Vretblad", "Edition": "", "Relation": "School", "PlaceInHome": "Left Locker - Shelf 2", "Year": "", "Type": "Book"}, "16": {"Category": "Books", "Title": "University Physics", "Author": "Young and Freedman", "Edition": "12", "Relation": "School", "PlaceInHome": "Left Locker - Shelf 2", "Year": "", "Type": "Book"}, "19": {"Category": "Books", "Title": "Inifr\u00e5n", "Author": "Thomas Bodstr\u00f6m", "Edition": "", "Relation": "Not School", "PlaceInHome": "Left Locker - Shelf 3", "Year": "", "Type": "Book"}, "18": {"Category": "Books", "Title": "Crimes against logics", "Author": "Jamie Whyte", "Edition": "", "Relation": "Not School", "PlaceInHome": "Left Locker - Shelf 3", "Year": "", "Type": "Book"}, "31": {"Category": "Books", "Subtype": "Pocket", "Author": "Dan Ariely", "Edition": "", "Relation": "Not School", "PlaceInHome": "Left Locker - Shelf 3", "Year": "", "Title": "Predictably Irrational", "Type": "Book"}, "30": {"Category": "Books", "Subtype": "Pocket", "Author": "\u00c5sa Avdic", "Edition": "", "Relation": "Not School", "PlaceInHome": "Left Locker - Shelf 3", "Year": "", "Title": "R\u00e4tt \u00e5t dig - S\u00e5 blir du en lyckad konsument", "Type": "Book"}, "37": {"Category": "Books", "Subtype": "", "Author": "William E. Boyce, Richard C. DiPrima", "Edition": "", "Relation": "School", "PlaceInHome": "Left Locker - Shelf 2", "Year": "", "Title": "Elementary Differential Equations and Boundary Value Problems", "Type": "Book"}, "36": {"Category": "Books", "Subtype": "", "Author": "ICA BOKF\u00d6RLAG", "Edition": "", "Relation": "Not School", "PlaceInHome": "Left Locker - Shelf 3", "Year": "", "Title": "Rutiga Kokboken", "Type": "Book"}, "35": {"Category": "Books", "Subtype": "", "Author": "A. David Wunsch", "Edition": "", "Relation": "School", "PlaceInHome": "Left Locker - Shelf 2", "Year": "", "Title": "Complex Variables with Applications", "Type": "Book"}, "34": {"Category": "Books", "Subtype": "", "Author": "Allan Pease, B. Wahlstr\u00f6ms", "Edition": "", "Relation": "Not School", "PlaceInHome": "Left Locker - Shelf 3", "Year": "", "Title": "Dina gester avsl\u00f6jar dig - Kroppsspr\u00e5ket - spr\u00e5ket som alla talar utan att s\u00e4ga ett ord", "Type": "Book"}, "33": {"Category": "Books", "Subtype": "", "Author": "Eike Petermann", "Edition": "", "Relation": "School", "PlaceInHome": "Left Locker - Shelf 2", "Year": "", "Title": "Linj\u00e4r geometri och algebra", "Type": "Book"}, "55": {"Category": "Books", "Description": "Kursbok, Oorganisk Kemi, Link\u00f6pings Tekniska H\u00f6gskola", "Author": "Geoff Rayner-Canham, Tina Overton", "Title": "Descriptive Inorganic Chemistry", "Subtype": "", "Edition": "4", "Relation": "School", "PlaceInHome": "Left Locker - Shelf 2", "Type": "Book"}, "32": {"Category": "Books", "Subtype": "", "Author": "Karl-Johan Karlsson", "Edition": "", "Relation": "Not School", "PlaceInHome": "Left Locker - Shelf 3", "Year": "", "Title": "En misst\u00e4nkt liten kanelgiffel", "Type": "Book"}, "57": {"Category": "Books", "Description": "Kursbok, Spanska, don Quijote school of languages, grundniv\u00e5", "Author": "'don Quijote'", "Title": "Vive el espanol", "Subtype": "", "Edition": "3", "Relation": "School", "PlaceInHome": "Left Locker - Shelf 2", "Type": "Book"}, "50": {"Category": "Books", "Description": "Kursbok f\u00f6r matematisk optimering du l\u00e4ste p\u00e5 Link\u00f6pings Tekniska H\u00f6gskola", "Author": "Jan Lundgren, Mikael R\u00f6nnqvist, Peter V\u00e4rbrand", "Title": "Optimeringsl\u00e4ra", "Subtype": "", "Edition": "", "Relation": "School", "PlaceInHome": "Left Locker - Shelf 2", "Type": "Book"}}, "Excess": {"11": {"Category": "Excess", "Relation": "Excess", "Description": "240 ml glas\u00f6gon puts f\u00f6r refill av mindre sprejflaska", "PlaceInHome": "Middle Locker - Box[Lindberg Pastagryta]", "Title": "Lens cleaner"}, "10": {"Category": "Excess", "Relation": "Excess", "Description": "s-bag, dammsugarp\u00e5se", "PlaceInHome": "Middle Locker - Box[Lindberg Pastagryta]", "Title": "Dammsugarp\u00e5se"}, "13": {"Category": "Excess", "Relation": "Excess", "Description": "3x par, Bama, Hygieniska skosulor", "PlaceInHome": "Middle Locker - Box[Lindberg Pastagryta]", "Title": "Hygieniska skosulor"}, "12": {"Category": "Excess", "Relation": "Excess", "Description": "4x par, Kiwi, Hygieniska skosulor", "PlaceInHome": "Middle Locker - Box[Lindberg Pastagryta]", "Title": "Hygieniska skosulor"}, "15": {"Category": "Excess", "Relation": "Excess", "Description": "Iphone 3, krossad display", "PlaceInHome": "Middle Locker - Box[Lindberg Pastagryta]", "Title": "Iphone 3"}, "14": {"Category": "Excess", "Relation": "Excess", "Description": "F\u00f6rpackningen f\u00f6r Time Timer du l\u00e5nade av Habiliteringscenter V\u00e4ster\u00e5s", "PlaceInHome": "Middle Locker - Box[Lindberg Pastagryta]", "Title": "F\u00f6rpackning Time Timer"}, "17": {"Category": "Excess", "Relation": "Kontorsmaterial", "Description": "0,5 mm, Pilot Super Grip, Stiftpenna Svart", "PlaceInHome": "Middle Locker - Skol\\u00e5da", "Title": "Stiftpenna"}, "16": {"Category": "Excess", "Relation": "Excess", "Description": "12x KOH-I-NOOR, Pennor i styrka 8B - 10H", "PlaceInHome": "Middle Locker - Box[Lindberg Pastagryta]", "Title": "Grafit Pennor"}, "19": {"Category": "Excess", "Relation": "Excess", "Description": "2x, Block rutat, whitelines", "PlaceInHome": "Middle Locker - Box[Lindberg Pastagryta]", "Title": "Block Rutat"}, "18": {"Category": "Excess", "Relation": "Kontorsmaterial", "Description": "Paper Mate, Kulspetspenna bl\u00e5tt bl\u00e4ck, bl\u00e5tt handtag", "PlaceInHome": "Middle Locker - Skol\\u00e5da", "Title": "Kulspetspenna"}, "1": {"Category": "Excess", "Relation": "Excess", "Description": "Tandskydd f\u00f6r sparring", "PlaceInHome": "Middle Locker - Box[Lindberg Pastagryta]", "Title": "Tandskydd"}, "0": {"Category": "Excess", "Relation": "Excess", "Description": "ficklampa, beh\u00f6ver 3x AA batterier, not included", "PlaceInHome": "Middle Locker - Box[Lindberg Pastagryta]", "Title": "Ficklampa"}, "3": {"Category": "Excess", "Relation": "Excess", "Description": "M\u00f6bel 'f\u00f6tter' f\u00f6r att skydda golv mot repor, 4x stora 27x sm\u00e5", "PlaceInHome": "Middle Locker - Box[Lindberg Pastagryta]", "Title": "M\u00f6bel f\u00f6tter"}, "2": {"Category": "Excess", "Relation": "Excess", "Description": "2x handleds lindor f\u00f6r sparring", "PlaceInHome": "Middle Locker - Box[Lindberg Pastagryta]", "Title": "Boxning handleds lindor"}, "5": {"Category": "Excess", "Relation": "Excess", "Description": "Kastdrag och krokar i orange l\u00e5da", "PlaceInHome": "Middle Locker - Box[Lindberg Pastagryta]", "Title": "Fiske drag"}, "4": {"Category": "Excess", "Relation": "Excess", "Description": "PowerBall f\u00f6r tr\u00e4ning, r\u00f6d 'start' tr\u00e5d sitter i", "PlaceInHome": "Middle Locker - Box[Lindberg Pastagryta]", "Title": "Power Ball"}, "7": {"Category": "Excess", "Relation": "Excess", "Description": "BILTEMA, 15ml l\u00e5sspray", "PlaceInHome": "Middle Locker - Box[Lindberg Pastagryta]", "Title": "L\u00e5sspray"}, "6": {"Category": "Excess", "Relation": "Excess", "Description": "H\u00e5rddisk med ok\u00e4nt inneh\u00e5ll", "PlaceInHome": "Middle Locker - Box[Lindberg Pastagryta]", "Title": "H\u00e5rddisk"}, "9": {"Category": "Excess", "Relation": "Excess", "Description": "200 ml cleaning gel och mikrofiber-duk f\u00f6r LED+LCD+Plasma", "PlaceInHome": "Middle Locker - Box[Lindberg Pastagryta]", "Title": "Cleaning gel"}, "20": {"Category": "Excess", "Relation": "Excess", "Description": "olander, simglas\u00f6gon, orange glas, i plastficka", "PlaceInHome": "Middle Locker - Box[Lindberg Pastagryta]", "Title": "Simglas\u00f6gon"}, "8": {"Category": "Excess", "Relation": "Excess", "Description": "T\u00e4ndare i form av stor t\u00e4ndsticka, krom med svart topp", "PlaceInHome": "Middle Locker - Box[Lindberg Pastagryta]", "Title": "T\u00e4ndare"}}, "Kort": {"1": {"Category": "Kort", "Relation": "Kort", "Description": "Bokmalen, Bokm\u00e4rke", "PlaceInHome": "Middle Locker - Box[Replay]", "Title": "Bokm\u00e4rke"}, "0": {"Category": "Kort", "Relation": "Kort", "Description": "Europeiska Unionen Sverige Pass, giltigt t.o.m 9 juni 2015", "PlaceInHome": "Middle Locker - Box[Replay]", "Title": "Pass"}, "3": {"Category": "Kort", "Relation": "Kort", "Description": "SF Biobiljett, Giltig t.o.m 2014-08-30", "PlaceInHome": "Middle Locker - Box[Replay]", "Title": "Biobiljett"}, "2": {"Category": "Kort", "Relation": "Kort", "Description": "COOP L\u00e5nerkort 7390, V\u00e4ster\u00e5s Stadsbibliotek kort f\u00f6r automatutskrift, Member24, 3x Kundkort H\u00f6gskolerestauranger AB, Passerkort KTH, Bibliotekskort KTH, Access, KTH Studentk\u00e5r Giltigt 2014-09-30", "PlaceInHome": "Middle Locker - Box[Replay]", "Title": "Div magnetkort"}, "5": {"Category": "Kort", "Relation": "Kort", "Description": "2x h\u00f6gkostnadskort, 1x Stockholm l\u00e4ns landsting, 1x V\u00e4stmanlands l\u00e4ns landsting", "PlaceInHome": "Middle Locker - Box[Replay]", "Title": "H\u00f6gkostnadskort"}, "4": {"Category": "Kort", "Relation": "Kort", "Description": "Div visitkort, namn ej n\u00e4mnda p.g.a integritetssk\u00e4l", "PlaceInHome": "Middle Locker - Box[Replay]", "Title": "Visitkort"}, "6": {"Category": "Kort", "Relation": "Kort", "Description": "Swedbank, bankdosa f\u00f6r internettj\u00e4nster, svart", "PlaceInHome": "Middle Locker - Box[Replay]", "Title": "Bankdosa"}}, "Kitchenware": {"42": {"Category": "Kitchenware", "Relation": "Kitchenware", "Description": "Rosendahl, Sk\u00e5l i glas", "PlaceInHome": "Locker Right Corner", "Title": "Sk\u00e5l"}, "24": {"Category": "Kitchenware", "Relation": "Kitchenware", "Description": "Cookware, rektangul\u00e4r k\u00f6ksform, bl\u00e5 keramik", "PlaceInHome": "Locker Right Corner", "Title": "Form Rektangul\u00e4r"}, "25": {"Category": "Kitchenware", "Relation": "Kitchenware", "Description": "Hammar Plast, k\u00f6kssil, plast transparent", "PlaceInHome": "Locker Right Corner", "Title": "K\u00f6kssil"}, "26": {"Category": "Kitchenware", "Relation": "Kitchenware", "Description": "5x, K\u00f6ksm\u00e5tt 1,0dl, 0,5dl, 15ml, 5ml, 1ml, vit plast i r\u00f6d nyckelknippa", "PlaceInHome": "Locker Right Corner", "Title": "K\u00f6ksm\u00e5tt"}, "27": {"Category": "Kitchenware", "Relation": "Kitchenware", "Description": "7x, K\u00f6ksvampar i olika f\u00e4rger", "PlaceInHome": "Vent Locker Above Stove", "Title": "K\u00f6kssvampar"}, "20": {"Category": "Kitchenware", "Relation": "Kitchenware", "Description": "Potatisskalare, svart handtag", "PlaceInHome": "Top Kitchen Drawer", "Title": "Potatisskalare"}, "21": {"Category": "Kitchenware", "Relation": "Kitchenware", "Description": "IKEA, H\u00e5llare f\u00f6r bestick att placera i l\u00e5da, vit plast", "PlaceInHome": "Top Kitchen Drawer", "Title": "Bestick h\u00e5llare"}, "22": {"Category": "Kitchenware", "Relation": "Kitchenware", "Description": "Kaffem\u00e5tt, 20ml vit plast", "PlaceInHome": "Vent Locker Left - Kaffeburk", "Title": "Kaffem\u00e5tt"}, "23": {"Category": "Kitchenware", "Relation": "Kitchenware", "Description": "Cookware, rund k\u00f6sform, vit keramik", "PlaceInHome": "Locker Right Corner", "Title": "Form Rund"}, "28": {"Category": "Kitchenware", "Relation": "Kitchenware", "Description": "7x, COOP, Disktrasa i olika f\u00e4rger", "PlaceInHome": "Vent Locker Above Stove", "Title": "Disktrasa"}, "29": {"Category": "Kitchenware", "Relation": "Kitchenware", "Description": "Gustafsberg, Sk\u00e5l, svart keramik", "PlaceInHome": "Locker Right Corner", "Title": "Sk\u00e5l"}, "40": {"Category": "Kitchenware", "Relation": "Kitchenware", "Description": "Termos, rostfritt st\u00e5l", "PlaceInHome": "Locker Right Corner", "Title": "Termos"}, "41": {"Category": "Kitchenware", "Relation": "Kitchenware", "Description": "2x, Rosendahl, Kaffekopp -- glas f\u00f6r varma drycker", "PlaceInHome": "Locker Right Corner", "Title": "Kaffekopp glas"}, "1": {"Category": "Kitchenware", "Relation": "Kitchenware", "Description": "4x, H\u00f6gan\u00e4s, Tallrikar djupa gr\u00f6na", "PlaceInHome": "Locker Right Corner", "Title": "Tallrikar djupa"}, "0": {"Category": "Kitchenware", "Relation": "Kitchenware", "Description": "6x, H\u00f6gan\u00e4s, Tallrikar platta gr\u00f6na", "PlaceInHome": "Locker Right Corner", "Title": "Tallrikar platta"}, "3": {"Category": "Kitchenware", "Relation": "Kitchenware", "Description": "4x, Dryckes glas", "PlaceInHome": "Locker Right Corner", "Title": "Glas"}, "2": {"Category": "Kitchenware", "Relation": "Kitchenware", "Description": "4x, H\u00f6gan\u00e4s, Kaffekoppar gr\u00f6na", "PlaceInHome": "Locker Right Corner", "Title": "Kaffekoppar"}, "5": {"Category": "Kitchenware", "Relation": "Kitchenware", "Description": "Gastromax, Visp, Svart h\u00e5rdplast", "PlaceInHome": "Locker Right Corner", "Title": "Visp"}, "4": {"Category": "Kitchenware", "Relation": "Kitchenware", "Description": "Gastromax, Pasta klo, Svart h\u00e5rdplast", "PlaceInHome": "Locker Right Corner", "Title": "Pasta klo"}, "7": {"Category": "Kitchenware", "Relation": "Kitchenware", "Description": "Gastromax, Stekverktyg t\u00e5ng, Svart h\u00e5rdplast", "PlaceInHome": "Locker Right Corner", "Title": "T\u00e5ng"}, "6": {"Category": "Kitchenware", "Relation": "Kitchenware", "Description": "Gastromax, Stekspade, Svart h\u00e5rdplast", "PlaceInHome": "Locker Right Corner", "Title": "Stekspade"}, "9": {"Category": "Kitchenware", "Relation": "Kitchenware", "Description": "Nordiska Plast AB, Literm\u00e5tt, 1L", "PlaceInHome": "Locker Right Corner", "Title": "Literm\u00e5tt"}, "8": {"Category": "Kitchenware", "Relation": "Kitchenware", "Description": "Rivj\u00e4rn, Svenskt rostfritt st\u00e5l", "PlaceInHome": "Locker Right Corner", "Title": "Rivj\u00e4rn"}, "39": {"Category": "Kitchenware", "Relation": "Kitchenware", "Description": "Sax, handtag svart plast", "PlaceInHome": "Top Kitchen Drawer", "Title": "Sax"}, "38": {"Category": "Kitchenware", "Relation": "Kitchenware", "Description": "Bodanova, Glas sk\u00e5l", "PlaceInHome": "Locker Right Corner", "Title": "Glas Sk\u00e5l"}, "11": {"Category": "Kitchenware", "Relation": "Kitchenware", "Description": "Scanpan spectrum, K\u00f6kskniv tandad med slida, helsvart", "PlaceInHome": "Locker Right Corner", "Title": "K\u00f6kskniv tandad"}, "10": {"Category": "Kitchenware", "Relation": "Kitchenware", "Description": "IKEA, K\u00f6kskniv sl\u00e4t, svart handtag, vanadium stainless steel", "PlaceInHome": "Locker Right Corner", "Title": "K\u00f6kskniv sl\u00e4t"}, "13": {"Category": "Kitchenware", "Relation": "Kitchenware", "Description": "Te sil, med underl\u00e4gg f\u00f6r avdroppning, kromf\u00e4rgad", "PlaceInHome": "Locker Right Corner", "Title": "Te sil"}, "12": {"Category": "Kitchenware", "Relation": "Kitchenware", "Description": "Global, sk\u00e4rbr\u00e4da svart, upph\u00e4ngbar", "PlaceInHome": "Locker Right Corner", "Title": "Sk\u00e4rbr\u00e4da"}, "15": {"Category": "Kitchenware", "Relation": "Kitchenware", "Description": "11x, Gaffel bestick, Krom", "PlaceInHome": "Top Kitchen Drawer", "Title": "Bestick Gaffel"}, "14": {"Category": "Kitchenware", "Relation": "Kitchenware", "Description": "Boda Nova, St\u00f6rre skopa och 'gaffel' f\u00f6r servering av sallad", "PlaceInHome": "Locker Right Corner", "Title": "Sallads Slevar"}, "17": {"Category": "Kitchenware", "Relation": "Kitchenware", "Description": "13x, Sked bestick, Krom", "PlaceInHome": "Top Kitchen Drawer", "Title": "Bestick Sked"}, "16": {"Category": "Kitchenware", "Relation": "Kitchenware", "Description": "12x, Kniv bestick, Krom", "PlaceInHome": "Top Kitchen Drawer", "Title": "Bestick Kniv"}, "19": {"Category": "Kitchenware", "Relation": "Kitchenware", "Description": "Konserv\u00f6ppnare, tjockt svart handtag", "PlaceInHome": "Top Kitchen Drawer", "Title": "Konserv\u00f6ppnare"}, "18": {"Category": "Kitchenware", "Relation": "Kitchenware", "Description": "12x, Tesked bestick, Krom", "PlaceInHome": "Top Kitchen Drawer", "Title": "Bestick Tesked"}, "31": {"Category": "Kitchenware", "Relation": "Kitchenware", "Description": "Kastrull st\u00f6rre f\u00f6r pasta, samt formanpassad vattenavslag, samt lock", "PlaceInHome": "Locker Left Lower", "Title": "Kastrull Pasta"}, "30": {"Category": "Kitchenware", "Relation": "Kitchenware", "Description": "IKEA, Kastrull mindre, svart handtag", "PlaceInHome": "Locker Left Lower", "Title": "Kastrull mindre"}, "37": {"Category": "Kitchenware", "Relation": "Kitchenware", "Description": "2x, Sm\u00f6rkniv, svart h\u00e5rdplast", "PlaceInHome": "Top Kitchen Drawer", "Title": "Sm\u00f6rkniv"}, "36": {"Category": "Kitchenware", "Relation": "Kitchenware", "Description": "IKEA, Stekpanna i teflon", "PlaceInHome": "Locker Left Lower", "Title": "Stekpanna Teflon"}, "35": {"Category": "Kitchenware", "Relation": "Kitchenware", "Description": "IKEA, St\u00f6rre kastrull samt transparant lock", "PlaceInHome": "Locker Left Lower", "Title": "Kastrull St\u00f6rre"}, "34": {"Category": "Kitchenware", "Relation": "Kitchenware", "Description": "SmartShake, shaker f\u00f6r tr\u00e4ningspulver, 4 delar, bottom, body, top, sil svart", "PlaceInHome": "Locker Right Corner", "Title": "Shaker"}, "33": {"Category": "Kitchenware", "Relation": "Kitchenware", "Description": "3x plastbunke vit, 1,5 L, 2,0 L, 2,5 L", "PlaceInHome": "Locker Right Corner", "Title": "Plastbunke"}, "32": {"Category": "Kitchenware", "Relation": "Kitchenware", "Description": "3x, karrot underl\u00e4gg", "PlaceInHome": "Locker Left Lower", "Title": "Karrot underl\u00e4gg"}}, "Electrics": {"11": {"Category": "Electrics", "Relation": "Electronics", "Description": "N\u00e4tverkskabel, ~2m gr\u00e5", "PlaceInHome": "Middle Locker - Box[EL] - Brown box", "Title": "N\u00e4tverkskabel"}, "10": {"Category": "Electrics", "Relation": "Electrics", "Description": "Optisk ljud kabel f\u00f6r hemmabio f\u00f6rst\u00e4rkare", "PlaceInHome": "Middle Locker - Skol\u00e5da", "Title": "Optisk kabel"}, "13": {"Category": "Electrics", "Relation": "Electrics", "Description": "Ljud adapter fr\u00e5n 2,5 hona till 3,5 hane", "PlaceInHome": "Middle Locker - Skol\u00e5da", "Title": "Adapter 2,5mm till 3,5mm"}, "12": {"Category": "Electrics", "Relation": "Electrics", "Description": "Macbook pro laddare fr\u00e5n transformer till v\u00e4gguttag 1m sladd", "PlaceInHome": "Middle Locker - Skol\u00e5da", "Title": "Macbook pro Apple laddare"}, "15": {"Category": "Electrics", "Relation": "Electrics", "Description": "Macbook pro adapter fr\u00e5n mini-displayport till HDMI", "PlaceInHome": "Middle Locker - Skol\u00e5da", "Title": "Adapter Apple mini-displayport till HDMI"}, "14": {"Category": "Electrics", "Relation": "Electrics", "Description": "USB-splitter till 4 extra uttag", "PlaceInHome": "Middle Locker - Skol\u00e5da", "Title": "USB splitter"}, "17": {"Category": "Electrics", "Relation": "Electrics", "Description": "IKEA, Halogen lampa spets i ask, 170 lm, 18W, 2000h, E14", "PlaceInHome": "Middle Locker - Skol\\u00e5da", "Title": "Halogen lampa spets"}, "16": {"Category": "Electrics", "Relation": "Electrics", "Description": "Apple USB hane till hona av ok\u00e4nt format", "PlaceInHome": "Middle Locker - Skol\u00e5da", "Title": "Adapter USB till ok\u00e4nt format"}, "1": {"Category": "Electrics", "Relation": "Electrics", "Description": "Svart iPhone laddare", "PlaceInHome": "Middle Locker - Skol\u00e5da", "Title": "Laddare iPhone 4S"}, "0": {"Category": "Electrics", "Relation": "Electrics", "Description": "Elkedjan, 2m dimmer 10-60W f\u00f6r gl\u00f6dljus, Halogen, Elektronisk trafo", "PlaceInHome": "Middle Locker - Skol\u00e5da", "Title": "Sladdimmer"}, "3": {"Category": "Electrics", "Relation": "Electrics", "Description": "Elkedjan, svart eltejp, l\u00e4gsta p\u00e5lindningstemperatur -10C ", "PlaceInHome": "Middle Locker - Skol\u00e5da", "Title": "Eltejp svart"}, "2": {"Category": "Electrics", "Relation": "Electrics", "Description": "Svart iPhone laddare", "PlaceInHome": "Middle Locker - Skol\u00e5da", "Title": "Laddare iPhone 4S"}, "5": {"Category": "Electrics", "Relation": "Electrics", "Description": "IKEA, 2x l\u00e5genergilampa 'tre minir\u00f6rs'-formad, 11W 600Lm", "PlaceInHome": "Middle Locker - Skol\u00e5da", "Title": "L\u00e5genergilampa 600Lm"}, "4": {"Category": "Electrics", "Relation": "Electrics", "Description": "Elkedjan, 2st kopplingslister, 2,5mm2", "PlaceInHome": "Middle Locker - Skol\u00e5da", "Title": "Kopplingslist"}, "7": {"Category": "Electrics", "Relation": "Electrics", "Description": "IKEA, l\u00e5genergilampa spets-top-formad, 7W 315Lm", "PlaceInHome": "Middle Locker - Skol\u00e5da", "Title": "L\u00e5genergilampa 315Lm"}, "6": {"Category": "Electrics", "Relation": "Electrics", "Description": "IKEA, l\u00e5genergilampa sf\u00e4r-formad, 11W 570Lm", "PlaceInHome": "Middle Locker - Skol\u00e5da", "Title": "L\u00e5genergilampa 570Lm"}, "9": {"Category": "Electrics", "Relation": "Electrics", "Description": "gl\u00f6dlampa spets-top-formad, 40W", "PlaceInHome": "Middle Locker - Skol\u00e5da", "Title": "Gl\u00f6dlampa spets"}, "8": {"Category": "Electrics", "Relation": "Electrics", "Description": "2x gl\u00f6dlampa sf\u00e4r-formad, 40W", "PlaceInHome": "Middle Locker - Skol\u00e5da", "Title": "Gl\u00f6dlampa sf\u00e4r"}}}
+{
+    "Books": {
+        "0": {
+            "Author": "Stuart Russel, Peter Norvig", 
+            "Category": "Books", 
+            "Edition": "3", 
+            "PlaceInHome": "Left Locker - Shelf 2", 
+            "Relation": "School", 
+            "Title": "Artificial Intelligence - A Modern Approach", 
+            "Type": "Book"
+        }, 
+        "1": {
+            "Author": "Gunnar Sparr, Annika Sparr", 
+            "Category": "Books", 
+            "Edition": "", 
+            "PlaceInHome": "Left Locker - Shelf 2", 
+            "Relation": "School", 
+            "Title": "Kontinuerliga System", 
+            "Type": "Book"
+        }, 
+        "10": {
+            "Author": "", 
+            "Category": "Books", 
+            "Edition": "", 
+            "PlaceInHome": "Left Locker - Shelf 2", 
+            "Relation": "School", 
+            "Title": "EL2450 - Excercises", 
+            "Type": "Hafte", 
+            "Year": ""
+        }, 
+        "11": {
+            "Author": "", 
+            "Category": "Books", 
+            "Edition": "", 
+            "PlaceInHome": "Left Locker - Shelf 2", 
+            "Relation": "School", 
+            "Title": "EL2450 - Lecture Slides and Reading Material", 
+            "Type": "Hafte", 
+            "Year": ""
+        }, 
+        "12": {
+            "Author": "David J. Griffiths", 
+            "Category": "Books", 
+            "Edition": "Third", 
+            "PlaceInHome": "Left Locker - Shelf 2", 
+            "Relation": "School", 
+            "Title": "Introduction to Electrodynamics", 
+            "Type": "Book", 
+            "Year": ""
+        }, 
+        "13": {
+            "Author": "Randy Harris", 
+            "Category": "Books", 
+            "Edition": "2", 
+            "PlaceInHome": "Left Locker - Shelf 2", 
+            "Relation": "School", 
+            "Title": "Modern Physics", 
+            "Type": "Book", 
+            "Year": ""
+        }, 
+        "14": {
+            "Author": "Randy Harris", 
+            "Category": "Books", 
+            "Edition": "8", 
+            "PlaceInHome": "Left Locker - Shelf 2", 
+            "Relation": "School", 
+            "Title": "Introduction to Solid State Physics", 
+            "Type": "Book", 
+            "Year": ""
+        }, 
+        "15": {
+            "Author": "Charles Kittel", 
+            "Category": "Books", 
+            "Edition": "", 
+            "PlaceInHome": "Left Locker - Shelf 2", 
+            "Relation": "School", 
+            "Title": "Introduction to Solid State Physics", 
+            "Type": "Book", 
+            "Year": ""
+        }, 
+        "16": {
+            "Author": "Young and Freedman", 
+            "Category": "Books", 
+            "Edition": "12", 
+            "PlaceInHome": "Left Locker - Shelf 2", 
+            "Relation": "School", 
+            "Title": "University Physics", 
+            "Type": "Book", 
+            "Year": ""
+        }, 
+        "17": {
+            "Author": "Anders Vretblad", 
+            "Category": "Books", 
+            "Edition": "", 
+            "PlaceInHome": "Left Locker - Shelf 2", 
+            "Relation": "School", 
+            "Title": "Fourier Analysis and its Applications", 
+            "Type": "Book", 
+            "Year": ""
+        }, 
+        "18": {
+            "Author": "Jamie Whyte", 
+            "Category": "Books", 
+            "Edition": "", 
+            "PlaceInHome": "Left Locker - Shelf 3", 
+            "Relation": "Not School", 
+            "Title": "Crimes against logics", 
+            "Type": "Book", 
+            "Year": ""
+        }, 
+        "19": {
+            "Author": "Thomas Bodstr\u00f6m", 
+            "Category": "Books", 
+            "Edition": "", 
+            "PlaceInHome": "Left Locker - Shelf 3", 
+            "Relation": "Not School", 
+            "Title": "Inifr\u00e5n", 
+            "Type": "Book", 
+            "Year": ""
+        }, 
+        "2": {
+            "Author": "Stephen J. Blundell, Katherine M. Blundell", 
+            "Category": "Books", 
+            "Edition": "2", 
+            "PlaceInHome": "Left Locker - Shelf 2", 
+            "Relation": "School", 
+            "Title": "Concepts in Thermal Physics", 
+            "Type": "Book"
+        }, 
+        "20": {
+            "Author": "Susan Cain", 
+            "Category": "Books", 
+            "Edition": "", 
+            "PlaceInHome": "Left Locker - Shelf 3", 
+            "Relation": "Not School", 
+            "Title": "Quiet", 
+            "Type": "Book", 
+            "Year": ""
+        }, 
+        "21": {
+            "Author": "fr\u00e5ga Kjell", 
+            "Category": "Books", 
+            "Edition": "", 
+            "PlaceInHome": "Left Locker - Shelf 3", 
+            "Relation": "Not School", 
+            "Title": "Hur funkar det?", 
+            "Type": "Book", 
+            "Year": ""
+        }, 
+        "22": {
+            "Author": "David Sklansky, Mason Malmuth", 
+            "Category": "Books", 
+            "Edition": "2000", 
+            "PlaceInHome": "Left Locker - Shelf 3", 
+            "Relation": "Not School", 
+            "Title": "Hold'em Poker: For Advanced Players", 
+            "Type": "Book", 
+            "Year": ""
+        }, 
+        "23": {
+            "Author": "Ian Taylor, Matthew Hilger", 
+            "Category": "Books", 
+            "Edition": "", 
+            "PlaceInHome": "Left Locker - Shelf 3", 
+            "Relation": "Not School", 
+            "Title": "The Poker Mindset", 
+            "Type": "Book", 
+            "Year": ""
+        }, 
+        "24": {
+            "Author": "Phil Gordon", 
+            "Category": "Books", 
+            "Edition": "", 
+            "PlaceInHome": "Left Locker - Shelf 3", 
+            "Relation": "Not School", 
+            "Title": "PGs Little Blue Book", 
+            "Type": "Book", 
+            "Year": ""
+        }, 
+        "25": {
+            "Author": "Phil Gordon", 
+            "Category": "Books", 
+            "Edition": "", 
+            "PlaceInHome": "Left Locker - Shelf 3", 
+            "Relation": "Not School", 
+            "Title": "PGs Little Green Book", 
+            "Type": "Book", 
+            "Year": ""
+        }, 
+        "26": {
+            "Author": "Klas Eklund", 
+            "Category": "Books", 
+            "Edition": "", 
+            "PlaceInHome": "Left Locker - Shelf 3", 
+            "Relation": "Not School", 
+            "Title": "V\u00e5r Ekonomi", 
+            "Type": "Book", 
+            "Year": ""
+        }, 
+        "27": {
+            "Author": "Naomi Oreskes, Erik M. Conway", 
+            "Category": "Books", 
+            "Edition": "", 
+            "PlaceInHome": "Left Locker - Shelf 3", 
+            "Relation": "Not School", 
+            "Title": "Merchants of Doubt", 
+            "Type": "Book", 
+            "Year": ""
+        }, 
+        "28": {
+            "Author": "", 
+            "Category": "Books", 
+            "Edition": "", 
+            "PlaceInHome": "Left Locker - Shelf 3", 
+            "Relation": "Not School", 
+            "Title": "The Psychology book - Bid Ideas simply explained", 
+            "Type": "Book", 
+            "Year": ""
+        }, 
+        "29": {
+            "Author": "Gunnar Blom, Jan Enger, Gunnar Englund, Jan Grandell, Lars Holst", 
+            "Category": "Books", 
+            "Description": "2x, Kursbok i sannoliketsl\u00e4ra p\u00e5 KTH och Link\u00f6pings Tekniska H\u00f6gskola, d\u00e4rav antalet", 
+            "Edition": "", 
+            "PlaceInHome": "Left Locker - Shelf 2", 
+            "Relation": "School", 
+            "Title": "Sannolikhetsteori och statistikteori med till\u00e4mpningar", 
+            "Type": "Book", 
+            "Year": ""
+        }, 
+        "3": {
+            "Author": "Stephen Marsland", 
+            "Category": "Books", 
+            "Edition": "", 
+            "PlaceInHome": "Left Locker - Shelf 2", 
+            "Relation": "School", 
+            "Title": "Machine learning - An Algorithmic Perspective", 
+            "Type": "Book"
+        }, 
+        "30": {
+            "Author": "\u00c5sa Avdic", 
+            "Category": "Books", 
+            "Edition": "", 
+            "PlaceInHome": "Left Locker - Shelf 3", 
+            "Relation": "Not School", 
+            "Subtype": "Pocket", 
+            "Title": "R\u00e4tt \u00e5t dig - S\u00e5 blir du en lyckad konsument", 
+            "Type": "Book", 
+            "Year": ""
+        }, 
+        "31": {
+            "Author": "Dan Ariely", 
+            "Category": "Books", 
+            "Edition": "", 
+            "PlaceInHome": "Left Locker - Shelf 3", 
+            "Relation": "Not School", 
+            "Subtype": "Pocket", 
+            "Title": "Predictably Irrational", 
+            "Type": "Book", 
+            "Year": ""
+        }, 
+        "32": {
+            "Author": "Karl-Johan Karlsson", 
+            "Category": "Books", 
+            "Edition": "", 
+            "PlaceInHome": "Left Locker - Shelf 3", 
+            "Relation": "Not School", 
+            "Subtype": "", 
+            "Title": "En misst\u00e4nkt liten kanelgiffel", 
+            "Type": "Book", 
+            "Year": ""
+        }, 
+        "33": {
+            "Author": "Eike Petermann", 
+            "Category": "Books", 
+            "Edition": "", 
+            "PlaceInHome": "Left Locker - Shelf 2", 
+            "Relation": "School", 
+            "Subtype": "", 
+            "Title": "Linj\u00e4r geometri och algebra", 
+            "Type": "Book", 
+            "Year": ""
+        }, 
+        "34": {
+            "Author": "Allan Pease, B. Wahlstr\u00f6ms", 
+            "Category": "Books", 
+            "Edition": "", 
+            "PlaceInHome": "Left Locker - Shelf 3", 
+            "Relation": "Not School", 
+            "Subtype": "", 
+            "Title": "Dina gester avsl\u00f6jar dig - Kroppsspr\u00e5ket - spr\u00e5ket som alla talar utan att s\u00e4ga ett ord", 
+            "Type": "Book", 
+            "Year": ""
+        }, 
+        "35": {
+            "Author": "A. David Wunsch", 
+            "Category": "Books", 
+            "Edition": "", 
+            "PlaceInHome": "Left Locker - Shelf 2", 
+            "Relation": "School", 
+            "Subtype": "", 
+            "Title": "Complex Variables with Applications", 
+            "Type": "Book", 
+            "Year": ""
+        }, 
+        "36": {
+            "Author": "ICA BOKF\u00d6RLAG", 
+            "Category": "Books", 
+            "Edition": "", 
+            "PlaceInHome": "Left Locker - Shelf 3", 
+            "Relation": "Not School", 
+            "Subtype": "", 
+            "Title": "Rutiga Kokboken", 
+            "Type": "Book", 
+            "Year": ""
+        }, 
+        "37": {
+            "Author": "William E. Boyce, Richard C. DiPrima", 
+            "Category": "Books", 
+            "Edition": "", 
+            "PlaceInHome": "Left Locker - Shelf 2", 
+            "Relation": "School", 
+            "Subtype": "", 
+            "Title": "Elementary Differential Equations and Boundary Value Problems", 
+            "Type": "Book", 
+            "Year": ""
+        }, 
+        "38": {
+            "Author": "Lars-Eric Bj\u00f6rk, Hans Brolin", 
+            "Category": "Books", 
+            "Edition": "", 
+            "PlaceInHome": "Left Locker - Shelf 2", 
+            "Relation": "School", 
+            "Subtype": "", 
+            "Title": "Matematik 3000 - Kurs C och D", 
+            "Type": "Book", 
+            "Year": ""
+        }, 
+        "39": {
+            "Author": "\u00d6sten Rapp", 
+            "Category": "Books", 
+            "Edition": "2", 
+            "PlaceInHome": "Left Locker - Shelf 2", 
+            "Relation": "School", 
+            "Subtype": "", 
+            "Title": "100 l\u00f6sta problem i fasta tillst\u00e5ndets fysik", 
+            "Type": "Hafte", 
+            "Year": "2011"
+        }, 
+        "4": {
+            "Author": "Arne Persson, Lars-Christer B\u00f6iers", 
+            "Category": "Books", 
+            "Edition": "", 
+            "PlaceInHome": "Left Locker - Shelf 2", 
+            "Relation": "School", 
+            "Title": "Analys i en variabel", 
+            "Type": "Book"
+        }, 
+        "40": {
+            "Author": "Anders Ramgard", 
+            "Category": "Books", 
+            "Edition": "3", 
+            "PlaceInHome": "Left Locker - Shelf 2", 
+            "Relation": "School", 
+            "Subtype": "", 
+            "Title": "Vektor-Analys", 
+            "Type": "Hafte", 
+            "Year": ""
+        }, 
+        "41": {
+            "Author": "P.C. Matthews", 
+            "Category": "Books", 
+            "Edition": "", 
+            "PlaceInHome": "Left Locker - Shelf 2", 
+            "Relation": "School", 
+            "Subtype": "", 
+            "Title": "Vector Calculus", 
+            "Type": "Book", 
+            "Year": ""
+        }, 
+        "42": {
+            "Author": "Institutionen f\u00f6r h\u00e5llfasthetsl\u00e4ra KTH", 
+            "Category": "Books", 
+            "Edition": "", 
+            "PlaceInHome": "Left Locker - Shelf 2", 
+            "Relation": "School", 
+            "Subtype": "", 
+            "Title": "Exempelsamling i H\u00e5llfasthetsl\u00e4ra", 
+            "Type": "Hafte", 
+            "Year": ""
+        }, 
+        "43": {
+            "Author": "Institutionen f\u00f6r h\u00e5llfasthetsl\u00e4ra KTH", 
+            "Category": "Books", 
+            "Edition": "", 
+            "PlaceInHome": "Left Locker - Shelf 2", 
+            "Relation": "School", 
+            "Subtype": "", 
+            "Title": "H\u00e5llfasthetsl\u00e4ra - Handbok och formelsamling", 
+            "Type": "Hafte", 
+            "Year": ""
+        }, 
+        "44": {
+            "Author": "Hans Lundh", 
+            "Category": "Books", 
+            "Edition": "", 
+            "PlaceInHome": "Left Locker - Shelf 2", 
+            "Relation": "School", 
+            "Subtype": "", 
+            "Title": "H\u00e5llfasthetsl\u00e4ra - Grundl\u00e4ggande h\u00e5llfasthetsl\u00e4ra", 
+            "Type": "Book", 
+            "Year": ""
+        }, 
+        "45": {
+            "Author": "Gunnar Sparr, Annika Sparr", 
+            "Category": "Books", 
+            "Edition": "", 
+            "PlaceInHome": "Left Locker - Shelf 2", 
+            "Relation": "School", 
+            "Subtype": "", 
+            "Title": "Kontinuerliga system - \u00f6vningsbok", 
+            "Type": "Book", 
+            "Year": ""
+        }, 
+        "46": {
+            "Author": "Nicholas Apazidis", 
+            "Category": "Books", 
+            "Edition": "", 
+            "PlaceInHome": "Left Locker - Shelf 2", 
+            "Relation": "School", 
+            "Subtype": "", 
+            "Title": "Mekanik - Statik och partikeldynamik", 
+            "Type": "Book", 
+            "Year": ""
+        }, 
+        "47": {
+            "Author": "Nicholas Apazidis", 
+            "Category": "Books", 
+            "Edition": "", 
+            "PlaceInHome": "Left Locker - Shelf 2", 
+            "Relation": "School", 
+            "Subtype": "", 
+            "Title": "Rigid body and analytical mechanics", 
+            "Type": "Book", 
+            "Year": ""
+        }, 
+        "48": {
+            "Author": "Zumdahl", 
+            "Category": "Books", 
+            "Description": "Kursbok, kemi Link\u00f6pings Tekniska H\u00f6gskola", 
+            "Edition": "7", 
+            "PlaceInHome": "Left Locker - Shelf 2", 
+            "Relation": "School", 
+            "Subtype": "", 
+            "Title": "Chemistry", 
+            "Type": "Book"
+        }, 
+        "49": {
+            "Author": "Sveriges Trafikskolors Riksf\u00f6rbund", 
+            "Category": "Books", 
+            "Description": "Kursbok, Motorcykel K\u00f6rtkort", 
+            "Edition": "", 
+            "PlaceInHome": "Left Locker - Shelf 2", 
+            "Relation": "School", 
+            "Subtype": "", 
+            "Title": "MC-boken", 
+            "Type": "Book"
+        }, 
+        "5": {
+            "Author": "Arne Persson, Lars-Christer B\u00f6iers", 
+            "Category": "Books", 
+            "Edition": "", 
+            "PlaceInHome": "Left Locker - Shelf 2", 
+            "Relation": "School", 
+            "Title": "Analys i flera variabler", 
+            "Type": "Book"
+        }, 
+        "50": {
+            "Author": "Jan Lundgren, Mikael R\u00f6nnqvist, Peter V\u00e4rbrand", 
+            "Category": "Books", 
+            "Description": "Kursbok f\u00f6r matematisk optimering du l\u00e4ste p\u00e5 Link\u00f6pings Tekniska H\u00f6gskola", 
+            "Edition": "", 
+            "PlaceInHome": "Left Locker - Shelf 2", 
+            "Relation": "School", 
+            "Subtype": "", 
+            "Title": "Optimeringsl\u00e4ra", 
+            "Type": "Book"
+        }, 
+        "51": {
+            "Author": "Eike Petermann", 
+            "Category": "Books", 
+            "Description": "Avhandlar m\u00f6jligen ber\u00e4kningsteknik, information otillr\u00e4cklig", 
+            "Edition": "", 
+            "PlaceInHome": "Left Locker - Shelf 2", 
+            "Relation": "School", 
+            "Subtype": "", 
+            "Title": "Analytiska metoder I", 
+            "Type": "Book"
+        }, 
+        "52": {
+            "Author": "Anders Falkne, Bronislaw Krakus", 
+            "Category": "Books", 
+            "Description": "\u00d6vningsbok till Analytiska metoder I", 
+            "Edition": "", 
+            "PlaceInHome": "Left Locker - Shelf 2", 
+            "Relation": "School", 
+            "Subtype": "", 
+            "Title": "Analytiska metoder II", 
+            "Type": "Book"
+        }, 
+        "53": {
+            "Author": "Olof Beckman, G\u00f6ran Grimvall, Bengt Kj\u00f6llerstr\u00f6m, Tage Sundstr\u00f6m", 
+            "Category": "Books", 
+            "Description": "Kursbok, Termodynamik 2009-2010 KTH, unders\u00f6k detta f\u00f6r du har inga po\u00e4ng i den kursen", 
+            "Edition": "", 
+            "PlaceInHome": "Left Locker - Shelf 2", 
+            "Relation": "School", 
+            "Subtype": "", 
+            "Title": "Energil\u00e4ra", 
+            "Type": "Book"
+        }, 
+        "54": {
+            "Author": "Stephen Baker", 
+            "Category": "Books", 
+            "Description": "Handlar om googles datainsamling", 
+            "Edition": "", 
+            "PlaceInHome": "Left Locker - Shelf 2", 
+            "Relation": "Not School", 
+            "Subtype": "", 
+            "Title": "the NUMERATI", 
+            "Type": "Book"
+        }, 
+        "55": {
+            "Author": "Geoff Rayner-Canham, Tina Overton", 
+            "Category": "Books", 
+            "Description": "Kursbok, Oorganisk Kemi, Link\u00f6pings Tekniska H\u00f6gskola", 
+            "Edition": "4", 
+            "PlaceInHome": "Left Locker - Shelf 2", 
+            "Relation": "School", 
+            "Subtype": "", 
+            "Title": "Descriptive Inorganic Chemistry", 
+            "Type": "Book"
+        }, 
+        "56": {
+            "Author": "Douglas Mooney, Randall Swift", 
+            "Category": "Books", 
+            "Description": "Kursbok, Matematiska modeller, Link\u00f6pings Tekniska H\u00f6gskola", 
+            "Edition": "", 
+            "PlaceInHome": "Left Locker - Shelf 2", 
+            "Relation": "School", 
+            "Subtype": "", 
+            "Title": "A course in mathematical modeling", 
+            "Type": "Book"
+        }, 
+        "57": {
+            "Author": "'don Quijote'", 
+            "Category": "Books", 
+            "Description": "Kursbok, Spanska, don Quijote school of languages, grundniv\u00e5", 
+            "Edition": "3", 
+            "PlaceInHome": "Left Locker - Shelf 2", 
+            "Relation": "School", 
+            "Subtype": "", 
+            "Title": "Vive el espanol", 
+            "Type": "Book"
+        }, 
+        "58": {
+            "Author": "'don Quijote'", 
+            "Category": "Books", 
+            "Description": "Kursbok, Spanska, don Quijote school of languages, grundniv\u00e5", 
+            "Edition": "3", 
+            "PlaceInHome": "Left Locker - Shelf 2", 
+            "Relation": "School", 
+            "Subtype": "", 
+            "Title": "Vive el espanol B1", 
+            "Type": "Book"
+        }, 
+        "59": {
+            "Author": "James Stewart", 
+            "Category": "Books", 
+            "Description": "L\u00e5nad av Mattias Kruger borttappad, ink\u00f6pt som ers\u00e4ttning och kvar i min \u00e4go efter original \u00e5terfunnits", 
+            "Edition": "", 
+            "PlaceInHome": "Left Locker - Shelf 2", 
+            "Relation": "School", 
+            "Subtype": "", 
+            "Title": "Calculus - Early Transcendentals", 
+            "Type": "Book"
+        }, 
+        "6": {
+            "Author": "Arild J\u00e4gerskogh", 
+            "Category": "Books", 
+            "Edition": "", 
+            "PlaceInHome": "Left Locker - Shelf 2", 
+            "Relation": "School", 
+            "Title": "M\u00e4nniskan som recipient", 
+            "Type": "Hafte", 
+            "Year": "2012"
+        }, 
+        "7": {
+            "Author": "Vasilios Agapios", 
+            "Category": "Books", 
+            "Edition": "", 
+            "Notes": "Phone to Author: 076-2953253", 
+            "PlaceInHome": "Left Locker - Shelf 2", 
+            "Relation": "School", 
+            "Title": "L\u00f6sningar till uppgifterna i 'Fourier Analysis and its Applications' (Vretblad)", 
+            "Type": "Hafte", 
+            "Year": ""
+        }, 
+        "8": {
+            "Author": "Torkel Glad, Lennart Ljung", 
+            "Category": "Books", 
+            "Edition": "", 
+            "PlaceInHome": "Left Locker - Shelf 2", 
+            "Relation": "School", 
+            "Title": "ReglerTeknik - grundl\u00e4ggande teori", 
+            "Type": "Book", 
+            "Year": ""
+        }, 
+        "9": {
+            "Author": "", 
+            "Category": "Books", 
+            "Edition": "", 
+            "PlaceInHome": "Left Locker - Shelf 2", 
+            "Relation": "School", 
+            "Title": "BETA", 
+            "Type": "Book", 
+            "Year": ""
+        }
+    }, 
+    "Borrowed": {
+        "0": {
+            "Category": "Borrowed", 
+            "Title": "Svenska skrivregler[Bok]", 
+            "Type": "Book", 
+            "from": "Fredrik Haverklint", 
+            "info": {
+                "Author": "spr\u00e5kr\u00e5det", 
+                "Title": "Svenska skrivregler"
+            }
+        }, 
+        "1": {
+            "Category": "Borrowed", 
+            "Title": "Don't make me think[Bok]", 
+            "Type": "Book", 
+            "from": "John Roos", 
+            "info": {
+                "Author": "Steve Krug", 
+                "Edition": "2", 
+                "Title": "Don't make me think"
+            }
+        }, 
+        "10": {
+            "Category": "Borrowed", 
+            "Description": "Wacom, Ritplatta av model PTZ-631W, samt penna samt pennh\u00e5llare", 
+            "PlaceInHome": "Right Locker", 
+            "Relation": "Computer", 
+            "Title": "Wacom Tablet", 
+            "from": "Niklas Frisk"
+        }, 
+        "2": {
+            "Category": "Borrowed", 
+            "Title": "Javascript for Web Developers[Bok]", 
+            "Type": "Book", 
+            "from": "Anton Andersson", 
+            "info": {
+                "Author": "Nicholas C. zakas", 
+                "Edition": "", 
+                "Title": "Javascript for Web Developers"
+            }
+        }, 
+        "3": {
+            "Category": "Borrowed", 
+            "Title": "Tricks of the mind[Bok]", 
+            "Type": "Book", 
+            "from": "Rasmus H\u00f6rstedt", 
+            "info": {
+                "Author": "Derren Brown", 
+                "Edition": "", 
+                "Title": "Tricks of the mind"
+            }
+        }, 
+        "4": {
+            "Category": "Borrowed", 
+            "Title": "XHTML & CSS[Bok]", 
+            "Type": "Book", 
+            "from": "John Roos", 
+            "info": {
+                "Author": "Partick Griffiths", 
+                "Edition": "", 
+                "Title": "XHTML & CSS"
+            }
+        }, 
+        "5": {
+            "Category": "Borrowed", 
+            "Title": "Flash Mobile Development[Bok]", 
+            "Type": "Book", 
+            "from": "Lennart Roos(?)", 
+            "info": {
+                "Author": "Richard Wagner", 
+                "Edition": "", 
+                "Title": "Flash Mobile Development"
+            }
+        }, 
+        "6": {
+            "Category": "Borrowed", 
+            "Title": "Flash CS3 Proffessional - ADVANCED[Bok]", 
+            "Type": "Book", 
+            "from": "Lennart Roos(?)", 
+            "info": {
+                "Author": "Russel Chun", 
+                "Edition": "", 
+                "Title": "Flash CS3 Proffessional - ADVANCED"
+            }
+        }, 
+        "7": {
+            "Category": "Borrowed", 
+            "Title": "Discrete Mathematics[Bok]", 
+            "Type": "Book", 
+            "from": "John Roos", 
+            "info": {
+                "Author": "Normal L. Biggs", 
+                "Edition": "2", 
+                "Title": "Discrete Mathematics"
+            }
+        }, 
+        "8": {
+            "Category": "Borrowed", 
+            "Title": "\u00e5ngest[Bok]", 
+            "Type": "Book", 
+            "from": "Marianne Fristedt-Roos", 
+            "info": {
+                "Author": "Christer L. Nordlund", 
+                "Edition": "4", 
+                "Title": "\u00e5ngest"
+            }
+        }, 
+        "9": {
+            "Category": "Borrowed", 
+            "Title": "Grafisk Kokbok[Bok]", 
+            "Type": "Book", 
+            "from": "John Roos", 
+            "info": {
+                "Author": "Kaj Johansson, Peter Lundberg, Robert Ryberg", 
+                "Edition": "2", 
+                "Title": "Grafisk Kokbok 2.0"
+            }
+        }
+    }, 
+    "Cleaning": {
+        "0": {
+            "Category": "Cleaning", 
+            "Description": "X-tra, Sk\u00f6ljmedel 2 Liter", 
+            "PlaceInHome": "On Top Of Locker - Box[Last To Go]", 
+            "Relation": "Cleaning", 
+            "Title": "Sk\u00f6ljmedel"
+        }, 
+        "1": {
+            "Category": "Cleaning", 
+            "Description": "Jif - Cream, k\u00f6ksreng\u00f6ringsmedel f\u00f6r kakel och krom, flytande", 
+            "PlaceInHome": "On Top Of Locker - Box[Last To Go]", 
+            "Relation": "Cleaning", 
+            "Title": "K\u00f6ksreng\u00f6ringsmedel"
+        }, 
+        "2": {
+            "Category": "Cleaning", 
+            "Description": "via, tv\u00e4ttmedel, color", 
+            "PlaceInHome": "On Top Of Locker - Box[Last To Go]", 
+            "Relation": "Cleaning", 
+            "Title": "Tv\u00e4ttmedel"
+        }, 
+        "3": {
+            "Category": "Cleaning", 
+            "Description": "Grumme - Gul S\u00e5pa, allreng\u00f6ringsmedel, biologiskt nedbrytbart - naturligt", 
+            "PlaceInHome": "On Top Of Locker - Box[Last To Go]", 
+            "Relation": "Cleaning", 
+            "Title": "Gul S\u00e5pa"
+        }
+    }, 
+    "Electrics": {
+        "0": {
+            "Category": "Electrics", 
+            "Description": "Elkedjan, 2m dimmer 10-60W f\u00f6r gl\u00f6dljus, Halogen, Elektronisk trafo", 
+            "PlaceInHome": "Middle Locker - Skol\u00e5da", 
+            "Relation": "Electrics", 
+            "Title": "Sladdimmer"
+        }, 
+        "1": {
+            "Category": "Electrics", 
+            "Description": "Svart iPhone laddare", 
+            "PlaceInHome": "Middle Locker - Skol\u00e5da", 
+            "Relation": "Electrics", 
+            "Title": "Laddare iPhone 4S"
+        }, 
+        "10": {
+            "Category": "Electrics", 
+            "Description": "Optisk ljud kabel f\u00f6r hemmabio f\u00f6rst\u00e4rkare", 
+            "PlaceInHome": "Middle Locker - Skol\u00e5da", 
+            "Relation": "Electrics", 
+            "Title": "Optisk kabel"
+        }, 
+        "11": {
+            "Category": "Electrics", 
+            "Description": "N\u00e4tverkskabel, ~2m gr\u00e5", 
+            "PlaceInHome": "Middle Locker - Box[EL] - Brown box", 
+            "Relation": "Electronics", 
+            "Title": "N\u00e4tverkskabel"
+        }, 
+        "12": {
+            "Category": "Electrics", 
+            "Description": "Macbook pro laddare fr\u00e5n transformer till v\u00e4gguttag 1m sladd", 
+            "PlaceInHome": "Middle Locker - Skol\u00e5da", 
+            "Relation": "Electrics", 
+            "Title": "Macbook pro Apple laddare"
+        }, 
+        "13": {
+            "Category": "Electrics", 
+            "Description": "Ljud adapter fr\u00e5n 2,5 hona till 3,5 hane", 
+            "PlaceInHome": "Middle Locker - Skol\u00e5da", 
+            "Relation": "Electrics", 
+            "Title": "Adapter 2,5mm till 3,5mm"
+        }, 
+        "14": {
+            "Category": "Electrics", 
+            "Description": "USB-splitter till 4 extra uttag", 
+            "PlaceInHome": "Middle Locker - Skol\u00e5da", 
+            "Relation": "Electrics", 
+            "Title": "USB splitter"
+        }, 
+        "15": {
+            "Category": "Electrics", 
+            "Description": "Macbook pro adapter fr\u00e5n mini-displayport till HDMI", 
+            "PlaceInHome": "Middle Locker - Skol\u00e5da", 
+            "Relation": "Electrics", 
+            "Title": "Adapter Apple mini-displayport till HDMI"
+        }, 
+        "16": {
+            "Category": "Electrics", 
+            "Description": "Apple USB hane till hona av ok\u00e4nt format", 
+            "PlaceInHome": "Middle Locker - Skol\u00e5da", 
+            "Relation": "Electrics", 
+            "Title": "Adapter USB till ok\u00e4nt format"
+        }, 
+        "17": {
+            "Category": "Electrics", 
+            "Description": "IKEA, Halogen lampa spets i ask, 170 lm, 18W, 2000h, E14", 
+            "PlaceInHome": "Middle Locker - Skol\\u00e5da", 
+            "Relation": "Electrics", 
+            "Title": "Halogen lampa spets"
+        }, 
+        "18": {
+            "Category": "Electrics", 
+            "Description": "Apple - tangentbord, usb", 
+            "PlaceInHome": "Right Locker", 
+            "Relation": "Computer", 
+            "Title": "Apple Tangentbord"
+        }, 
+        "2": {
+            "Category": "Electrics", 
+            "Description": "Svart iPhone laddare", 
+            "PlaceInHome": "Middle Locker - Skol\u00e5da", 
+            "Relation": "Electrics", 
+            "Title": "Laddare iPhone 4S"
+        }, 
+        "3": {
+            "Category": "Electrics", 
+            "Description": "Elkedjan, svart eltejp, l\u00e4gsta p\u00e5lindningstemperatur -10C ", 
+            "PlaceInHome": "Middle Locker - Skol\u00e5da", 
+            "Relation": "Electrics", 
+            "Title": "Eltejp svart"
+        }, 
+        "4": {
+            "Category": "Electrics", 
+            "Description": "Elkedjan, 2st kopplingslister, 2,5mm2", 
+            "PlaceInHome": "Middle Locker - Skol\u00e5da", 
+            "Relation": "Electrics", 
+            "Title": "Kopplingslist"
+        }, 
+        "5": {
+            "Category": "Electrics", 
+            "Description": "IKEA, 2x l\u00e5genergilampa 'tre minir\u00f6rs'-formad, 11W 600Lm", 
+            "PlaceInHome": "Middle Locker - Skol\u00e5da", 
+            "Relation": "Electrics", 
+            "Title": "L\u00e5genergilampa 600Lm"
+        }, 
+        "6": {
+            "Category": "Electrics", 
+            "Description": "IKEA, l\u00e5genergilampa sf\u00e4r-formad, 11W 570Lm", 
+            "PlaceInHome": "Middle Locker - Skol\u00e5da", 
+            "Relation": "Electrics", 
+            "Title": "L\u00e5genergilampa 570Lm"
+        }, 
+        "7": {
+            "Category": "Electrics", 
+            "Description": "2x, IKEA, l\u00e5genergilampa spets-top-formad, 7W 315Lm", 
+            "PlaceInHome": "Middle Locker - Skol\u00e5da", 
+            "Relation": "Electrics", 
+            "Title": "L\u00e5genergilampa 315Lm"
+        }, 
+        "8": {
+            "Category": "Electrics", 
+            "Description": "2x gl\u00f6dlampa sf\u00e4r-formad, 40W", 
+            "PlaceInHome": "Middle Locker - Skol\u00e5da", 
+            "Relation": "Electrics", 
+            "Title": "Gl\u00f6dlampa sf\u00e4r"
+        }, 
+        "9": {
+            "Category": "Electrics", 
+            "Description": "gl\u00f6dlampa spets-top-formad, 40W", 
+            "PlaceInHome": "Middle Locker - Skol\u00e5da", 
+            "Relation": "Electrics", 
+            "Title": "Gl\u00f6dlampa spets"
+        }
+    }, 
+    "Excess": {
+        "0": {
+            "Category": "Excess", 
+            "Description": "ficklampa, beh\u00f6ver 3x AA batterier, not included", 
+            "PlaceInHome": "Middle Locker - Box[Lindberg Pastagryta]", 
+            "Relation": "Excess", 
+            "Title": "Ficklampa"
+        }, 
+        "1": {
+            "Category": "Excess", 
+            "Description": "Tandskydd f\u00f6r sparring", 
+            "PlaceInHome": "Middle Locker - Box[Lindberg Pastagryta]", 
+            "Relation": "Excess", 
+            "Title": "Tandskydd"
+        }, 
+        "10": {
+            "Category": "Excess", 
+            "Description": "s-bag, dammsugarp\u00e5se", 
+            "PlaceInHome": "Middle Locker - Box[Lindberg Pastagryta]", 
+            "Relation": "Excess", 
+            "Title": "Dammsugarp\u00e5se"
+        }, 
+        "11": {
+            "Category": "Excess", 
+            "Description": "240 ml glas\u00f6gon puts f\u00f6r refill av mindre sprejflaska", 
+            "PlaceInHome": "Middle Locker - Box[Lindberg Pastagryta]", 
+            "Relation": "Excess", 
+            "Title": "Lens cleaner"
+        }, 
+        "12": {
+            "Category": "Excess", 
+            "Description": "4x par, Kiwi, Hygieniska skosulor", 
+            "PlaceInHome": "Middle Locker - Box[Lindberg Pastagryta]", 
+            "Relation": "Excess", 
+            "Title": "Hygieniska skosulor"
+        }, 
+        "13": {
+            "Category": "Excess", 
+            "Description": "3x par, Bama, Hygieniska skosulor", 
+            "PlaceInHome": "Middle Locker - Box[Lindberg Pastagryta]", 
+            "Relation": "Excess", 
+            "Title": "Hygieniska skosulor"
+        }, 
+        "14": {
+            "Category": "Excess", 
+            "Description": "F\u00f6rpackningen f\u00f6r Time Timer du l\u00e5nade av Habiliteringscenter V\u00e4ster\u00e5s", 
+            "PlaceInHome": "Middle Locker - Box[Lindberg Pastagryta]", 
+            "Relation": "Excess", 
+            "Title": "F\u00f6rpackning Time Timer"
+        }, 
+        "15": {
+            "Category": "Excess", 
+            "Description": "Iphone 3, krossad display", 
+            "PlaceInHome": "Middle Locker - Box[Lindberg Pastagryta]", 
+            "Relation": "Excess", 
+            "Title": "Iphone 3"
+        }, 
+        "16": {
+            "Category": "Excess", 
+            "Description": "12x KOH-I-NOOR, Pennor i styrka 8B - 10H", 
+            "PlaceInHome": "Middle Locker - Box[Lindberg Pastagryta]", 
+            "Relation": "Excess", 
+            "Title": "Grafit Pennor"
+        }, 
+        "17": {
+            "Category": "Excess", 
+            "Description": "0,5 mm, Pilot Super Grip, Stiftpenna Svart", 
+            "PlaceInHome": "Middle Locker - Skol\\u00e5da", 
+            "Relation": "Kontorsmaterial", 
+            "Title": "Stiftpenna"
+        }, 
+        "18": {
+            "Category": "Excess", 
+            "Description": "Paper Mate, Kulspetspenna bl\u00e5tt bl\u00e4ck, bl\u00e5tt handtag", 
+            "PlaceInHome": "Middle Locker - Skol\\u00e5da", 
+            "Relation": "Kontorsmaterial", 
+            "Title": "Kulspetspenna"
+        }, 
+        "19": {
+            "Category": "Excess", 
+            "Description": "2x, Block rutat, whitelines", 
+            "PlaceInHome": "Middle Locker - Box[Lindberg Pastagryta]", 
+            "Relation": "Excess", 
+            "Title": "Block Rutat"
+        }, 
+        "2": {
+            "Category": "Excess", 
+            "Description": "2x handleds lindor f\u00f6r sparring", 
+            "PlaceInHome": "Middle Locker - Box[Lindberg Pastagryta]", 
+            "Relation": "Excess", 
+            "Title": "Boxning handleds lindor"
+        }, 
+        "20": {
+            "Category": "Excess", 
+            "Description": "olander, simglas\u00f6gon, orange glas, i plastficka", 
+            "PlaceInHome": "Middle Locker - Box[Lindberg Pastagryta]", 
+            "Relation": "Excess", 
+            "Title": "Simglas\u00f6gon"
+        }, 
+        "21": {
+            "Category": "Excess", 
+            "Description": "Apple, Fabriksf\u00f6rpackning f\u00f6r Macbook Pro fr\u00e5n 2013", 
+            "PlaceInHome": "Right Locker", 
+            "Relation": "Excess", 
+            "Title": "Fabriksf\u00f6rpackning Macbook Pro"
+        }, 
+        "22": {
+            "Category": "Excess", 
+            "Description": "Steelseries - musmatta, svart st\u00f6rre", 
+            "PlaceInHome": "Middle Locker - Box[Lindberg Pastagryta]", 
+            "Relation": "Computer", 
+            "Title": "Musmatta"
+        }, 
+        "23": {
+            "Category": "Excess", 
+            "Description": "Casall - tr\u00e4ningsband, t\u00e4njbart gummiband med handtag, r\u00f6d", 
+            "PlaceInHome": "Middle Locker - Box[Lindberg Pastagryta]", 
+            "Relation": "Tr\u00e4ning", 
+            "Title": "Tr\u00e4ningsband"
+        }, 
+        "3": {
+            "Category": "Excess", 
+            "Description": "M\u00f6bel 'f\u00f6tter' f\u00f6r att skydda golv mot repor, 4x stora 27x sm\u00e5", 
+            "PlaceInHome": "Middle Locker - Box[Lindberg Pastagryta]", 
+            "Relation": "Excess", 
+            "Title": "M\u00f6bel f\u00f6tter"
+        }, 
+        "4": {
+            "Category": "Excess", 
+            "Description": "PowerBall f\u00f6r tr\u00e4ning, r\u00f6d 'start' tr\u00e5d sitter i", 
+            "PlaceInHome": "Middle Locker - Box[Lindberg Pastagryta]", 
+            "Relation": "Excess", 
+            "Title": "Power Ball"
+        }, 
+        "5": {
+            "Category": "Excess", 
+            "Description": "Kastdrag och krokar i orange l\u00e5da", 
+            "PlaceInHome": "Middle Locker - Box[Lindberg Pastagryta]", 
+            "Relation": "Excess", 
+            "Title": "Fiske drag"
+        }, 
+        "6": {
+            "Category": "Excess", 
+            "Description": "H\u00e5rddisk med ok\u00e4nt inneh\u00e5ll", 
+            "PlaceInHome": "Middle Locker - Box[Lindberg Pastagryta]", 
+            "Relation": "Excess", 
+            "Title": "H\u00e5rddisk"
+        }, 
+        "7": {
+            "Category": "Excess", 
+            "Description": "BILTEMA, 15ml l\u00e5sspray", 
+            "PlaceInHome": "Middle Locker - Box[Lindberg Pastagryta]", 
+            "Relation": "Excess", 
+            "Title": "L\u00e5sspray"
+        }, 
+        "8": {
+            "Category": "Excess", 
+            "Description": "T\u00e4ndare i form av stor t\u00e4ndsticka, krom med svart topp", 
+            "PlaceInHome": "Middle Locker - Box[Lindberg Pastagryta]", 
+            "Relation": "Excess", 
+            "Title": "T\u00e4ndare"
+        }, 
+        "9": {
+            "Category": "Excess", 
+            "Description": "200 ml cleaning gel och mikrofiber-duk f\u00f6r LED+LCD+Plasma", 
+            "PlaceInHome": "Middle Locker - Box[Lindberg Pastagryta]", 
+            "Relation": "Excess", 
+            "Title": "Cleaning gel"
+        }
+    }, 
+    "FoodDry": {
+        "0": {
+            "Category": "FoodDry", 
+            "Description": "Santa Maria, Vitl\u00f6kssalt, Cylinder-Burk", 
+            "Place in Home": "Vent Locker Above Stove - Box[Selected By Sagaform]", 
+            "Relation": "Food", 
+            "Title": "Vitl\u00f6kssalt"
+        }, 
+        "1": {
+            "Category": "FoodDry", 
+            "Description": "Santa Maria, Curry, Cylinder-Burk", 
+            "Place in Home": "Vent Locker Above Stove - Box[Selected By Sagaform]", 
+            "Relation": "Food", 
+            "Title": "Curry"
+        }, 
+        "10": {
+            "Category": "FoodDry", 
+            "Description": "MittVal, Kostillskott Man, Cylinder Burk Plast", 
+            "Place in Home": "Vent Locker Above Stove - Box[Selected By Sagaform]", 
+            "Relation": "Food", 
+            "Title": "Kosttillskott Man"
+        }, 
+        "11": {
+            "Category": "FoodDry", 
+            "Description": "Jozo, Salt, R\u00f6d-Vitt Saltkar Plast", 
+            "Place in Home": "Vent Locker Above Stove - Box[Selected By Sagaform]", 
+            "Relation": "Food", 
+            "Title": "Salt"
+        }, 
+        "12": {
+            "Category": "FoodDry", 
+            "Description": "Santa Maria, Taco Spice Mix, P\u00e5se", 
+            "Place in Home": "Vent Locker Above Stove - Box[Selected By Sagaform]", 
+            "Relation": "Food", 
+            "Title": "Taco Spice Mix"
+        }, 
+        "13": {
+            "Category": "FoodDry", 
+            "Description": "Santa Maria, Paneng Red Curry Spice Mix, Zipbag", 
+            "Place in Home": "Vent Locker Above Stove - Box[Selected By Sagaform]", 
+            "Relation": "Food", 
+            "Title": "Paneng Red Curry Spice Mix"
+        }, 
+        "14": {
+            "B\u00e4stF\u00f6re": "18-01-2016", 
+            "Category": "FoodDry", 
+            "Description": "2x, Santa Maria, Organic Coconut Milk", 
+            "Place in Home": "Vent Locker Left", 
+            "Relation": "Food", 
+            "Title": "Coconut Milk"
+        }, 
+        "15": {
+            "B\u00e4stF\u00f6re": "06-12-2015", 
+            "Category": "FoodDry", 
+            "Description": "Santa Maria, Organic Coconut Milk", 
+            "Place in Home": "Vent Locker Left", 
+            "Relation": "Food", 
+            "Title": "Coconut Milk"
+        }, 
+        "16": {
+            "Category": "FoodDry", 
+            "Description": "ZETA, Pesto med f\u00e4rsk basilika", 
+            "Place in Home": "Vent Locker Left", 
+            "Relation": "Food", 
+            "Title": "Pesto"
+        }, 
+        "17": {
+            "B\u00e4stF\u00f6re": "07-06-2015", 
+            "Category": "FoodDry", 
+            "Description": "2x, gogreen, R\u00f6da Linser, kokta", 
+            "Place in Home": "Vent Locker Left", 
+            "Relation": "Food", 
+            "Title": "R\u00f6da Linser"
+        }, 
+        "18": {
+            "B\u00e4stF\u00f6re": "31-07-2015", 
+            "Category": "FoodDry", 
+            "Description": "2x, gogreen, R\u00f6da Linser, kokta", 
+            "Place in Home": "Vent Locker Left", 
+            "Relation": "Food", 
+            "Title": "R\u00f6da Linser"
+        }, 
+        "19": {
+            "B\u00e4stF\u00f6re": "15-07-2015", 
+            "Category": "FoodDry", 
+            "Description": "Santa Maria, Egg Noodles, 3-pack", 
+            "Place in Home": "Vent Locker Left", 
+            "Relation": "Food", 
+            "Title": "Egg Noodles"
+        }, 
+        "2": {
+            "Category": "FoodDry", 
+            "Description": "Santa Maria, Svartpeppar, Cylinder-Burk", 
+            "Place in Home": "Vent Locker Above Stove - Box[Selected By Sagaform]", 
+            "Relation": "Food", 
+            "Title": "Svartpeppar"
+        }, 
+        "20": {
+            "Category": "FoodDry", 
+            "Description": "bunt med Kaffe-filter i plastp\u00e5se", 
+            "Place in Home": "Vent Locker Left", 
+            "Relation": "Food", 
+            "Title": "Kaffe-filter"
+        }, 
+        "21": {
+            "Category": "FoodDry", 
+            "Description": "Barilla, Pasta Penne Rigata, F\u00f6rpackning Papp", 
+            "Place in Home": "Vent Locker Left", 
+            "Relation": "Food", 
+            "Title": "Pasta Penne"
+        }, 
+        "22": {
+            "Category": "FoodDry", 
+            "Description": "COOP, Popcornk\u00e4rnor, f\u00f6rpackning \u00f6ppnad p\u00e5se", 
+            "Place in Home": "Vent Locker Above Stove - Box[Selected By Sagaform]", 
+            "Relation": "Food", 
+            "Title": "Popcornk\u00e4rnor"
+        }, 
+        "23": {
+            "Category": "FoodDry", 
+            "Description": "Gevalia, Pl\u00e5tburk, inneh\u00e5ller periodvis kaffepulver", 
+            "Place in Home": "Vent Locker Left", 
+            "Relation": "Food", 
+            "Title": "Kaffe Burk"
+        }, 
+        "24": {
+            "B\u00e4stF\u00f6re": "26-07-2015", 
+            "Category": "FoodDry", 
+            "Description": "ZETA, Rapsolja, Glasflaska 0,5L", 
+            "Place in Home": "Vent Locker Above Stove", 
+            "Relation": "Food", 
+            "Title": "Rapsolja"
+        }, 
+        "25": {
+            "B\u00e4stF\u00f6re": "18-06-2015", 
+            "Category": "FoodDry", 
+            "Description": "ZETA, Olivolja, Glasflaska 0,5L", 
+            "Place in Home": "Vent Locker Above Stove", 
+            "Relation": "Food", 
+            "Title": "Olivolja"
+        }, 
+        "26": {
+            "Category": "FoodDry", 
+            "Description": "Barilla - Farfalle, Pasta, F\u00f6rpackning Papp", 
+            "Place in Home": "Vent Locker Left", 
+            "Relation": "Food", 
+            "Title": "Pasta Farfalle"
+        }, 
+        "27": {
+            "BestBefore": "2015-09-02", 
+            "Category": "FoodDry", 
+            "Description": "Sun-Maiden - Russin, r\u00f6d plastburk", 
+            "PlaceInHome": "Vent Locker Left", 
+            "Relation": "FoodDry", 
+            "Title": "Russin"
+        }, 
+        "28": {
+            "BestBefore": "2015-07-04", 
+            "Category": "FoodDry", 
+            "Description": "COOP - S\u00f6tmandlar, 200g", 
+            "PlaceInHome": "Vent Locker Left", 
+            "Relation": "FoodDry", 
+            "Title": "Mandlar"
+        }, 
+        "3": {
+            "Category": "FoodDry", 
+            "Description": "Santa Maria, Tandoori India Spice, Cylinder-Burk", 
+            "Place in Home": "Vent Locker Above Stove - Box[Selected By Sagaform]", 
+            "Relation": "Food", 
+            "Title": "Tandoori India Spice"
+        }, 
+        "4": {
+            "Category": "FoodDry", 
+            "Description": "Santa Maria, Grillkrydda, Cylinder-Burk Large", 
+            "Place in Home": "Vent Locker Above Stove - Box[Selected By Sagaform]", 
+            "Relation": "Food", 
+            "Title": "Grillkrydda"
+        }, 
+        "5": {
+            "Category": "FoodDry", 
+            "Description": "Santa Maria, Oregano, Cylinder-Burk", 
+            "Place in Home": "Vent Locker Above Stove - Box[Selected By Sagaform]", 
+            "Relation": "Food", 
+            "Title": "Oregano"
+        }, 
+        "6": {
+            "Category": "FoodDry", 
+            "Description": "Santa Maria, Pepparmix, Cylinder-Burk", 
+            "Place in Home": "Vent Locker Above Stove - Box[Selected By Sagaform]", 
+            "Relation": "Food", 
+            "Title": "Pepparmix"
+        }, 
+        "7": {
+            "Category": "FoodDry", 
+            "Description": "Santa Maria, Vitpeppar, Cylinder-Burk", 
+            "Place in Home": "Vent Locker Above Stove - Box[Selected By Sagaform]", 
+            "Relation": "Food", 
+            "Title": "Vitpeppar"
+        }, 
+        "8": {
+            "Category": "FoodDry", 
+            "Description": "Fazer, Cacao, Brun Burk Papp", 
+            "Place in Home": "Vent Locker Above Stove - Box[Selected By Sagaform]", 
+            "Relation": "Food", 
+            "Title": "Cacao"
+        }, 
+        "9": {
+            "Category": "FoodDry", 
+            "Description": "COOP, Vanillinsocker, Cylinder Burk Papp", 
+            "Place in Home": "Vent Locker Above Stove - Box[Selected By Sagaform]", 
+            "Relation": "Food", 
+            "Title": "Vanillinsocker"
+        }
+    }, 
+    "Kitchenware": {
+        "0": {
+            "Category": "Kitchenware", 
+            "Description": "6x, H\u00f6gan\u00e4s, Tallrikar platta gr\u00f6na", 
+            "PlaceInHome": "Locker Right Corner", 
+            "Relation": "Kitchenware", 
+            "Title": "Tallrikar platta"
+        }, 
+        "1": {
+            "Category": "Kitchenware", 
+            "Description": "4x, H\u00f6gan\u00e4s, Tallrikar djupa gr\u00f6na", 
+            "PlaceInHome": "Locker Right Corner", 
+            "Relation": "Kitchenware", 
+            "Title": "Tallrikar djupa"
+        }, 
+        "10": {
+            "Category": "Kitchenware", 
+            "Description": "IKEA, K\u00f6kskniv sl\u00e4t, svart handtag, vanadium stainless steel", 
+            "PlaceInHome": "Locker Right Corner", 
+            "Relation": "Kitchenware", 
+            "Title": "K\u00f6kskniv sl\u00e4t"
+        }, 
+        "11": {
+            "Category": "Kitchenware", 
+            "Description": "Scanpan spectrum, K\u00f6kskniv tandad med slida, helsvart", 
+            "PlaceInHome": "Locker Right Corner", 
+            "Relation": "Kitchenware", 
+            "Title": "K\u00f6kskniv tandad"
+        }, 
+        "12": {
+            "Category": "Kitchenware", 
+            "Description": "Global, sk\u00e4rbr\u00e4da svart, upph\u00e4ngbar", 
+            "PlaceInHome": "Locker Right Corner", 
+            "Relation": "Kitchenware", 
+            "Title": "Sk\u00e4rbr\u00e4da"
+        }, 
+        "13": {
+            "Category": "Kitchenware", 
+            "Description": "Te sil, med underl\u00e4gg f\u00f6r avdroppning, kromf\u00e4rgad", 
+            "PlaceInHome": "Locker Right Corner", 
+            "Relation": "Kitchenware", 
+            "Title": "Te sil"
+        }, 
+        "14": {
+            "Category": "Kitchenware", 
+            "Description": "Boda Nova, St\u00f6rre skopa och 'gaffel' f\u00f6r servering av sallad", 
+            "PlaceInHome": "Locker Right Corner", 
+            "Relation": "Kitchenware", 
+            "Title": "Sallads Slevar"
+        }, 
+        "15": {
+            "Category": "Kitchenware", 
+            "Description": "11x, Gaffel bestick, Krom", 
+            "PlaceInHome": "Top Kitchen Drawer", 
+            "Relation": "Kitchenware", 
+            "Title": "Bestick Gaffel"
+        }, 
+        "16": {
+            "Category": "Kitchenware", 
+            "Description": "12x, Kniv bestick, Krom", 
+            "PlaceInHome": "Top Kitchen Drawer", 
+            "Relation": "Kitchenware", 
+            "Title": "Bestick Kniv"
+        }, 
+        "17": {
+            "Category": "Kitchenware", 
+            "Description": "13x, Sked bestick, Krom", 
+            "PlaceInHome": "Top Kitchen Drawer", 
+            "Relation": "Kitchenware", 
+            "Title": "Bestick Sked"
+        }, 
+        "18": {
+            "Category": "Kitchenware", 
+            "Description": "12x, Tesked bestick, Krom", 
+            "PlaceInHome": "Top Kitchen Drawer", 
+            "Relation": "Kitchenware", 
+            "Title": "Bestick Tesked"
+        }, 
+        "19": {
+            "Category": "Kitchenware", 
+            "Description": "Konserv\u00f6ppnare, tjockt svart handtag", 
+            "PlaceInHome": "Top Kitchen Drawer", 
+            "Relation": "Kitchenware", 
+            "Title": "Konserv\u00f6ppnare"
+        }, 
+        "2": {
+            "Category": "Kitchenware", 
+            "Description": "4x, H\u00f6gan\u00e4s, Kaffekoppar gr\u00f6na", 
+            "PlaceInHome": "Locker Right Corner", 
+            "Relation": "Kitchenware", 
+            "Title": "Kaffekoppar"
+        }, 
+        "20": {
+            "Category": "Kitchenware", 
+            "Description": "Potatisskalare, svart handtag", 
+            "PlaceInHome": "Top Kitchen Drawer", 
+            "Relation": "Kitchenware", 
+            "Title": "Potatisskalare"
+        }, 
+        "21": {
+            "Category": "Kitchenware", 
+            "Description": "IKEA, H\u00e5llare f\u00f6r bestick att placera i l\u00e5da, vit plast", 
+            "PlaceInHome": "Top Kitchen Drawer", 
+            "Relation": "Kitchenware", 
+            "Title": "Bestick h\u00e5llare"
+        }, 
+        "22": {
+            "Category": "Kitchenware", 
+            "Description": "Kaffem\u00e5tt, 20ml vit plast", 
+            "PlaceInHome": "Vent Locker Left - Kaffeburk", 
+            "Relation": "Kitchenware", 
+            "Title": "Kaffem\u00e5tt"
+        }, 
+        "23": {
+            "Category": "Kitchenware", 
+            "Description": "Cookware, rund k\u00f6sform, vit keramik", 
+            "PlaceInHome": "Locker Right Corner", 
+            "Relation": "Kitchenware", 
+            "Title": "Form Rund"
+        }, 
+        "24": {
+            "Category": "Kitchenware", 
+            "Description": "Cookware, rektangul\u00e4r k\u00f6ksform, bl\u00e5 keramik", 
+            "PlaceInHome": "Locker Right Corner", 
+            "Relation": "Kitchenware", 
+            "Title": "Form Rektangul\u00e4r"
+        }, 
+        "25": {
+            "Category": "Kitchenware", 
+            "Description": "Hammar Plast, k\u00f6kssil, plast transparent", 
+            "PlaceInHome": "Locker Right Corner", 
+            "Relation": "Kitchenware", 
+            "Title": "K\u00f6kssil"
+        }, 
+        "26": {
+            "Category": "Kitchenware", 
+            "Description": "5x, K\u00f6ksm\u00e5tt 1,0dl, 0,5dl, 15ml, 5ml, 1ml, vit plast i r\u00f6d nyckelknippa", 
+            "PlaceInHome": "Locker Right Corner", 
+            "Relation": "Kitchenware", 
+            "Title": "K\u00f6ksm\u00e5tt"
+        }, 
+        "27": {
+            "Category": "Kitchenware", 
+            "Description": "7x, K\u00f6ksvampar i olika f\u00e4rger", 
+            "PlaceInHome": "Vent Locker Above Stove", 
+            "Relation": "Kitchenware", 
+            "Title": "K\u00f6kssvampar"
+        }, 
+        "28": {
+            "Category": "Kitchenware", 
+            "Description": "7x, COOP, Disktrasa i olika f\u00e4rger", 
+            "PlaceInHome": "Vent Locker Above Stove", 
+            "Relation": "Kitchenware", 
+            "Title": "Disktrasa"
+        }, 
+        "29": {
+            "Category": "Kitchenware", 
+            "Description": "Gustafsberg, Sk\u00e5l, svart keramik", 
+            "PlaceInHome": "Locker Right Corner", 
+            "Relation": "Kitchenware", 
+            "Title": "Sk\u00e5l"
+        }, 
+        "3": {
+            "Category": "Kitchenware", 
+            "Description": "4x, Dryckes glas", 
+            "PlaceInHome": "Locker Right Corner", 
+            "Relation": "Kitchenware", 
+            "Title": "Glas"
+        }, 
+        "30": {
+            "Category": "Kitchenware", 
+            "Description": "IKEA, Kastrull mindre, svart handtag", 
+            "PlaceInHome": "Locker Left Lower", 
+            "Relation": "Kitchenware", 
+            "Title": "Kastrull mindre"
+        }, 
+        "31": {
+            "Category": "Kitchenware", 
+            "Description": "Kastrull st\u00f6rre f\u00f6r pasta, samt formanpassad vattenavslag, samt lock", 
+            "PlaceInHome": "Locker Left Lower", 
+            "Relation": "Kitchenware", 
+            "Title": "Kastrull Pasta"
+        }, 
+        "32": {
+            "Category": "Kitchenware", 
+            "Description": "3x, karrot underl\u00e4gg", 
+            "PlaceInHome": "Locker Left Lower", 
+            "Relation": "Kitchenware", 
+            "Title": "Karrot underl\u00e4gg"
+        }, 
+        "33": {
+            "Category": "Kitchenware", 
+            "Description": "3x plastbunke vit, 1,5 L, 2,0 L, 2,5 L", 
+            "PlaceInHome": "Locker Right Corner", 
+            "Relation": "Kitchenware", 
+            "Title": "Plastbunke"
+        }, 
+        "34": {
+            "Category": "Kitchenware", 
+            "Description": "SmartShake, shaker f\u00f6r tr\u00e4ningspulver, 4 delar, bottom, body, top, sil svart", 
+            "PlaceInHome": "Locker Right Corner", 
+            "Relation": "Kitchenware", 
+            "Title": "Shaker"
+        }, 
+        "35": {
+            "Category": "Kitchenware", 
+            "Description": "IKEA, St\u00f6rre kastrull samt transparant lock", 
+            "PlaceInHome": "Locker Left Lower", 
+            "Relation": "Kitchenware", 
+            "Title": "Kastrull St\u00f6rre"
+        }, 
+        "36": {
+            "Category": "Kitchenware", 
+            "Description": "IKEA, Stekpanna i teflon", 
+            "PlaceInHome": "Locker Left Lower", 
+            "Relation": "Kitchenware", 
+            "Title": "Stekpanna Teflon"
+        }, 
+        "37": {
+            "Category": "Kitchenware", 
+            "Description": "2x, Sm\u00f6rkniv, svart h\u00e5rdplast", 
+            "PlaceInHome": "Top Kitchen Drawer", 
+            "Relation": "Kitchenware", 
+            "Title": "Sm\u00f6rkniv"
+        }, 
+        "38": {
+            "Category": "Kitchenware", 
+            "Description": "Bodanova, Glas sk\u00e5l", 
+            "PlaceInHome": "Locker Right Corner", 
+            "Relation": "Kitchenware", 
+            "Title": "Glas Sk\u00e5l"
+        }, 
+        "39": {
+            "Category": "Kitchenware", 
+            "Description": "Sax, handtag svart plast", 
+            "PlaceInHome": "Top Kitchen Drawer", 
+            "Relation": "Kitchenware", 
+            "Title": "Sax"
+        }, 
+        "4": {
+            "Category": "Kitchenware", 
+            "Description": "Gastromax, Pasta klo, Svart h\u00e5rdplast", 
+            "PlaceInHome": "Locker Right Corner", 
+            "Relation": "Kitchenware", 
+            "Title": "Pasta klo"
+        }, 
+        "40": {
+            "Category": "Kitchenware", 
+            "Description": "Termos, rostfritt st\u00e5l", 
+            "PlaceInHome": "Locker Right Corner", 
+            "Relation": "Kitchenware", 
+            "Title": "Termos"
+        }, 
+        "41": {
+            "Category": "Kitchenware", 
+            "Description": "2x, Rosendahl, Kaffekopp -- glas f\u00f6r varma drycker", 
+            "PlaceInHome": "Locker Right Corner", 
+            "Relation": "Kitchenware", 
+            "Title": "Kaffekopp glas"
+        }, 
+        "42": {
+            "Category": "Kitchenware", 
+            "Description": "Rosendahl, Sk\u00e5l i glas", 
+            "PlaceInHome": "Locker Right Corner", 
+            "Relation": "Kitchenware", 
+            "Title": "Sk\u00e5l"
+        }, 
+        "43": {
+            "Category": "Kitchenware", 
+            "Description": "H\u00f6gan\u00e4s - liten sk\u00e5l, gr\u00f6n", 
+            "PlaceInHome": "Locker Right Corner", 
+            "Relation": "Kitchenware", 
+            "Title": "Sk\u00e5l Liten"
+        }, 
+        "5": {
+            "Category": "Kitchenware", 
+            "Description": "Gastromax, Visp, Svart h\u00e5rdplast", 
+            "PlaceInHome": "Locker Right Corner", 
+            "Relation": "Kitchenware", 
+            "Title": "Visp"
+        }, 
+        "6": {
+            "Category": "Kitchenware", 
+            "Description": "Gastromax, Stekspade, Svart h\u00e5rdplast", 
+            "PlaceInHome": "Locker Right Corner", 
+            "Relation": "Kitchenware", 
+            "Title": "Stekspade"
+        }, 
+        "7": {
+            "Category": "Kitchenware", 
+            "Description": "Gastromax, Stekverktyg t\u00e5ng, Svart h\u00e5rdplast", 
+            "PlaceInHome": "Locker Right Corner", 
+            "Relation": "Kitchenware", 
+            "Title": "T\u00e5ng"
+        }, 
+        "8": {
+            "Category": "Kitchenware", 
+            "Description": "Rivj\u00e4rn, Svenskt rostfritt st\u00e5l", 
+            "PlaceInHome": "Locker Right Corner", 
+            "Relation": "Kitchenware", 
+            "Title": "Rivj\u00e4rn"
+        }, 
+        "9": {
+            "Category": "Kitchenware", 
+            "Description": "Nordiska Plast AB, Literm\u00e5tt, 1L", 
+            "PlaceInHome": "Locker Right Corner", 
+            "Relation": "Kitchenware", 
+            "Title": "Literm\u00e5tt"
+        }
+    }, 
+    "Kort": {
+        "0": {
+            "Category": "Kort", 
+            "Description": "Europeiska Unionen Sverige Pass, giltigt t.o.m 9 juni 2015", 
+            "PlaceInHome": "Middle Locker - Box[Replay]", 
+            "Relation": "Kort", 
+            "Title": "Pass"
+        }, 
+        "1": {
+            "Category": "Kort", 
+            "Description": "Bokmalen, Bokm\u00e4rke", 
+            "PlaceInHome": "Middle Locker - Box[Replay]", 
+            "Relation": "Kort", 
+            "Title": "Bokm\u00e4rke"
+        }, 
+        "2": {
+            "Category": "Kort", 
+            "Description": "COOP L\u00e5nerkort 7390, V\u00e4ster\u00e5s Stadsbibliotek kort f\u00f6r automatutskrift, Member24, 3x Kundkort H\u00f6gskolerestauranger AB, Passerkort KTH, Bibliotekskort KTH, Access, KTH Studentk\u00e5r Giltigt 2014-09-30", 
+            "PlaceInHome": "Middle Locker - Box[Replay]", 
+            "Relation": "Kort", 
+            "Title": "Div magnetkort"
+        }, 
+        "3": {
+            "Category": "Kort", 
+            "Description": "SF Biobiljett, Giltig t.o.m 2014-08-30", 
+            "PlaceInHome": "Middle Locker - Box[Replay]", 
+            "Relation": "Kort", 
+            "Title": "Biobiljett"
+        }, 
+        "4": {
+            "Category": "Kort", 
+            "Description": "Div visitkort, namn ej n\u00e4mnda p.g.a integritetssk\u00e4l", 
+            "PlaceInHome": "Middle Locker - Box[Replay]", 
+            "Relation": "Kort", 
+            "Title": "Visitkort"
+        }, 
+        "5": {
+            "Category": "Kort", 
+            "Description": "2x h\u00f6gkostnadskort, 1x Stockholm l\u00e4ns landsting, 1x V\u00e4stmanlands l\u00e4ns landsting", 
+            "PlaceInHome": "Middle Locker - Box[Replay]", 
+            "Relation": "Kort", 
+            "Title": "H\u00f6gkostnadskort"
+        }, 
+        "6": {
+            "Category": "Kort", 
+            "Description": "Swedbank, bankdosa f\u00f6r internettj\u00e4nster, svart", 
+            "PlaceInHome": "Middle Locker - Box[Replay]", 
+            "Relation": "Kort", 
+            "Title": "Bankdosa"
+        }
+    }, 
+    "LargerStuff": {
+        "0": {
+            "Category": "LargerStuff", 
+            "Description": "Casio, minikeyboard, drivs med batteri eller adapter", 
+            "PlaceInHome": "Right Locker", 
+            "Relation": "Excess", 
+            "Title": "Minikeyboard"
+        }
+    }, 
+    "Micro Electronics": {
+        "0": {
+            "Category": "Micro Electronics", 
+            "Description": "COTECH, L\u00f6dstation st\u00e4llbar v\u00e4rme och digital display", 
+            "PlaceInHome": "Middle Locker - Box[EL] - Brown box", 
+            "Relation": "Electronics", 
+            "Title": "L\u00f6dstation"
+        }, 
+        "1": {
+            "Category": "Micro Electronics", 
+            "Description": "Raspberry Pi model B in box element14", 
+            "PlaceInHome": "Middle Locker - Box[EL] - Brown box", 
+            "Relation": "Electronics", 
+            "Title": "Raspberry Pi model B"
+        }, 
+        "10": {
+            "Category": "Micro Electronics", 
+            "Description": "5x bl\u00e5a RFID brickor f\u00f6r nyckelknippa, i genomskinlig plastficka", 
+            "PlaceInHome": "Middle Locker - Box[EL] - Brown box", 
+            "Relation": "Electronics", 
+            "Title": "Brickor rfid"
+        }, 
+        "11": {
+            "Category": "Micro Electronics", 
+            "Description": "Vitt rfid kort i genomskinlig plastficka", 
+            "PlaceInHome": "Middle Locker - Box[EL] - Brown box", 
+            "Relation": "Electronics", 
+            "Title": "Kort rfid"
+        }, 
+        "12": {
+            "Category": "Micro Electronics", 
+            "Description": "H\u00e5llare med tv\u00e5 'h\u00e4nder' och f\u00f6rstoringsglas f\u00f6r l\u00f6dning", 
+            "PlaceInHome": "Middle Locker - Box[EL]", 
+            "Relation": "Electronics", 
+            "Title": "L\u00f6d hj\u00e4lpare"
+        }, 
+        "13": {
+            "Category": "Micro Electronics", 
+            "Description": "0.6 mm, l\u00f6dtenn p\u00e5 gr\u00f6n rulle", 
+            "PlaceInHome": "Middle Locker - Box[EL]", 
+            "Relation": "Electronics", 
+            "Title": "L\u00f6d-tenn"
+        }, 
+        "14": {
+            "Category": "Micro Electronics", 
+            "Description": "1,7 mm, 2 m, ej anv\u00e4nd i f\u00f6rpackning", 
+            "PlaceInHome": "Middle Locker - Box[EL]", 
+            "Relation": "Electronics", 
+            "Title": "L\u00f6d absorberare"
+        }, 
+        "15": {
+            "Category": "Micro Electronics", 
+            "Description": "Box med plats f\u00f6r 2 AA batterier", 
+            "PlaceInHome": "Middle Locker - Box[EL]", 
+            "Relation": "Electronics", 
+            "Title": "Batteri h\u00e5llare"
+        }, 
+        "16": {
+            "Category": "Micro Electronics", 
+            "Description": "ALFA Network, Wireless USB-adapter, 802.11n/g/n Long-Range, AWUS036NH", 
+            "PlaceInHome": "Middle Locker - Box[EL] - Box[85W MagSafe Power Adapter]", 
+            "Relation": "Computer hardware", 
+            "Title": "Wifi USB-adapter"
+        }, 
+        "17": {
+            "Category": "Micro Electronics", 
+            "Description": "Green USB, SanDisk USB, WiFi-USB dongle, SanDisk SD-Card 8GB ", 
+            "PlaceInHome": "Middle Locker - Box[EL] - Box[04159A 12Vd.c. 500mA]", 
+            "Relation": "Micro Electronics", 
+            "Title": "USB/SD-card collection"
+        }, 
+        "2": {
+            "Category": "Micro Electronics", 
+            "Description": "HC-SR04, Ultraljuds avst\u00e5ndsm\u00e4tare", 
+            "PlaceInHome": "Middle Locker - Box[EL] - Brown box", 
+            "Relation": "Electronics", 
+            "Title": "Sensor Ultraljud"
+        }, 
+        "3": {
+            "Category": "Micro Electronics", 
+            "Description": "DC motor med 'v\u00e4xelbox', skruvad p\u00e5 legobricka", 
+            "PlaceInHome": "Middle Locker - Box[EL] - Brown box", 
+            "Relation": "Electronics", 
+            "Title": "DC motor"
+        }, 
+        "4": {
+            "Category": "Micro Electronics", 
+            "Description": "DC-motor och 4 v\u00e4xlar i p\u00e5se[1:60]", 
+            "PlaceInHome": "Middle Locker - Box[EL] - Brown box", 
+            "Relation": "Electronics", 
+            "Title": "DC motor och v\u00e4xlar"
+        }, 
+        "5": {
+            "Category": "Micro Electronics", 
+            "Description": "RFID-RC522, l\u00e4sare", 
+            "PlaceInHome": "Middle Locker - Box[EL] - Brown box", 
+            "Relation": "Electronics", 
+            "Title": "RFID l\u00e4sare"
+        }, 
+        "6": {
+            "Category": "Micro Electronics", 
+            "Description": "Sharp, 2Y0A21 F 35, infrar\u00f6d avst\u00e5ndsm\u00e4tare", 
+            "PlaceInHome": "Middle Locker - Box[EL] - Brown box", 
+            "Relation": "Electronics", 
+            "Title": "Sensor Infrar\u00f6d"
+        }, 
+        "7": {
+            "Antal": "2", 
+            "Category": "Micro Electronics", 
+            "Description": "Manuell switch, l\u00e5g sp\u00e4nning, i r\u00f6d plastficka", 
+            "PlaceInHome": "Middle Locker - Box[EL] - Brown box", 
+            "Relation": "Electronics", 
+            "Title": "Manuell switch"
+        }, 
+        "8": {
+            "Antal": "7", 
+            "Category": "Micro Electronics", 
+            "Description": "7x R\u00f6d diod, i genomskinlig plastficka", 
+            "PlaceInHome": "Middle Locker - Box[EL] - Brown box", 
+            "Relation": "Electronics", 
+            "Title": "R\u00f6d diod"
+        }, 
+        "9": {
+            "Category": "Micro Electronics", 
+            "Description": "Tv\u00e5 l\u00e4ngre kablar i r\u00f6d och svart, ett knipe med korta kablar som pasasr i breadbox, i COOP-plastp\u00e5se", 
+            "PlaceInHome": "Middle Locker - Box[EL] - Brown box", 
+            "Relation": "Electronics", 
+            "Title": "Kabel"
+        }
+    }, 
+    "Notes": {
+        "0": {
+            "Category": "Notes", 
+            "Course": "Stanford Fourier Transform", 
+            "Format": "Whitelines - squared - A4", 
+            "PlaceInHome": "Left Locker - Shelf 2", 
+            "Relation": "School", 
+            "Title": "Stanford Fourier Transform", 
+            "Type": "Block"
+        }, 
+        "1": {
+            "Category": "Notes", 
+            "Course": "EL2450 - Hybrid Systems", 
+            "Format": "Whitelines - squared - A5", 
+            "PlaceInHome": "Left Locker - Shelf 2", 
+            "Relation": "School", 
+            "Title": "EL2450", 
+            "Type": "Block"
+        }, 
+        "2": {
+            "Category": "Notes", 
+            "Course": "", 
+            "Format": "Whitelines - squared - A5", 
+            "PlaceInHome": "Left Locker - Shelf 2", 
+            "Relation": "Separate Knowledge", 
+            "Title": "#1 Notes", 
+            "Type": "Block"
+        }, 
+        "3": {
+            "Category": "Notes", 
+            "Course": "Differentialekvationer och transformer - Del 1", 
+            "Description": "Notes on exam reoccuring questions", 
+            "Format": "squared - A4", 
+            "PlaceInHome": "Left Locker - Shelf 2 - Book - Elementary differential equations and boundary value problems", 
+            "Relation": "School", 
+            "Title": "", 
+            "Type": "Paper"
+        }, 
+        "4": {
+            "Category": "Notes", 
+            "Course": "EL2450 - Hybrid Systems", 
+            "Description": "Notes on Hybrid Systems", 
+            "Format": "Map - Green - A4", 
+            "PlaceInHome": "Left Locker - Shelf 2 ", 
+            "Relation": "School", 
+            "Title": "Anteckningar Hybrida System", 
+            "Type": "Papers"
+        }
+    }, 
+    "Office": {
+        "0": {
+            "Antal": "2", 
+            "Category": "Office", 
+            "Description": "6 mm, Rapid, 1000x i ask", 
+            "PlaceInHome": "Middle Locker - Skol\u00e5da", 
+            "Relation": "Kontorsmaterial", 
+            "Title": "H\u00e4ftstift"
+        }, 
+        "1": {
+            "Category": "Office", 
+            "Description": "Liten h\u00e4ft-apparat f\u00f6r 6 mm stift", 
+            "PlaceInHome": "Middle Locker - Skol\u00e5da", 
+            "Relation": "Kontorsmaterial", 
+            "Title": "H\u00e4ft-apparat"
+        }, 
+        "10": {
+            "Category": "Office", 
+            "Description": "Texas Instruments, Johns minir\u00e4knare", 
+            "PlaceInHome": "Middle Locker - Skol\u00e5da", 
+            "Relation": "Kontorsmaterial", 
+            "Title": "Minir\u00e4knare"
+        }, 
+        "11": {
+            "Category": "Office", 
+            "Description": "Procordia, kulspetspenna i gr\u00f6n plast", 
+            "PlaceInHome": "Middle Locker - Skol\u00e5da", 
+            "Relation": "Kontorsmaterial", 
+            "Title": "Kulspets penna"
+        }, 
+        "12": {
+            "Category": "Office", 
+            "Description": "Rapid, vitt Tipp-Ex", 
+            "PlaceInHome": "Middle Locker - Skol\u00e5da", 
+            "Relation": "Kontorsmaterial", 
+            "Title": "Tipp-Ex"
+        }, 
+        "13": {
+            "Category": "Office", 
+            "Description": "15cm linjal i plast, motiv blommor", 
+            "PlaceInHome": "Middle Locker - Skol\u00e5da", 
+            "Relation": "Kontorsmaterial", 
+            "Title": "Linjal"
+        }, 
+        "14": {
+            "Category": "Office", 
+            "Description": "Rexel, h\u00e5lslagare f\u00f6r A4 papper", 
+            "PlaceInHome": "Middle Locker - Skol\u00e5da", 
+            "Relation": "Kontorsmaterial", 
+            "Title": "H\u00e5lslagare A4"
+        }, 
+        "2": {
+            "Category": "Office", 
+            "Description": "Faber-Castell, rosa highlight penna", 
+            "PlaceInHome": "Middle Locker - Skol\u00e5da", 
+            "Relation": "Kontorsmaterial", 
+            "Title": "Highligt penna Rosa"
+        }, 
+        "3": {
+            "Category": "Office", 
+            "Description": "TIMING, gul highlight penna", 
+            "PlaceInHome": "Middle Locker - Skol\u00e5da", 
+            "Relation": "Kontorsmaterial", 
+            "Title": "Highligt penna Gul"
+        }, 
+        "4": {
+            "Category": "Office", 
+            "Description": "TIMING, gr\u00f6n highlight penna", 
+            "PlaceInHome": "Middle Locker - Skol\u00e5da", 
+            "Relation": "Kontorsmaterial", 
+            "Title": "Highligt penna Gr\u00f6n"
+        }, 
+        "5": {
+            "Category": "Office", 
+            "Description": "Faber-Castell, suddgummi", 
+            "PlaceInHome": "Middle Locker - Skol\u00e5da", 
+            "Relation": "Kontorsmaterial", 
+            "Title": "Radergummi"
+        }, 
+        "6": {
+            "Antal": "2", 
+            "Category": "Office", 
+            "Description": "Standard genomskinlig tejp", 
+            "PlaceInHome": "Middle Locker - Skol\u00e5da", 
+            "Relation": "Kontorsmaterial", 
+            "Title": "Tejp genomskinlig"
+        }, 
+        "7": {
+            "Category": "Office", 
+            "Description": "Brun bredare tejp i r\u00f6d plast h\u00e5llare", 
+            "PlaceInHome": "Middle Locker - Skol\u00e5da", 
+            "Relation": "Kontorsmaterial", 
+            "Title": "Tejp brun"
+        }, 
+        "8": {
+            "Category": "Office", 
+            "Description": "pebeo, bl\u00e4ck i svart burk med vit top/pippet", 
+            "PlaceInHome": "Middle Locker - Skol\u00e5da", 
+            "Relation": "Kontorsmaterial", 
+            "Title": "Svart Bl\u00e4ck"
+        }, 
+        "9": {
+            "Category": "Office", 
+            "Description": "PILOT, 3x svart refiller f\u00f6r FRIXION ball pennor", 
+            "PlaceInHome": "Middle Locker - Skol\u00e5da", 
+            "Relation": "Kontorsmaterial", 
+            "Title": "Refiller FRIXION ball"
+        }
+    }, 
+    "Tools": {
+        "0": {
+            "Category": "Tools", 
+            "Description": "Yellow screwdriver, painted handle yellow", 
+            "Format": "No container", 
+            "PlaceInHome": "Middle Locker - Box", 
+            "Relation": "", 
+            "Title": "Screwdriver", 
+            "Type": "Star"
+        }, 
+        "1": {
+            "Category": "Tools", 
+            "Description": "Orange screwdriver", 
+            "Format": "No container", 
+            "PlaceInHome": "Middle Locker - Box", 
+            "Relation": "", 
+            "Title": "Screwdriver", 
+            "Type": "Flat"
+        }, 
+        "10": {
+            "Category": "Tools", 
+            "Condition": "Never used", 
+            "Description": "Roller holder for painting", 
+            "Format": "Green plastic", 
+            "Manufacturer": "BILTEMA", 
+            "PlaceInHome": "Middle Locker - Box", 
+            "Relation": "Paint", 
+            "Title": "Holder for roller", 
+            "Type": "Holder"
+        }, 
+        "11": {
+            "Category": "Tools", 
+            "Condition": "Opened", 
+            "Description": "Vit lackfarg", 
+            "Format": "", 
+            "Manufacturer": "BILTEMA", 
+            "PlaceInHome": "Middle Locker - Box", 
+            "Relation": "Paint", 
+            "Title": "Paint bucket", 
+            "Type": ""
+        }, 
+        "12": {
+            "Category": "Tools", 
+            "Condition": "Not opened", 
+            "Description": "Lackpensel 25 mm", 
+            "Format": "", 
+            "Manufacturer": "BILTEMA", 
+            "PlaceInHome": "Middle Locker - Box", 
+            "Relation": "Paint", 
+            "Title": "Pensel", 
+            "Type": ""
+        }, 
+        "13": {
+            "Category": "Tools", 
+            "Description": "Epoxy tv\u00e5-komponents lim i tuber, A och B", 
+            "PlaceInHome": "Middle Locker - Box", 
+            "Relation": "Excess", 
+            "Title": "Epoxy"
+        }, 
+        "14": {
+            "Category": "Tools", 
+            "Description": "BILTEMA, tr\u00e4skruv 3x15mm flat f\u00f6rs\u00e4nkt huvud, kr\u00e4ver hexa-nyckel", 
+            "PlaceInHome": "Middle Locker - Box[]", 
+            "Relation": "", 
+            "Title": "Tr\u00e4skruv"
+        }, 
+        "15": {
+            "Category": "Tools", 
+            "Description": "~10x, BILTEMA, Skruv samt plugg, i transparent ask", 
+            "PlaceInHome": "Middle Locker - Box", 
+            "Relation": "Tools", 
+            "Title": "Plugg med skruv"
+        }, 
+        "16": {
+            "Category": "Tools", 
+            "Description": "LOCTITE, Super lim", 
+            "PlaceInHome": "Middle Locker - Box", 
+            "Relation": "Excess", 
+            "Title": "Super Glue"
+        }, 
+        "17": {
+            "Category": "Tools", 
+            "Description": "M\u00e5ttband, 1,5 meter", 
+            "PlaceInHome": "Middle Locker - Box", 
+            "Relation": "Excess", 
+            "Title": "M\u00e5ttband"
+        }, 
+        "2": {
+            "Category": "Tools", 
+            "Condition": "As new", 
+            "Description": "12 smaller screwdrivers, 2 pincers", 
+            "Format": "Black holder", 
+            "Manufacturer": "dibotech", 
+            "PlaceInHome": "Middle Locker - Box", 
+            "Relation": "", 
+            "Title": "Screwdriver set", 
+            "Type": "Flat and Star, PH00 to 4.0"
+        }, 
+        "3": {
+            "Category": "Tools", 
+            "Condition": "One screwdriver missing", 
+            "Description": "set of 6 screwdrivers", 
+            "Format": "Blue holder, transparent front", 
+            "Manufacturer": "", 
+            "PlaceInHome": "Middle Locker - Box", 
+            "Relation": "", 
+            "Title": "Screwdriver set", 
+            "Type": "Flat screwdrivers, size micro"
+        }, 
+        "4": {
+            "Category": "Tools", 
+            "Condition": "Complete", 
+            "Description": "Screwdriver with multiple heads - star, flat-star, default, hexa. Adjustable Wrench and Dual Drive", 
+            "Format": "Black holder, transparent front", 
+            "Manufacturer": "Tactix", 
+            "PlaceInHome": "Middle Locker - Box", 
+            "Relation": "", 
+            "Title": "Screwdriver set", 
+            "Type": "Screwdriver, Wrench, Drive"
+        }, 
+        "5": {
+            "Category": "Tools", 
+            "Condition": "Never used", 
+            "Description": "Tool to remove old paint by scraping", 
+            "Format": "In manufacture container", 
+            "Manufacturer": "BILTEMA", 
+            "PlaceInHome": "Middle Locker - Box", 
+            "Relation": "Paint", 
+            "Title": "Paint scraper", 
+            "Type": ""
+        }, 
+        "6": {
+            "Category": "Tools", 
+            "Condition": "As new", 
+            "Description": "", 
+            "Format": "No container", 
+            "Manufacturer": "BILTEMA", 
+            "PlaceInHome": "Middle Locker - Box", 
+            "Relation": "Paint", 
+            "Title": "Bred spackel", 
+            "Type": "Bred"
+        }, 
+        "7": {
+            "Category": "Tools", 
+            "Condition": "Alot left", 
+            "Description": "Wall spackel", 
+            "Format": "White Tube", 
+            "Manufacturer": "BILTEMA", 
+            "PlaceInHome": "Middle Locker - Box", 
+            "Relation": "Paint", 
+            "Title": "Tub med spackel", 
+            "Type": ""
+        }, 
+        "8": {
+            "Category": "Tools", 
+            "Condition": "Fresh", 
+            "Description": "230 x 280 mm, > 10 remaining", 
+            "Format": "Stack in blue sealment for 20 pieces", 
+            "Manufacturer": "BILTEMA", 
+            "PlaceInHome": "Middle Locker - Box", 
+            "Relation": "Paint", 
+            "Title": "Sand paper", 
+            "Type": "K400"
+        }, 
+        "9": {
+            "Category": "Tools", 
+            "Condition": "Fresh", 
+            "Description": "93 x 230 mm, 8 remaining", 
+            "Format": "Stack in blue sealment for 8 pieces", 
+            "Manufacturer": "BILTEMA", 
+            "PlaceInHome": "Middle Locker - Box", 
+            "Relation": "Paint", 
+            "Title": "Sand paper", 
+            "Type": "K40"
+        }
+    }
+}

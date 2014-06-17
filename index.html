@@ -18,6 +18,7 @@
 		    class="btn btn-default" 
 		    ng-model="selected[chunk.Category]" 
 		    btn-checkbox 
+		    style="font-size:15"
 		    ng-class="{active: == selectedTitle}" 
 		    ng-click="setSelectedTitle(chunk.Category)">{{chunk.Category}}
 		</button>
@@ -47,7 +48,7 @@
 	 	</div>
 
 	 	<div id="middleRightRight">
-	 		<input class="inputFieldRight" type="text" ng-repeat="(k, v) in selected" value={{v}}> </input>
+	 		<input class="inputFieldRight" id={{k}} type="text" ng-repeat="(k, v) in selected" value={{v}}> </input>
 	 	</div>
 	 	
 	 	<button 
@@ -96,8 +97,17 @@
     		console.log($scope.selected);
     		console.log("");
     		var container = document.getElementById('middleRightRight');
-    		console.log(container);
-    		console.log(container.getChildren());
+
+    		for (var item in $scope.selected){
+    			console.log(item);
+    		}
+    		var child = container.firstChild;
+    		while(child){
+    			console.log(child);
+    			child = child.nextSibling;
+    		}
+    		// console.log(container);
+    		// console.log(container.getChildren());
     	}
     });		
 
