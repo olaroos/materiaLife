@@ -1,47 +1,35 @@
 <!-- load angular dependencies -->
 <script src="./angular.min.js"></script>
 <script src="./ui-utils.js"></script>
+<script src="./homeBase.js"></script>
 <head> 
 	<link rel="stylesheet" href="style.css">
 </head>
-<html ng-app="homeBase">
+<html ng-app="angularApp">
 <body>
 
+<!-- ng-class="{active: == selectedTitle}"  -->
 
-
-<div class="mainCon" ng-controller="mainCon">
+<div ng-controller="angularController">
 
 	<div id="top" ng-model="radioFilter">
-		<button
-			type="button" 
-		    ng-repeat="chunk in chunks| unique:'Category'" 
-		    class="btn btn-default" 
-		    ng-model="selected[chunk.Category]" 
-		    btn-checkbox 
-		    style="font-size:15"
-		    ng-class="{active: == selectedTitle}" 
-		    ng-click="setSelectedTitle(chunk.Category)">{{chunk.Category}}
+		<button			
+			ng-repeat="chunk in chunks| unique:'category'" 
+			class="btn btn-default" 
+			ng-model="selected[chunk.category]" 
+			style="font-size:15"			
+			ng-click="setSelectedTitle(chunk.category)">{{chunk.category}}
 		</button>
 
 	</div>
 
-	<!-- <div id="selectDiv">
-		<select id="leftSelect" ng-model="query" ng-options="chunk.Title as chunk.Title for chunk in chunks| unique:'Title'">
-			<option value="">Default</option>
-		</select>		
-
-		<select id="rightSelect" ng-model="query2" ng-options="chunk.Description as chunk.Description for chunk in chunks| filter:query">
-			<option value="">Default</option>
-		</select>
-	</div> -->
-
 	<div id="middleLeft">
-			<div ng-repeat="chunk in chunks| filter:byTitle | orderBy:'Title'">
-				<button class="titleButton" ng:click="select(chunk)">{{chunk.Title}}</button>
+			<div ng-repeat="chunk in chunks| filter:byTitle | orderBy:'title'">
+				<button class="titleButton" ng:click="select(chunk)">{{chunk.title}}</button>
 			</div>
 	 </div>
 
-	 <div id="middleRight" ng-controller="mainCon">
+	 <div id="middleRight" >
 
 	 	<div id="middleRightLeft">
 	 		<input class="inputFieldRight" type="text" ng-repeat="(k, v) in selected" value={{k}}> </input>
@@ -61,72 +49,12 @@
 
 
 
-	 <div id="bottom" ng-controller="mainCon">
+	 <div id="bottom">
 	 	
 	 </div>
 </div>
 		
-<script>
-	var homeBase = angular.module('homeBase',['ui.unique']);
 
-	homeBase.factory('Data', function(){
-	});
-
-	homeBase.controller('mainCon',function($scope, $http){
-		$http.get('./data/dataNoCat').success(function(data){
-			$scope.chunks = data;
-		});	
-		$http.get('./data/out').success(function(data){
-			$scope.out = data;
-		});	
-		$scope.setSelectedTitle = function (value) {
-	        if ($scope.selectedTitle === value) {
-	            $scope.selectedTitle = undefined;
-	        } else {
-	            $scope.selectedTitle = value;
-	        }
-    	};
-    	$scope.byTitle = function(entry){
-        	return entry.Category === $scope.selectedTitle || $scope.selectedTitle === undefined;
-    	};    
-    	$scope.select = function(chunk){
-    		$scope.selected = chunk;
-    	};
-    	$scope.update = function(){
-    		console.log("");
-    		console.log($scope.selected);
-    		console.log("");
-    		var container = document.getElementById('middleRightRight');
-
-    		for (var item in $scope.selected){
-    			console.log(item);
-    		}
-    		var child = container.firstChild;
-    		while(child){
-    			console.log(child);
-    			child = child.nextSibling;
-    		}
-    		// console.log(container);
-    		// console.log(container.getChildren());
-    	}
-    });		
-
-
-
-	// homeBase.filter('limitObjectTo', function() {
-	// 		return function(obj, limit) {
- // 		var newObj = {},
- //  		i = 0;
-	// 		for (var p in obj) {
-	// 		newObj[p] = obj[p];
-	// 		// if (++i === limit) break;
-	// 		}
-	// 	return newObj;
-	// };
-	// });
-
-
-</script>
 
 
 </body>
