@@ -12,6 +12,17 @@
 	background-color: blue;
 	width: 200px;
 }
+.inputField {
+	display: inline;	
+}
+#hideButton {
+	position: absolute;
+	width: 200px;
+	height: 100px;
+	right: 0px;
+	bottom: 0px;	
+}
+
 .con {
 	width: 400;
 	height:	120;
@@ -49,18 +60,36 @@
 	position: relative;
 	display: inline;
 }
+
+.categoryButton {
+	width: 100%;
+	height: 21px;
+	display: inline-block;
+	float: left;
+	overflow: none;
+}
 #middleRightLeft {
 	float:left;
 	height: 300;
-	width:20%;
+	width:15%;
+}
+#middleRightMiddle {
+	float:left;
+	height: 300;
+	width:35%;
 }
 #middleRightRight {
 	float:left;
 	height: 300;
-	width:80%;
+	width:85%;
 }
 .inputFieldRight {
 	float: top;
+	width: 100%;
+	display: block;
+}
+.inputFieldMiddle {
+	float:top;
 	width: 100%;
 	display: block;
 }
@@ -70,9 +99,12 @@
 #rightSelect {
 	float: right;
 }
-#updateButton {
-	height:40;
-	width:100;
+.menuButtons {
+	height: 40px;
+	width: 100px;	
+}
+#deleteButton {
+	display:none;
 }
 .titleButton {
 	width: 200;

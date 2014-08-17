@@ -20,30 +20,53 @@
 			style="font-size:15"			
 			ng-click="setSelectedTitle(chunk.category)">{{chunk.category}}
 		</button>
+		<button id="hideButton" ng:click="activateHide()"> hide empty categories </button>
 
 	</div>
 
 	<div id="middleLeft">
 			<div ng-repeat="chunk in chunks| filter:byTitle | orderBy:'title'">
-				<button class="titleButton" ng:click="select(chunk)">{{chunk.title}}</button>
+				<button class="titleButton" ng:click="select(chunk, $index)">{{chunk.title}}</button>
 			</div>
 	 </div>
 
 	 <div id="middleRight" >
 
 	 	<div id="middleRightLeft">
-	 		<input class="inputFieldRight" type="text" ng-repeat="(k, v) in selected" value={{k}}> </input>
+	 		<input class="inputFieldRight" type="text" id='{{k}}Parent' ng-repeat="(k, v) in selected" value={{k}}> </input>
 	 	</div>
 
 	 	<div id="middleRightRight">
-	 		<input class="inputFieldRight" id={{k}} type="text" ng-repeat="(k, v) in selected" value={{v}}> </input>
+	 		<form id="categoryForm">
+		 		<input class="inputFieldRight" class='inputField' value='' id="author"> 		</input>
+		 		<input class="inputFieldRight" class='inputField' value='' id="bestbefore"> 	</input>
+		 		<input class="inputFieldRight" class='inputField' value='' id="borrowedfrom"> 	</input>
+		 		<input class="inputFieldRight" class='inputField' value='' id="category"> 		</input>
+		 		<input class="inputFieldRight" class='inputField' value='' id="description"> 	</input>
+		 		<input class="inputFieldRight" class='inputField' value='' id="id"> 			</input>
+		 		<input class="inputFieldRight" class='inputField' value='' id="place" 			</input>
+		 		<input class="inputFieldRight" class='inputField' value='' id="quantity"> 		</input>
+		 		<input class="inputFieldRight" class='inputField' value='' id="relation"> 		</input>
+		 		<input class="inputFieldRight" class='inputField' value='' id="subinfo"> 		</input>
+		 		<input class="inputFieldRight" class='inputField' value='' id="title"> 			</input>
+		 	</form>
 	 	</div>
 	 	
-	 	<button 
-	 		ng:click="update()"
-	 		id="updateButton"
-	 		> Update
-	 	</button> 
+	 	<div id="buttonHolder">
+		 	<button class="menuButtons"
+		 		ng:click="update()"
+		 		> Update
+		 	</button> 
+		 	<button class="menuButtons"
+		 		ng:click="showDeleteButton()"
+		 		> Delete
+		 	</button>
+		 	<button class="menuButtons"
+		 		ng:click="deleteData()"
+		 		id="deleteButton"
+		 		> Sayobado!
+		 	</button>
+		 </div>
 
 	 </div>
 
