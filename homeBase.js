@@ -215,19 +215,30 @@ angularApp.controller('angularController', function($scope, $http, $rootScope){
 		var id             = toWrite["id"];
 
 		$http.post('./updateData.php', {'category' : toWrite["category"], 'description' : toWrite['description'], 'place' : toWrite['place'], 'relation' : toWrite['relation'], 'title' : toWrite['title'], 'bestbefore' : toWrite['bestbefore'], 'borrowedfrom' : toWrite['borrowedfrom'], 'subinfo' : toWrite['subinfo'], 'author' : toWrite['author'], 'quantity' : toWrite['quantity'], 'id' : toWrite['id'] } ).success(function(data){
-			console.log(data);		
+			if (data == 1){
+				console.log("successfully updated database");
+				var category 	= $scope.selected["category"]; 
+				var idxOut 		= $scope.out[category].indexOf($scope.selected);
+				var idxChunks	= $scope.chunks.indexOf($scope.selected);
+				
+				for (item in toWrite) {
+					if (item !== '$$hashKey') {
+						if (toWrite[item] !== 'NULL'){
+							$scope.out[category][idxOut][item] 	= toWrite[item];
+							$scope.chunks[idxChunks][item] 		= toWrite[item];
+						} else {
+							$scope.out[category][idxOut][item] 	= '';
+							$scope.chunks[idxChunks][item] 		= '';
+						}					
+					}		
+				}				
+			} else {
+				console.log("error when updating database")
+				console.log(data);		
+			}
 		});
 
-		for (item in toWrite) {
-			if (item !== '$$hashKey') {
-				if (toWrite[item] !== 'NULL'){
-					$scope.selected[item] = toWrite[item];
-				}					
-				else {
-					$scope.selected[item] = '';	
-				}					
-			}		
-		}
+		
 	}
 
 
