@@ -120,6 +120,8 @@ angularApp.controller('angularController', function($scope, $http, $rootScope){
 			$scope.unHide();
 			$scope.hide($scope.selected);
 		}
+
+		document.getElementById("deleteButton").style.display = "none";
 	};
 	$scope.activateHide = function(){
 		if($scope.hideOn){
@@ -153,7 +155,10 @@ angularApp.controller('angularController', function($scope, $http, $rootScope){
 	}
 
 	$scope.showDeleteButton = function(){
-		document.getElementById("deleteButton").style.display = 'inline';
+		if (document.getElementById("deleteButton").style.display == 'inline')
+			document.getElementById("deleteButton").style.display = 'none';
+		else 
+			document.getElementById("deleteButton").style.display = 'inline';
 	}
 	$scope.deleteData 		= function(){
 
