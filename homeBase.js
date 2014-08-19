@@ -72,11 +72,11 @@ angularApp.controller('angularController', function($scope, $http, $rootScope){
 			}
 		}					
 		/* sort out unique elements of database columns to aid creation of new articles */
-		$scope.secondTry = {};
-
+		$scope.secondTry 		= {};
+		$scope.setInitialValue 	= {};
 		for (var key in $scope.tableColumns) {			
 			$scope.secondTry[key] = [];
-
+			$scope.secondTry[key].push({'label' : 'select exisiting entry'});
 			$scope.uniqueColumns[key] = {};
 			console.log(key);
 			if ( (key !== "id") && (key !== "description")) {
@@ -86,7 +86,8 @@ angularApp.controller('angularController', function($scope, $http, $rootScope){
 						$scope.secondTry[key].push({'label' : data[item][key]});
 					}
 				}
-			}			
+			}
+			$scope.uniqueColumns[key]['defaultSelection'] = $scope.secondTry[key][0];			
 		}
 		console.log($scope.secondTry);
 		for (var item in uniqueCategories) {			

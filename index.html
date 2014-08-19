@@ -92,8 +92,8 @@
 			 			<option ng-repeat="doh in v"> {{doh}} </option>		 			 -->
 
 				<div class="selectHolder" ng-repeat="(k, v) in uniqueColumns" style="float: top;height:21px; width:140px; background-color: #7cff8e" >
-			 		<select style="width:140px" ng-model="secondTry" ng-options="opt as opt.label for opt in secondTry.{{k}}" >
-			 				
+			 		<select style="width:140px" ng-model="v.defaultSelection" ng-options="opt as opt.label for opt in secondTry.{{k}}" >
+			 				<option value="select existing value" selected> </option>
 			 		</select>
 			 	</div>
 		 	</div>
