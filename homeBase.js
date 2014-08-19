@@ -173,6 +173,12 @@ angularApp.controller('angularController', function($scope, $http, $rootScope){
 			console.log("removing data from table for id " + $scope.selected['id']);
 			if (data == 1){
 				console.log("successfully removed data");
+
+				if ($scope.haveSelected) {
+					document.getElementById('selectButton'+$scope.selected.id).style.color = 'black';
+				}
+				$scope.haveSelected = false;
+				
 				var category 	= $scope.selected["category"]; 
 				var idxOut 		= $scope.out[category].indexOf($scope.selected);
 				var idxChunks	= $scope.chunks.indexOf($scope.selected);
@@ -183,8 +189,9 @@ angularApp.controller('angularController', function($scope, $http, $rootScope){
 				for (var item in $scope.keys) {
 					console.log(item);
 					document.getElementById(item).value = '';
-				}
+				}				
 				document.getElementById("deleteButton").style.display = 'none';
+
 			}
 		});
 	}	
