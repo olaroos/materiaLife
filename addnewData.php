@@ -12,19 +12,18 @@ $borrowedfrom   = $_POST["borrowedfrom"];
 $subinfo        = $_POST["subinfo"];
 $author         = $_POST["author"];
 $quantity       = $_POST["quantity"];
-$id             = $_POST["id"];
+// don't need a id because it is set to AUTO INCREMENT in database
+// $id             = $_POST["id"];
 
 if ($bestbefore == '') {
-	$query            = "UPDATE materialife SET category = '$category', description = '$description', place = '$place', relation = '$relation', 
-				title = '$title', borrowedfrom = '$borrowedfrom', subinfo = '$subinfo', author = '$author', 
-				quantity = '$quantity' WHERE id = '$id'";	
+	$query            = "INSERT INTO materialife (category, description, place, relation, title, borrowedfrom, subinfo, author, quantity) 
+										VALUES ('$category', '$description', '$place', '$relation', '$title', '$borrowedfrom', '$subinfo', '$author', 
+													'$quantity')"; 
 } else {
-	$query            = "UPDATE materialife SET category = '$category', description = '$description', place = '$place', relation = '$relation', 
-				title = '$title', bestbefore = '$bestbefore', borrowedfrom = '$borrowedfrom', subinfo = '$subinfo', author = '$author', 
-				quantity = '$quantity' WHERE id = '$id'";	
+	$query            = "INSERT INTO materialife (category, description, place, relation, title, bestbefore, borrowedfrom, subinfo, author, quantity) 
+										VALUES ('$category', '$description', '$place', '$relation', '$title', '$bestbefore', $'borrowedfrom', '$subinfo', '$author', 
+													'$quantity')"; 
 }
-
-echo $title
 
 $host       = 'localhost';
 $username   = 'root';
@@ -34,7 +33,6 @@ $table      = 'materialife';
 
 $link = mysql_connect($host,$username,$pass) or die("Database Error!".mysql_error());
 mysql_select_db($database, $link);
-// mysql_query("delete from materialife where id = ".$id);
 $result = mysql_query($query) or trigger_error(mysql_error().". Query: ".$query);
 echo $result;
 mysql_close($link);

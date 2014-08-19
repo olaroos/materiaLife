@@ -53,11 +53,15 @@ var angularApp = new angular.module('angularApp',['ui.unique'], function($httpPr
 angularApp.controller('angularController', function($scope, $http, $rootScope){
 	
 	$scope.haveSelected = false;
+	$scope.tableColumns = {'category' : 'category', 'description' : 'description', 'place' : 'place', 'relation' : 'relation', 
+										'title' : 'title', 'bestbefore' : 'bestbefore', 'borrowedfrom' : 'borrowedfrom',
+										'subinfo' : 'subinfo', 'author' : 'author', 'quantity' : 'quantity', 'id' : 'id' };
 
 	$http.post('./getData.php', {'category' :'notes'} ).success(function(data){
 		
 		$scope.chunks 	= data;		
 		$scope.keys   	= {};
+		$scope.out 		= {};
 		$scope.hideOn   = false;
 
 		var uniqueCategories = {};
@@ -67,9 +71,7 @@ angularApp.controller('angularController', function($scope, $http, $rootScope){
 				uniqueCategories[data[item]['category']] = data[item]['category'];
 			}
 		}		
-
-		$scope.out = {};
-
+		
 		for (var item in uniqueCategories) {			
 			$scope.out[item] = [];
 			for (var dataItem in data) {
@@ -77,16 +79,12 @@ angularApp.controller('angularController', function($scope, $http, $rootScope){
 					$scope.out[item].push(data[dataItem]);
 				}
 			}
-		}		
-		
+		}				
 		for (var item in data[0]){
 			if (item !== "$$hashKey")
 				$scope.keys[item] = item;
 			console.log(item);	
-		}	
-
-		
-		
+		}			
 	});	
 
 	$scope.setSelectedTitle = function (value) {
@@ -112,11 +110,12 @@ angularApp.controller('angularController', function($scope, $http, $rootScope){
 		}
 		/* set selected article button color to blue */
 		document.getElementById('selectButton'+chunk.id).style.color = 'blue';
-		$scope.selected 		= chunk;
-		$scope.selectedIndex 	= idx;
-		console.log(idx);
+		/* reset the form for updating values, don't rememeber why this is necessary */ 
 		document.getElementById("categoryForm").reset();
 
+		$scope.selected 		= chunk;
+		$scope.selectedIndex 	= idx;
+		
 		for (item in $scope.selected) {
 			if(item !== "$$hashKey") {			
 				document.getElementById(item).value = $scope.selected[item];
@@ -130,7 +129,7 @@ angularApp.controller('angularController', function($scope, $http, $rootScope){
 
 		document.getElementById("deleteButton").style.display = "none";
 		$scope.haveSelected = true;
-	};
+	};	
 	$scope.activateHide = function(){
 		if($scope.hideOn){
 			$scope.hideOn = false;
@@ -200,17 +199,16 @@ angularApp.controller('angularController', function($scope, $http, $rootScope){
 				}					
 				else {
 					toWrite[item] = '';	
-				}
-					
+				}					
 			}		
 		}		
 		
 		var container 	= document.getElementById('categoryForm');
 		var child 		= container.firstChild;
-		
+
 		while(child){
 			if ( (child.value !== '') && (child.value !== undefined) ) {
-				toWrite[child.id] = child.value;				
+				toWrite[child.id] = child.value;			
 			}
 			child = child.nextSibling;				
 		}
@@ -229,7 +227,8 @@ angularApp.controller('angularController', function($scope, $http, $rootScope){
 
 		$http.post('./updateData.php', {'category' : toWrite["category"], 'description' : toWrite['description'], 'place' : toWrite['place'], 'relation' : toWrite['relation'], 'title' : toWrite['title'], 'bestbefore' : toWrite['bestbefore'], 'borrowedfrom' : toWrite['borrowedfrom'], 'subinfo' : toWrite['subinfo'], 'author' : toWrite['author'], 'quantity' : toWrite['quantity'], 'id' : toWrite['id'] } ).success(function(data){
 			if (data == 1){
-				console.log("successfully updated database");
+				console.log("successfully sent request to database");
+				document.getElementById("informationDiv").innerHTML = "<center> successfully sent request to database </center>";
 				var category 	= $scope.selected["category"]; 
 				var idxOut 		= $scope.out[category].indexOf($scope.selected);
 				var idxChunks	= $scope.chunks.indexOf($scope.selected);
@@ -247,12 +246,47 @@ angularApp.controller('angularController', function($scope, $http, $rootScope){
 				}				
 			} else {
 				console.log("error when updating database")
+				document.getElementById("informationDiv").innerHTML = "<center> error when updating database </center>";
 				console.log(data);		
 			}
 		});
-
-		
 	}
+	$scope.addData 		= function() {
+		console.log("adding data to database");
+		document.getElementById("informationDiv").innerHTML = "<center> added new article to database </center>";
+
+		var container 	= document.getElementById('addForm');
+		var child 		= container.firstChild;
+		var toWrite 	= {};
+
+		for (item in $scope.tableColumns) {
+			toWrite[item+"Add"] = '';
+		} 
+
+		while(child){
+			if ( (child.value !== '') && (child.value !== undefined) ) {
+				toWrite[child.id] = child.value;			
+				console.log(child.value);	
+			}
+			child = child.nextSibling;				
+		}
+		
+		var category       = toWrite["categoryAdd"];
+		var description    = toWrite["descriptionAdd"];
+		var place          = toWrite["placeAdd"];
+		var relation       = toWrite["relationAdd"];
+		var title          = toWrite["titleAdd"];
+		var bestbefore     = toWrite["bestbeforeAdd"];
+		var borrowedfrom   = toWrite["borrowedfromAdd"];
+		var subinfo        = toWrite["subinfoAdd"];
+		var author         = toWrite["authorAdd"];
+		var quantity       = toWrite["quantityAdd"];
+		var id             = toWrite["idAdd"];
+
+		$http.post('./addnewData.php', { 'category' : category, 'description' : description, 'place' : place, 'relation' : relation, 'title' : title, 'bestbefore' : bestbefore, 'borrowedfrom' : borrowedfrom, 'subinfo' : subinfo, 'author' : author, 'quantity' : quantity, 'id' : id } ).success(function(data){
+											console.log(data);
+										});
+	}						
 
 
 
