@@ -151,10 +151,10 @@ angularApp.controller('angularController', function($scope, $http, $rootScope){
 	$scope.hide   = function(chunk){
 		console.log("hidefunction");
 		for (item in chunk) {
-			console.log(item);
+			// console.log(item);
 			console.log(chunk[item]);
-			console.log($scope.keys[item]);
-			if(chunk[item] == null) {
+			// console.log($scope.keys[item]);
+			if( ((chunk[item] == null) || (chunk[item] == '')) && (chunk[item] != '$$hashKey')) {
 				document.getElementById(item).style.display = "none";
 				document.getElementById(item+"Parent").style.display = "none";
 			}
@@ -178,7 +178,6 @@ angularApp.controller('angularController', function($scope, $http, $rootScope){
 					document.getElementById('selectButton'+$scope.selected.id).style.color = 'black';
 				}
 				$scope.haveSelected = false;
-				
 				var category 	= $scope.selected["category"]; 
 				var idxOut 		= $scope.out[category].indexOf($scope.selected);
 				var idxChunks	= $scope.chunks.indexOf($scope.selected);
