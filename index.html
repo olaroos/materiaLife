@@ -1,5 +1,6 @@
 <!-- load angular dependencies -->
 <script src="./angular.min.js"></script>
+<script src="./jqueryBin.js"></script>
 <script src="./ui-utils.js"></script>
 <script src="./homeBase.js"></script>
 <head> 
@@ -74,10 +75,25 @@
 		 		<input class="inputFieldRight" type="text" id='{{k}}ParentAdd' ng-repeat="(k, v) in uniqueColumns" value={{k}}> </input>
 		 	</div>
 		 	<div class="middleForm">
-		 		<div class="selectHolder" ng-repeat="(k, v) in uniqueColumns" style="float: top;height:21px; width:140px; background-color: #7cff8e" >
-			 		<select style="width:140px">
-			 			<option value="" selected> select existing entry </option>
-			 			<option ng-repeat="doh in v" > {{doh}} </option>		 			
+		 	<script >
+			 	$(document).on('change', 'select', function() {
+	    			console.log($(this).val()); // the selected options’s value
+
+	    			// if you want to do stuff based on the OPTION element:
+	    			var opt = $(this).find('option:selected')[0];
+	    			console.log(opt.getAttribute("boundTo"));
+	    			console.log(opt);
+	    			// use switch or if/else etc.
+				});
+			</script>
+				<!-- <select style="width:140px" ng-model="secondTry" ng-options="opt as opt.label for opt in secondTry.category" > </select> -->
+
+				<!-- <option value="" selected> select existing entry </option>
+			 			<option ng-repeat="doh in v"> {{doh}} </option>		 			 -->
+
+				<div class="selectHolder" ng-repeat="(k, v) in uniqueColumns" style="float: top;height:21px; width:140px; background-color: #7cff8e" >
+			 		<select style="width:140px" ng-model="secondTry" ng-options="opt as opt.label for opt in secondTry.{{k}}" >
+			 				
 			 		</select>
 			 	</div>
 		 	</div>

@@ -72,16 +72,23 @@ angularApp.controller('angularController', function($scope, $http, $rootScope){
 			}
 		}					
 		/* sort out unique elements of database columns to aid creation of new articles */
+		$scope.secondTry = {};
+
 		for (var key in $scope.tableColumns) {			
+			$scope.secondTry[key] = [];
+
 			$scope.uniqueColumns[key] = {};
 			console.log(key);
 			if ( (key !== "id") && (key !== "description")) {
 				for (var item in data) {
-					if ( (!$scope.uniqueColumns[key].hasOwnProperty(data[item][key])) && (data[item][key] !== "") && (data[item][key] !== " ") )
+					if ( (!$scope.uniqueColumns[key].hasOwnProperty(data[item][key])) && (data[item][key] !== "") && (data[item][key] !== null) ) {
 						$scope.uniqueColumns[key][data[item][key]] = data[item][key];
+						$scope.secondTry[key].push({'label' : data[item][key]});
+					}
 				}
 			}			
 		}
+		console.log($scope.secondTry);
 		for (var item in uniqueCategories) {			
 			$scope.out[item] = [];
 			for (var dataItem in data) {
@@ -90,12 +97,22 @@ angularApp.controller('angularController', function($scope, $http, $rootScope){
 				}
 			}
 		}				
+		console.log($scope.uniqueColumns);
 		for (var item in data[0]) {
 			if (item !== "$$hashKey")
 				$scope.keys[item] = item;
 		}			
 	});	
+	
+	$scope.test = [
+					{label: "one"},
+					{label: "two"},
+					{label: "three"}
+					];
 
+	$scope.doSomething 	= function(){
+		console.log("something");
+	}
 
 	/* functions activated by buttons */
 

@@ -44,14 +44,14 @@
 }
 #middleLeft {
 	width: 50%;
-	height: 1000;
+	height: 1400;
 	background-color: #ffc096;
 	position:relative;
 	display:inline-block;
 	float: left;
 }
 #middleRight {
-	height: 1000;
+	height: 1400;
 	width: 50%;
 	background-color: #7cff8e;
 	float: left;
