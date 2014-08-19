@@ -12,17 +12,19 @@ $borrowedfrom   = $_POST["borrowedfrom"];
 $subinfo        = $_POST["subinfo"];
 $author         = $_POST["author"];
 $quantity       = $_POST["quantity"];
-// don't need a id because it is set to AUTO INCREMENT in database
-// $id             = $_POST["id"];
+$id             = $_POST["id"];
 
+// if quantity == '' MySql sets it to 0 so default it to 1 before sending request
+if ($quantity == '') { $quantity = 1; }
+
+// don't add id to ($)query because MySql sets it to AUTO INCREMENT 
 if ($bestbefore == '') {
 	$query            = "INSERT INTO materialife (category, description, place, relation, title, borrowedfrom, subinfo, author, quantity) 
-										VALUES ('$category', '$description', '$place', '$relation', '$title', '$borrowedfrom', '$subinfo', '$author', 
-													'$quantity')"; 
-} else {
+							VALUES ('$category', '$description', '$place', '$relation', '$title', '$borrowedfrom', '$subinfo', '$author', '$quantity')"; 
+} 
+else {
 	$query            = "INSERT INTO materialife (category, description, place, relation, title, bestbefore, borrowedfrom, subinfo, author, quantity) 
-										VALUES ('$category', '$description', '$place', '$relation', '$title', '$bestbefore', $'borrowedfrom', '$subinfo', '$author', 
-													'$quantity')"; 
+							VALUES ('$category', '$description', '$place', '$relation', '$title', '$bestbefore', $'borrowedfrom', '$subinfo', '$author', '$quantity')"; 
 }
 
 $host       = 'localhost';
