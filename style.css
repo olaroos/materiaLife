@@ -15,12 +15,10 @@
 .inputField {
 	display: inline;	
 }
-#hideButton {
+.upperButtons {
 	position: absolute;
 	width: 200px;
-	height: 100px;
-	right: 0px;
-	bottom: 0px;	
+	height: 100px;	
 }
 
 .con {
@@ -68,25 +66,31 @@
 	float: left;
 	overflow: none;
 }
-#middleRightLeft {
-	float:left;
-	height: 300;
-	width:15%;
+#updateFormHolder {
+	display:inline;
 }
-#middleRightRight {
-	float:left;
-	height: 300;
-	width:85%;
+#addDataFormHolder {
+	display: none;
 }
 .leftForm {
 	float:left;
 	height: 300;
 	width:15%;	
 }
+.middleForm {
+	float:left;
+	height: 300;
+	width:20%;
+}
 .rightForm {
 	float:left;
 	height: 300;
-	width:85%;
+	width:85%;	
+}
+.rightForm_2 {
+	float:left;
+	height: 300;
+	width:65%;
 }
 .inputFieldRight {
 	float: top;

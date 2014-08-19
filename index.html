@@ -20,7 +20,8 @@
 			style="font-size:15"			
 			ng-click="setSelectedTitle(chunk.category)">{{chunk.category}}
 		</button>
-		<button id="hideButton" ng:click="activateHide()"> hide empty categories </button>
+		<button id="toggleUpdateAdd" ng:click="toggleUpdateAdd()" class="upperButtons" style="right: 200px; bottom: 0px;"> Toggle Add/Update </button> 
+		<button id="hideButton" ng:click="activateHide()" class="upperButtons" style="right: 0px; bottom: 0px;"	> hide empty categories </button>
 
 	</div>
 
@@ -32,53 +33,55 @@
 
 	 <div id="middleRight" >
 
-	 	<div id="middleRightLeft" class="leftForm">
-	 		<input class="inputFieldRight" type="text" id='{{k}}Parent' ng-repeat="(k, v) in selected" value={{k}}> </input>
-	 	</div>
-
-	 	<div id="middleRightRight" class="rightForm">
-	 		<form id="categoryForm">
-		 		<input class="inputFieldRight" class='inputField' value='' id="author"> 		</input>
-		 		<input class="inputFieldRight" class='inputField' value='' id="bestbefore"> 	</input>
-		 		<input class="inputFieldRight" class='inputField' value='' id="borrowedfrom"> 	</input>
-		 		<input class="inputFieldRight" class='inputField' value='' id="category"> 		</input>
-		 		<input class="inputFieldRight" class='inputField' value='' id="description"> 	</input>
-		 		<input class="inputFieldRight" class='inputField' value='' id="id"> 			</input>
-		 		<input class="inputFieldRight" class='inputField' value='' id="place" 			</input>
-		 		<input class="inputFieldRight" class='inputField' value='' id="quantity"> 		</input>
-		 		<input class="inputFieldRight" class='inputField' value='' id="relation"> 		</input>
-		 		<input class="inputFieldRight" class='inputField' value='' id="subinfo"> 		</input>
-		 		<input class="inputFieldRight" class='inputField' value='' id="title"> 			</input>
-		 	</form>
-	 	</div>
-	 	
-	 	<div class="buttonHolder">
-		 	<button class="menuButtons"
-		 		ng:click="update()"
-		 		> Update
-		 	</button> 
-		 	<button class="menuButtons"
-		 		ng:click="showDeleteButton()"
-		 		> Delete
-		 	</button>
-		 	<button class="menuButtons"
-		 		ng:click="deleteData()"
-		 		id="deleteButton"
-		 		> Sayobado!
-		 	</button>
-		 </div>
-		 <div style="height:20px; float:left; background-color: transparent; width:100%"></div>
-		 <div style="height:20px; float:left; background-color: red; width:100%">
-		 	<div id="informationDiv" style="height:18px; position: relative; margin: 1 auto; width:300px; background-color: white;">
-
+	 	<div id="updateFormHolder">
+		 	<div id="middleRightLeft" class="leftForm">
+		 		<input class="inputFieldRight" type="text" id='{{k}}Parent' ng-repeat="(k, v) in uniqueColumns" value={{k}}> </input>
 		 	</div>
-		 </div>
-		 <div style="height:20px; float:left; background-color: transparent; width:100%"></div>
-		 <div id="addDiv">
+		 	<div class="rightForm">
+		 		<form id="categoryForm">
+			 		<input class="inputFieldRight" class='inputField' value='' id="author"> 		</input>
+			 		<input class="inputFieldRight" class='inputField' value='' id="bestbefore"> 	</input>
+			 		<input class="inputFieldRight" class='inputField' value='' id="borrowedfrom"> 	</input>
+			 		<input class="inputFieldRight" class='inputField' value='' id="category"> 		</input>
+			 		<input class="inputFieldRight" class='inputField' value='' id="description"> 	</input>
+			 		<input class="inputFieldRight" class='inputField' value='' id="id"> 			</input>
+			 		<input class="inputFieldRight" class='inputField' value='' id="place"> 			</input>
+			 		<input class="inputFieldRight" class='inputField' value='' id="quantity"> 		</input>
+			 		<input class="inputFieldRight" class='inputField' value='' id="relation"> 		</input>
+			 		<input class="inputFieldRight" class='inputField' value='' id="subinfo"> 		</input>
+			 		<input class="inputFieldRight" class='inputField' value='' id="title"> 			</input>
+			 	</form>
+		 	</div>
+		 	<div class="buttonHolder">
+			 	<button class="menuButtons"
+			 		ng:click="update()"
+			 		> Update
+			 	</button> 
+			 	<button class="menuButtons"
+			 		ng:click="showDeleteButton()"
+			 		> Delete
+			 	</button>
+			 	<button class="menuButtons"
+			 		ng:click="deleteData()"
+			 		id="deleteButton"
+			 		> Sayobado!
+			 	</button>
+		 	</div>		
+	 	</div>
+		
+		<div id="addDataFormHolder">		 
 		 	<div class="leftForm">
-		 		<input class="inputFieldRight" type="text" id='{{k}}ParentAdd' ng-repeat="(k, v) in selected" value={{k}}> </input>
+		 		<input class="inputFieldRight" type="text" id='{{k}}ParentAdd' ng-repeat="(k, v) in uniqueColumns" value={{k}}> </input>
 		 	</div>
-		 	<div class="rightForm">	
+		 	<div class="middleForm">
+		 		<div class="selectHolder" ng-repeat="(k, v) in uniqueColumns" style="float: top;height:21px; width:140px; background-color: #7cff8e" >
+			 		<select style="width:140px">
+			 			<option value="" selected> select existing entry </option>
+			 			<option ng-repeat="doh in v" > {{doh}} </option>		 			
+			 		</select>
+			 	</div>
+		 	</div>
+		 	<div class="rightForm_2">	
 			 	<form id="addForm">
 			 		<input class="inputFieldRight" class='inputField' value='' id="authorAdd"> 			</input>
 			 		<input class="inputFieldRight" class='inputField' value='' id="bestbeforeAdd"> 		</input>
@@ -86,20 +89,30 @@
 			 		<input class="inputFieldRight" class='inputField' value='' id="categoryAdd"> 		</input>
 			 		<input class="inputFieldRight" class='inputField' value='' id="descriptionAdd"> 	</input>
 			 		<input class="inputFieldRight" class='inputField' value='' id="idAdd"> 				</input>
-			 		<input class="inputFieldRight" class='inputField' value='' id="placeAdd" 			</input>
+			 		<input class="inputFieldRight" class='inputField' value='' id="placeAdd"> 			</input>
 			 		<input class="inputFieldRight" class='inputField' value='' id="quantityAdd"> 		</input>
 			 		<input class="inputFieldRight" class='inputField' value='' id="relationAdd"> 		</input>
 			 		<input class="inputFieldRight" class='inputField' value='' id="subinfoAdd"> 		</input>
 			 		<input class="inputFieldRight" class='inputField' value='' id="titleAdd"> 			</input>
 			 	</form>
 			 </div>
-		 </div>
-		 <div class="buttonHolder">
-		 	<button class="menuButtons" ng:click="addData()">
-		 		Add new entry
-		 	</button>
-		 </div>
 
+			 <div class="buttonHolder">
+			 	<button class="menuButtons" ng:click="addNewData()">
+			 		Add new article
+			 	</button>
+			 </div>
+		 </div>	 	
+	 	 
+		 <div style="height:20px; float:left; background-color: transparent; width:100%"></div>
+		 <div style="height:20px; float:left; background-color: red; width:100%">
+		 	<div id="informationDiv" style="height:18px; position: relative; margin: 1 auto; width:300px; background-color: white;">
+
+		 	</div>
+		 </div>
+		 <div style="height:20px; float:left; background-color: transparent; width:100%"></div>
+
+		 
 	 </div>
 
 
