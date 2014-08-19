@@ -83,7 +83,7 @@ angularApp.controller('angularController', function($scope, $http, $rootScope){
 				for (var item in data) {
 					if ( (!$scope.uniqueColumns[key].hasOwnProperty(data[item][key])) && (data[item][key] !== "") && (data[item][key] !== null) ) {
 						$scope.uniqueColumns[key][data[item][key]] = data[item][key];
-						$scope.secondTry[key].push({'label' : data[item][key]});
+						$scope.secondTry[key].push({'label' : data[item][key], 'id' : key});
 					}
 				}
 			}
@@ -111,8 +111,8 @@ angularApp.controller('angularController', function($scope, $http, $rootScope){
 					{label: "three"}
 					];
 
-	$scope.doSomething 	= function(){
-		console.log("something");
+	$scope.selectAction = function(object) {
+		document.getElementById(object.id+"Add").value = object.label;
 	}
 
 	/* functions activated by buttons */
