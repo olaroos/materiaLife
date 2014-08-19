@@ -23,7 +23,7 @@ echo $sql;
 
 $host       = 'localhost';
 $username   = 'root';
-$pass       = '';
+$pass       = 'newpassword';
 $database   = 'materialife';
 $table      = 'materialife';
 

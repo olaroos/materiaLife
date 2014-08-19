@@ -6,7 +6,7 @@ function getMySQL($category){
 
 	$host 		= 'localhost';
     $username 	= 'root';
-    $pass 		= '';
+    $pass 		= 'newpassword';
     $database 	= 'materialife';
 	$table 	  	= 'materialife';
 

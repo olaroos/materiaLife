@@ -26,17 +26,17 @@
 
 	<div id="middleLeft">
 			<div ng-repeat="chunk in chunks| filter:byTitle | orderBy:'title'">
-				<button class="titleButton" ng:click="select(chunk, $index)">{{chunk.title}}</button>
+				<button class="titleButton" id='selectButton{{chunk.id}}' ng:click="select(chunk, $index)">{{chunk.title}}</button>
 			</div>
 	 </div>
 
 	 <div id="middleRight" >
 
-	 	<div id="middleRightLeft">
+	 	<div id="middleRightLeft" class="leftForm">
 	 		<input class="inputFieldRight" type="text" id='{{k}}Parent' ng-repeat="(k, v) in selected" value={{k}}> </input>
 	 	</div>
 
-	 	<div id="middleRightRight">
+	 	<div id="middleRightRight" class="rightForm">
 	 		<form id="categoryForm">
 		 		<input class="inputFieldRight" class='inputField' value='' id="author"> 		</input>
 		 		<input class="inputFieldRight" class='inputField' value='' id="bestbefore"> 	</input>
@@ -52,7 +52,7 @@
 		 	</form>
 	 	</div>
 	 	
-	 	<div id="buttonHolder">
+	 	<div class="buttonHolder">
 		 	<button class="menuButtons"
 		 		ng:click="update()"
 		 		> Update
@@ -65,6 +65,34 @@
 		 		ng:click="deleteData()"
 		 		id="deleteButton"
 		 		> Sayobado!
+		 	</button>
+		 </div>
+		 <div style="height:20px; float:left; background-color: transparent; width:100%"></div>
+		 <div style="height:20px; float:left; background-color: red; width:100%"></div>
+		 <div style="height:20px; float:left; background-color: transparent; width:100%"></div>
+		 <div id="addDiv">
+		 	<div class="leftForm">
+		 		<input class="inputFieldRight" type="text" id='{{k}}ParentAdd' ng-repeat="(k, v) in selected" value={{k}}> </input>
+		 	</div>
+		 	<div class="rightForm">	
+			 	<form id="addForm">
+			 		<input class="inputFieldRight" class='inputField' value='' id="authorAdd"> 			</input>
+			 		<input class="inputFieldRight" class='inputField' value='' id="bestbeforeAdd"> 		</input>
+			 		<input class="inputFieldRight" class='inputField' value='' id="borrowedfromAdd"> 	</input>
+			 		<input class="inputFieldRight" class='inputField' value='' id="categoryAdd"> 		</input>
+			 		<input class="inputFieldRight" class='inputField' value='' id="descriptionAdd"> 	</input>
+			 		<input class="inputFieldRight" class='inputField' value='' id="idAdd"> 				</input>
+			 		<input class="inputFieldRight" class='inputField' value='' id="placeAdd" 			</input>
+			 		<input class="inputFieldRight" class='inputField' value='' id="quantityAdd"> 		</input>
+			 		<input class="inputFieldRight" class='inputField' value='' id="relationAdd"> 		</input>
+			 		<input class="inputFieldRight" class='inputField' value='' id="subinfoAdd"> 		</input>
+			 		<input class="inputFieldRight" class='inputField' value='' id="titleAdd"> 			</input>
+			 	</form>
+			 </div>
+		 </div>
+		 <div class="buttonHolder">
+		 	<button class="menuButtons">
+		 		Add new entry
 		 	</button>
 		 </div>
 

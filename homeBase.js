@@ -52,12 +52,7 @@ var angularApp = new angular.module('angularApp',['ui.unique'], function($httpPr
 
 angularApp.controller('angularController', function($scope, $http, $rootScope){
 	
-	// for (var item in uniqueCategories) {
-	// 	console.log(item);
-	// 	console.log(document.getElementById('#'+item));
-	// 	$scope.keys[item] = document.getElementById(item);
-	// 	console.log($scope.keys[item]);
-	// }
+	$scope.haveSelected = false;
 
 	$http.post('./getData.php', {'category' :'notes'} ).success(function(data){
 		
@@ -95,6 +90,12 @@ angularApp.controller('angularController', function($scope, $http, $rootScope){
 	});	
 
 	$scope.setSelectedTitle = function (value) {
+		/* reset color of selected article button */
+		if ($scope.haveSelected) {
+			document.getElementById('selectButton'+$scope.selected.id).style.color = 'black';
+		}
+		$scope.haveSelected = false;
+
         if ($scope.selectedTitle === value) {
             $scope.selectedTitle = undefined;
         } else {
@@ -105,6 +106,12 @@ angularApp.controller('angularController', function($scope, $http, $rootScope){
     	return entry.category === $scope.selectedTitle || $scope.selectedTitle === undefined;
 	};    
 	$scope.select = function(chunk, idx){
+		/* reset color of selected article button */
+		if ($scope.haveSelected) {
+			document.getElementById('selectButton'+$scope.selected.id).style.color = 'black';
+		}
+		/* set selected article button color to blue */
+		document.getElementById('selectButton'+chunk.id).style.color = 'blue';
 		$scope.selected 		= chunk;
 		$scope.selectedIndex 	= idx;
 		console.log(idx);
@@ -122,6 +129,7 @@ angularApp.controller('angularController', function($scope, $http, $rootScope){
 		}
 
 		document.getElementById("deleteButton").style.display = "none";
+		$scope.haveSelected = true;
 	};
 	$scope.activateHide = function(){
 		if($scope.hideOn){

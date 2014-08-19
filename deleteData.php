@@ -18,7 +18,7 @@ $query          = "DELETE FROM materialife WHERE id = '$id'";
 
 $host       = 'localhost';
 $username   = 'root';
-$pass       = '';
+$pass       = 'newpassword';
 $database   = 'materialife';
 $table      = 'materialife';
 

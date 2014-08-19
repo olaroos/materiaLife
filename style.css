@@ -73,12 +73,17 @@
 	height: 300;
 	width:15%;
 }
-#middleRightMiddle {
+#middleRightRight {
 	float:left;
 	height: 300;
-	width:35%;
+	width:85%;
 }
-#middleRightRight {
+.leftForm {
+	float:left;
+	height: 300;
+	width:15%;	
+}
+.rightForm {
 	float:left;
 	height: 300;
 	width:85%;
@@ -98,6 +103,11 @@
 }
 #rightSelect {
 	float: right;
+}
+.buttonHolder {
+	float: left;
+	height: 40px;
+	width: 100%;
 }
 .menuButtons {
 	height: 40px;
